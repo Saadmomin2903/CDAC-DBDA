@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CDAC-DBDA MCQ Platform</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#0f172a">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="auth-styles.css">
+    <!-- Prism.js for syntax highlighting -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/line-numbers/prism-line-numbers.min.css">
+</head>
+
+<body>
+    <!-- Top Bar -->
+    <header class="top-bar">
+        <div class="top-bar-content">
+            <div class="brand" onclick="window.location.reload()" style="cursor: pointer;">
+                <h1 class="title-gradient">CDAC-DBDA</h1>
+            </div>
+
+            <div class="top-bar-stats">
+                <button class="btn btn-primary btn-sm" id="installAppBtn"
+                    style="display: none; align-items: center; gap: 0.5rem;">
+                    <span>📥</span> Install App
+                </button>
+                <div class="stat-item">
+                    <span class="stat-label">Progress</span>
+                    <span class="stat-value" id="totalProgress">0%</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Completed</span>
+                    <span class="stat-value" id="totalCompleted">0</span>
+                </div>
+                <button class="btn-icon" id="themeToggle" title="Toggle theme">
+                    <span id="themeIcon">🌙</span>
+                </button>
+                <button class="btn-icon" id="searchBtn" title="Search questions">
+                    <span>🔍</span>
+                </button>
+
+                <!-- Auth Buttons (shown when not logged in) -->
+                <div id="authButtons" style="display: flex; gap: var(--spacing-2);">
+                    <button class="btn btn-ghost btn-sm" onclick="openLoginModal()"
+                        style="padding: 0.25rem 0.75rem; font-size: 0.875rem;">Sign In</button>
+                    <button class="btn btn-primary btn-sm" onclick="openSignupModal()"
+                        style="padding: 0.25rem 0.75rem; font-size: 0.875rem;">Sign Up</button>
+                </div>
+
+                <!-- User Menu (shown when logged in) -->
+                <div id="userMenu" class="user-menu" style="display: none;">
+                    <button class="user-menu-trigger" onclick="toggleUserMenu()">
+                        <span id="userAvatar" class="user-avatar">👤</span>
+                        <span id="userName" style="display: none;">User</span>
+                    </button>
+                    <div id="userDropdown" class="user-dropdown">
+                        <div class="user-info">
+                            <div id="userEmail" class="user-email"></div>
+                        </div>
+                        <hr>
+                        <a href="#" onclick="showProfile(event)">Profile</a>
+                        <a href="#" onclick="showStats(event)">Statistics</a>
+                        <hr>
+                        <a href="#" onclick="handleSignOut(event)" style="color: var(--error);">Sign Out</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content" style="margin-top: 96px; padding: var(--spacing-8) 0;">
+
+        <!-- Module View -->
+        <div id="moduleView" class="view active">
+            <div class="container">
+                <div class="view-header" style="text-align: center; margin-bottom: var(--spacing-10);">
+                    <h1 class="view-title"
+                        style="font-family: var(--font-display); font-size: var(--text-4xl); font-weight: var(--weight-bold); background: linear-gradient(135deg, var(--primary), var(--accent-teal)); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;">
+                        Amchi Jirli
+                    </h1>
+                </div>
+
+                <!-- NEW: Tab Content Structure -->
+                <!-- Breadcrumb -->
+                <div id="breadcrumb"
+                    style="display: none; margin-bottom: var(--spacing-4); font-size: var(--text-sm); color: var(--text-secondary);">
+                    <span id="moduleBreadcrumb" style="cursor: pointer; color: var(--primary);"></span>
+                    <span id="sectionSeparator" style="margin: 0 var(--spacing-2);">›</span>
+                    <span id="sectionBreadcrumb"></span>
+                </div>
+
+                <!-- Section View Moved Below -->
+
+                <!-- MAIN TABS (Visible by default) -->
+                <div id="mainTabsContainer">
+                    <!-- Tab Navigation -->
+                    <div class="main-tabs"
+                        style="display: flex; gap: 1rem; margin-bottom: 2rem; border-bottom: 1px solid var(--border); overflow-x: auto; padding-bottom: 0.5rem;">
+                        <button class="nav-tab active" id="navModules" onclick="switchMainTab('modules')">📚
+                            Modules</button>
+                        <button class="nav-tab" id="navPractice" onclick="switchMainTab('practice')">🎯 Practice
+                            Zone</button>
+                        <button class="nav-tab" id="navLeaderboard" onclick="switchMainTab('leaderboard')">🏆
+                            Leaderboard</button>
+                        <button class="nav-tab" id="navStats" onclick="switchMainTab('stats')">📊 My Stats</button>
+                    </div>
+
+                    <!-- VIEW: MODULES -->
+                    <div id="view-modules" class="tab-view active">
+                        <div id="moduleGrid" class="grid"
+                            style="display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: var(--spacing-6);">
+                            <!-- Modules injected here -->
+                        </div>
+                    </div>
+
+                    <!-- VIEW: PRACTICE -->
+                    <div id="view-practice" class="tab-view" style="display: none;">
+                        <div id="practiceGrid" class="grid"
+                            style="display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: var(--spacing-6);">
+                            <!-- Exam & Mistakes injected here -->
+                        </div>
+                    </div>
+
+                    <!-- VIEW: LEADERBOARD -->
+                    <div id="view-leaderboard" class="tab-view" style="display: none;">
+                        <div class="leaderboard-tabs"
+                            style="display: flex; gap: 1rem; margin-bottom: 2rem; border-bottom: 1px solid var(--border);">
+                            <button class="btn-tab active" id="tabScorers" onclick="switchLeaderboardTab('scorers')">Top
+                                Scorers</button>
+                            <button class="btn-tab" id="tabLearners" onclick="switchLeaderboardTab('learners')">Most
+                                Diligent</button>
+                        </div>
+                        <div id="leaderboardList" style="min-height: 300px;">
+                            <p class="loading-text">Select a category above...</p>
+                        </div>
+                    </div>
+
+                    <!-- VIEW: STATS -->
+                    <div id="view-stats" class="tab-view" style="display: none;">
+                        <div id="statsContainer">
+                            <!-- Stats injected here -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Breadcrumb & Sections (Relocated) -->
+        <div id="sectionView" class="view">
+            <div class="container">
+                <div class="view-header" style="margin-bottom: var(--spacing-8);">
+                    <button class="btn btn-ghost" id="backToModules" style="margin-bottom: var(--spacing-6);">
+                        ← Back to Modules
+                    </button>
+                    <h1 class="view-title"
+                        style="font-family: var(--font-display); font-size: var(--text-3xl); font-weight: var(--weight-bold); color: var(--text-primary);"
+                        id="sectionViewTitle">Sections</h1>
+                    <p class="view-subtitle"
+                        style="font-size: var(--text-base); color: var(--text-secondary); margin-top: var(--spacing-2);"
+                        id="sectionViewSubtitle">Select a section to begin</p>
+                </div>
+
+                <div id="sectionGrid"
+                    style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: var(--spacing-4);">
+                </div>
+            </div>
+        </div>
+
+        <!-- Section View Placeholder (Removed as it is now inside drillDownView) -->
+
+        <!-- Question View (Kept same) -->
+        <div id="questionView" class="view">
+            <div class="container container-narrow">
+                <button class="btn btn-ghost" id="backToSections" style="margin-bottom: var(--spacing-6);">
+                    ← Back to Sections
+                </button>
+
+                <!-- Question Card -->
+                <div class="question-card">
+                    <div class="question-badge" id="questionNumber">Q1</div>
+                    <h2 class="question-text" id="questionContent">Loading question...</h2>
+
+                    <!-- Answers Grid -->
+                    <div class="answers-grid" id="answersContainer"></div>
+
+                    <!-- Question Actions -->
+                    <div style="display: flex; gap: var(--spacing-3); margin-top: var(--spacing-8); flex-wrap: wrap;">
+                        <button class="btn btn-primary" id="showAnswer">Show Answer</button>
+                        <button class="btn btn-secondary" id="markCompleted">Mark as Completed</button>
+                        <button class="btn btn-ghost" id="toggleBookmark">⭐ Bookmark</button>
+                        <button class="btn btn-ghost" id="explainAiBtn"
+                            style="border: 1px solid var(--primary); color: var(--primary);">🤖 Explain with
+                            AI</button>
+                        <button class="btn btn-warning" id="submitExamBtn" style="display: none;"
+                            onclick="submitExam()">Submit Exam</button>
+                    </div>
+
+                    <!-- Answer Reveal -->
+                    <div id="answerReveal"
+                        style="display: none; margin-top: var(--spacing-6); padding: var(--spacing-6); background: rgba(0, 230, 118, 0.08); border: 1px solid var(--border-success); border-radius: var(--radius-lg);">
+                        <h4
+                            style="color: var(--success); font-weight: var(--weight-bold); margin-bottom: var(--spacing-3);">
+                            Correct Answer</h4>
+                        <p id="answerText" style="color: var(--text-primary); font-size: var(--text-lg);"></p>
+                    </div>
+                </div>
+
+                <!-- Navigation & Progress -->
+                <div style="margin-top: var(--spacing-8);">
+                    <!-- Progress Bar -->
+                    <div class="progress-container" style="margin-bottom: var(--spacing-4);">
+                        <div class="progress-fill" id="sectionProgress" style="width: 0%;"></div>
+                        <div class="progress-glow"></div>
+                    </div>
+
+                    <div
+                        style="display: flex; justify-content: space-between; align-items: center; margin-top: var(--spacing-4);">
+                        <button class="btn btn-secondary" id="prevQuestion">← Previous</button>
+                        <div style="display: flex; gap: var(--spacing-3); align-items: center;">
+                            <button class="btn btn-ghost btn-sm" id="randomQuestion">🎲 Random</button>
+                            <input type="number" id="jumpInput" placeholder="Jump to #"
+                                style="width: 100px; padding: var(--spacing-2) var(--spacing-3); background: var(--surface-2); border: 1px solid var(--border); border-radius: var(--radius-md); color: var(--text-primary); font-family: var(--font-primary);">
+                            <button class="btn btn-sm btn-secondary" id="jumpBtn">Go</button>
+                        </div>
+                        <button class="btn btn-secondary" id="nextQuestion">Next →</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Search Modal -->
+    <div id="searchModal" class="modal">
+        <div class="modal-content"
+            style="background: var(--surface-1); border: 1px solid var(--border); border-radius: var(--radius-xl); padding: var(--spacing-6); max-width: 600px; margin: var(--spacing-10) auto;">
+            <div
+                style="display: flex; justify-content: space-between; align-items: center; margin-bottom: var(--spacing-6);">
+                <h3 style="font-size: var(--text-2xl); font-weight: var(--weight-bold); color: var(--text-primary);">
+                    Search Questions</h3>
+                <button class="btn-icon" id="closeSearch">×</button>
+            </div>
+
+            <input type="text" id="searchInput" placeholder="Search for questions..."
+                style="width: 100%; padding: var(--spacing-4); background: var(--surface-2); border: 1px solid var(--border); border-radius: var(--radius-md); color: var(--text-primary); font-size: var(--text-base); font-family: var(--font-primary); margin-bottom: var(--spacing-4);">
+
+            <div id="searchResults" style="max-height: 400px; overflow-y: auto;">
+                <div style="text-align: center; padding: var(--spacing-8); color: var(--text-tertiary);">
+                    Type to search questions...
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Supabase and Auth Scripts (ES Modules) -->
+    <!-- Supabase and Auth Scripts (ES Modules) -->
+    <!-- Scripts loaded at bottom of body -->
+
+    <!-- Prism.js for syntax highlighting -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-java.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-r.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-javascript.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-sql.min.js"></script>
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/line-numbers/prism-line-numbers.min.js"></script>
+
+    <!-- ApexCharts for Statistics -->
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+
+    <script type="module">
+        import { initAuthUI } from './auth-ui.js';
+        import { initApp } from './app.js';
+        import { initStatsUI } from './stats-ui.js';
+        import { initPWA } from './pwa-utils.js';
+
+        initAuthUI();
+        initStatsUI();
+        initApp();
+        initPWA();
+    </script>
+</body>
+
+</html>

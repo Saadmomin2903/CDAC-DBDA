@@ -1,0 +1,46 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# API keys
+*.key
+
+# Supabase config
+config.js
+
+# Node modules
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.temp
+
+# Generated scripts (contain API keys)
+generate_answers.js
+generate_answers_v2.js
+generate_answers_dual.js
+generate_answers_fast.js
+fill_gaps.js
+cleanup_duplicates.js
+fix_format.js
+extract_java_answers.js
+complete_analytics.js
+complete_all.js
+fast_concurrent.js
+final_fill.js
+AI_SETUP.md
