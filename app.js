@@ -776,6 +776,10 @@ async function submitExam() {
     document.body.appendChild(modal);
 }
 
+// Expose to window for inline onclick handler
+window.submitExam = submitExam;
+
+
 // ========================================
 // Leaderboard
 // ========================================
