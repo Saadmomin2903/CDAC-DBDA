@@ -16,9 +16,6 @@
 *   Practical machine learning use cases
 
 
-
-### Introduction to Machine Learning
-
 1. In the context of PAC (Probably Approximately Correct) learning, what does the 'approximately correct' condition primarily relate to?
     A) The computational complexity of the learning algorithm.
     B) The probability that the learned hypothesis is close to the true target concept.
@@ -1069,9 +1066,6 @@
     D) Computational cost.
 
     Correct Answer: B
-
-### PAC Learning & Formal Models
-
 151. In **PAC learning**, the goal is to find a hypothesis $h$ that is **probably** close to the true concept $c$, with respect to:
     A) The training time.
     B) The error rate.
@@ -2478,9 +2472,6 @@
     D) Is an outlier and is removed from the dataset.
 
     Correct Answer: B
-
-### Bias-Variance Trade-off
-
 351. In Hierarchical Clustering, the **Single Linkage** criterion defines the distance between two clusters as:
     A) The minimum distance between any two points in the two clusters.
     B) The maximum distance between any two points in the two clusters.
@@ -3881,9 +3872,6 @@
     D) Categorical.
 
     Correct Answer: A
-
-### VC Dimension & Capacity
-
 551. In Information Theory, **Cross-Entropy** is often used as a loss function in classification tasks. It measures:
     A) The uncertainty of the true distribution.
     B) The difference between the true probability distribution and the predicted probability distribution.
@@ -5290,9 +5278,6 @@
     D) Prevent overfitting.
 
     Correct Answer: A
-
-### Regularization & Stability
-
 751. In **Linear Regression**, the assumption of **linearity** means that:
     A) The relationship between the features and the target is a straight line.
     B) The errors are normally distributed.
@@ -6693,9 +6678,6 @@
     D) The random noise.
 
     Correct Answer: B
-
-### Structural Risk Minimization
-
 951. The **k-Nearest Neighbors (KNN)** algorithm is sensitive to **irrelevant features** because:
     A) Irrelevant features can dominate the distance calculation.
     B) Irrelevant features are always ignored by the algorithm.
@@ -8103,9 +8085,6 @@
     D) Increasing the learning rate.
 
     Correct Answer: A
-
-### Model Selection & Validation
-
 1151. The **Rectified Linear Unit (ReLU)** activation function is a **non-linear** function.
     A) True.
     B) False.
@@ -9863,9 +9842,6 @@
 
 
     Correct Answer: B
-
-### Machine Learning Taxonomy
-
 1401. **Model Deployment** refers to the process of:
     A) Training the machine learning model.
     B) Making the trained machine learning model available for use in a production environment.
@@ -11973,9 +11949,6 @@
 
 
     Correct Answer: B
-
-### Practical ML Use Cases
-
 1701. In Reinforcement Learning (RL), the **Agent** is defined as:
     A) The system that provides the reward signal.
     B) The entity that makes decisions and takes actions in the environment.

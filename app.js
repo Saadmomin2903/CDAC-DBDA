@@ -874,16 +874,15 @@ async function loadQuestionsFromFile(filename, moduleId) {
 // Parsing logic refactored to parser.js
 
 function extractSections(questions, module) {
-    // For modules with explicit section markers
-    if (module.id === 'ml') {
-        return extractMLSections(questions);
+    // Check if questions have section property (from ### markers in file)
+    const hasSectionMarkers = questions.some(q => q.section);
+
+    if (hasSectionMarkers) {
+        // Use topic-based sections (English, ML, and future modules with ### markers)
+        return extractTopicBasedSections(questions);
     }
 
-    if (module.id === 'english') {
-        return extractEnglishSections(questions);
-    }
-
-    // For other modules, create sections by question ranges
+    // Fallback: For other modules, create sections by question ranges
     const sections = [];
     const questionsPerSection = 200;
     const totalSections = Math.ceil(questions.length / questionsPerSection);
@@ -893,41 +892,21 @@ function extractSections(questions, module) {
         const end = Math.min(start + questionsPerSection, questions.length);
 
         sections.push({
-            id: `section_${i + 1} `,
-            name: `Section ${i + 1} `,
-            range: `Q${start + 1} - Q${end} `,
+            id: `section_${i + 1}`,
+            name: `Section ${i + 1}`,
+            range: `Q${start + 1} - Q${end}`,
             startIndex: start,
             endIndex: end,
             count: end - start
         });
     }
 
-    return sections;
-}
-
-function extractMLSections(questions) {
-    // ML module has topic-based sections
-    const sectionSize = 100;
-    const sections = [];
-
-    for (let i = 0; i < questions.length; i += sectionSize) {
-        const end = Math.min(i + sectionSize, questions.length);
-        sections.push({
-            id: `ml_section_${sections.length + 1} `,
-            name: `Questions ${i + 1} -${end} `,
-            range: `Q${i + 1} - Q${end} `,
-            startIndex: i,
-            endIndex: end,
-            count: end - i
-        });
-    }
 
     return sections;
 }
 
-function extractEnglishSections(questions) {
-    // English module has topic-based sections marked by section property in each question
-    // Group questions by section
+function extractTopicBasedSections(questions) {
+    // Extract sections from questions with section properties
     const sectionMap = new Map();
 
     questions.forEach((question, index) => {
@@ -941,7 +920,6 @@ function extractEnglishSections(questions) {
 
     // Convert map to sections array
     const sections = [];
-    let currentIndex = 0;
 
     for (const [sectionName, indices] of sectionMap) {
         if (indices.length > 0) {
@@ -949,7 +927,7 @@ function extractEnglishSections(questions) {
             const endIndex = indices[indices.length - 1] + 1;
 
             sections.push({
-                id: `english_${sectionName.replace(/\s+/g, '_').toLowerCase()}`,
+                id: `${sectionName.replace(/\s+/g, '_').replace(/[^a-z0-9_]/gi, '').toLowerCase()}`,
                 name: sectionName,
                 range: `Q${startIndex + 1} - Q${endIndex}`,
                 startIndex: startIndex,
@@ -961,6 +939,7 @@ function extractEnglishSections(questions) {
 
     return sections;
 }
+
 
 // ========================================
 // Section Management

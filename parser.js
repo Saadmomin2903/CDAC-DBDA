@@ -14,8 +14,8 @@ export function parseQuestionsFromMarkdown(text, moduleId) {
         case 'python_r':
             return parsePythonRFormat(text);
         case 'english':
-            return parseEnglishFormat(text);
         case 'ml':
+            return parseSectionedStandardFormat(text); // ML and English use ### sections
         case 'java':
         case 'analytics':
         case 'dv':
@@ -379,6 +379,84 @@ export function parseEnglishFormat(text) {
 
     // Add last question
     if (currentQuestion && currentQuestion.options.length === 4) {
+        questions.push(currentQuestion);
+    }
+
+    return questions;
+}
+
+// Parser for ML format (standard format with ### sections)
+export function parseSectionedStandardFormat(text) {
+    const questions = [];
+    const lines = text.split('\n');
+    let currentQuestion = null;
+    let currentSection = null;
+
+    for (let i = 0; i < lines.length; i++) {
+        const line = lines[i].trim();
+
+        // Track section headings (### Section Name)
+        const sectionMatch = line.match(/^###\s+(.+)$/);
+        if (sectionMatch) {
+            currentSection = sectionMatch[1].trim();
+            continue;
+        }
+
+        // Skip "Correct Answer:" lines - extract answer but don't include in options
+        if (line.startsWith('Correct Answer:')) {
+            if (currentQuestion) {
+                const answerMatch = line.match(/Correct Answer:\s*([A-D])/);
+                if (answerMatch) {
+                    currentQuestion.answer = answerMatch[1];
+                }
+            }
+            continue;
+        }
+
+        // Question number pattern: starts with a number followed by period
+        const questionMatch = line.match(/^(\d+)\.\s+(.+)/);
+        if (questionMatch && !line.match(/^([A-D])[\.\)]/)) {
+            // Save previous question
+            if (currentQuestion) {
+                questions.push(currentQuestion);
+            }
+
+            // Start new question
+            currentQuestion = {
+                number: parseInt(questionMatch[1]),
+                text: questionMatch[2],
+                options: [],
+                answer: null,
+                section: currentSection  // Track section for this question
+            };
+            continue;
+        }
+
+        // Option pattern: A. B. C. D. or A) B) C) D)
+        const optionMatch = line.match(/^([A-D])[\.\)]\s+(.+)/);
+        if (optionMatch && currentQuestion) {
+            currentQuestion.options.push({
+                label: optionMatch[1],
+                text: optionMatch[2]
+            });
+            continue;
+        }
+
+        // Continue multiline content
+        if (currentQuestion && line && !line.startsWith('#') && !line.startsWith('*') && !line.includes('Correct Answer:')) {
+            if (currentQuestion.options.length === 0) {
+                currentQuestion.text += ' ' + line;
+            } else if (currentQuestion.options.length > 0 && currentQuestion.options.length < 4) {
+                const lastOption = currentQuestion.options[currentQuestion.options.length - 1];
+                if (!line.startsWith('Correct Answer')) {
+                    lastOption.text += ' ' + line;
+                }
+            }
+        }
+    }
+
+    // Add last question
+    if (currentQuestion) {
         questions.push(currentQuestion);
     }
 
