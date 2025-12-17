@@ -6,19 +6,19 @@ export function parseQuestionsFromMarkdown(text, moduleId) {
     // Use module-specific parser based on file format
     switch (moduleId) {
         case 'linux':
-            return parseLinuxFormat(text);
+            return parseSectionedLinuxFormat(text); // Now with section tracking
         case 'bigdata':
-            return parseBigDataFormat(text);  // Big Data uses A) B) C) D) format
+            return parseSectionedBigDataFormat(text); // Now with section tracking
         case 'dbms':
-            return parseDBMSFormat(text);
+            return parseSectionedDBMSFormat(text); // Now with section tracking
         case 'python_r':
             return parsePythonRFormat(text);
         case 'english':
         case 'ml':
-            return parseSectionedStandardFormat(text); // ML and English use ### sections
         case 'java':
         case 'analytics':
         case 'dv':
+            return parseSectionedStandardFormat(text); // All use ### sections + standard format
         default:
             return parseStandardFormat(text);
     }
@@ -456,6 +456,188 @@ export function parseSectionedStandardFormat(text) {
     }
 
     // Add last question
+    if (currentQuestion) {
+        questions.push(currentQuestion);
+    }
+
+    return questions;
+}
+
+// Section-aware version of Linux format parser
+export function parseSectionedLinuxFormat(text) {
+    const questions = [];
+    const lines = text.split('\n');
+    let currentQuestion = null;
+    let currentSection = null;
+
+    for (let i = 0; i < lines.length; i++) {
+        const line = lines[i].trim();
+
+        // Track section headings
+        const sectionMatch = line.match(/^###\s+(.+)$/);
+        if (sectionMatch) {
+            currentSection = sectionMatch[1].trim();
+            continue;
+        }
+
+        // Question: number. Question text
+        const questionMatch = line.match(/^(\d+)\.\s+(.+)/);
+        if (questionMatch && !line.startsWith('A:') && !line.startsWith('B:') && !line.startsWith('C:') && !line.startsWith('D:')) {
+            if (currentQuestion) {
+                questions.push(currentQuestion);
+            }
+
+            currentQuestion = {
+                number: parseInt(questionMatch[1]),
+                text: questionMatch[2],
+                options: [],
+                answer: null,
+                section: currentSection
+            };
+            continue;
+        }
+
+        // Option: A: Option text
+        const optionMatch = line.match(/^([A-D]):\s+(.+)/);
+        if (optionMatch && currentQuestion) {
+            currentQuestion.options.push({
+                label: optionMatch[1],
+                text: optionMatch[2]
+            });
+            continue;
+        }
+
+        // Answer: X
+        const answerMatch = line.match(/^Answer:\s+([A-D])/);
+        if (answerMatch && currentQuestion) {
+            currentQuestion.answer = answerMatch[1];
+            continue;
+        }
+    }
+
+    if (currentQuestion) {
+        questions.push(currentQuestion);
+    }
+
+    return questions;
+}
+
+// Section-aware version of Big Data format parser
+export function parseSectionedBigDataFormat(text) {
+    const questions = [];
+    const lines = text.split('\n');
+    let currentQuestion = null;
+    let currentSection = null;
+
+    for (let i = 0; i < lines.length; i++) {
+        const line = lines[i].trim();
+
+        // Track section headings
+        const sectionMatch = line.match(/^###\s+(.+)$/);
+        if (sectionMatch) {
+            currentSection = sectionMatch[1].trim();
+            continue;
+        }
+
+        // Question: number. Question text
+        const questionMatch = line.match(/^(\d+)\.\s+(.+)/);
+        if (questionMatch && !line.match(/^[A-D]\)/)) {
+            if (currentQuestion && currentQuestion.options.length === 4) {
+                questions.push(currentQuestion);
+            }
+
+            currentQuestion = {
+                number: parseInt(questionMatch[1]),
+                text: questionMatch[2],
+                options: [],
+                answer: null,
+                section: currentSection
+            };
+            continue;
+        }
+
+        // Option: A) Option text
+        const optionMatch = line.match(/^([A-D])\)\s+(.+)/);
+        if (optionMatch && currentQuestion) {
+            currentQuestion.options.push({
+                label: optionMatch[1],
+                text: optionMatch[2]
+            });
+            continue;
+        }
+
+        // Answer: X
+        const answerMatch = line.match(/^Answer:\s+([A-D])/);
+        if (answerMatch && currentQuestion) {
+            currentQuestion.answer = answerMatch[1];
+            continue;
+        }
+
+        // Continue question text on next line
+        if (currentQuestion && currentQuestion.options.length === 0 && line && !line.startsWith('#')) {
+            currentQuestion.text += ' ' + line;
+        }
+    }
+
+    if (currentQuestion && currentQuestion.options.length === 4) {
+        questions.push(currentQuestion);
+    }
+
+    return questions;
+}
+
+// Section-aware version of DBMS format parser
+export function parseSectionedDBMSFormat(text) {
+    const questions = [];
+    const lines = text.split('\n');
+    let currentQuestion = null;
+    let currentSection = null;
+
+    for (let i = 0; i < lines.length; i++) {
+        const line = lines[i].trim();
+
+        // Track section headings
+        const sectionMatch = line.match(/^###\s+(.+)$/);
+        if (sectionMatch) {
+            currentSection = sectionMatch[1].trim();
+            continue;
+        }
+
+        // Question: number. Question: Question text
+        const questionMatch = line.match(/^(\d+)\.\s+Question:\s+(.+)/);
+        if (questionMatch) {
+            if (currentQuestion) {
+                questions.push(currentQuestion);
+            }
+
+            currentQuestion = {
+                number: parseInt(questionMatch[1]),
+                text: questionMatch[2],
+                options: [],
+                answer: null,
+                section: currentSection
+            };
+            continue;
+        }
+
+        // Option: A) Option text
+        const optionMatch = line.match(/^([A-D])\)\s+(.+)/);
+        if (optionMatch && currentQuestion) {
+            currentQuestion.options.push({
+                label: optionMatch[1],
+                text: optionMatch[2]
+            });
+            continue;
+        }
+
+        // Correct Answer: X
+        const answerMatch = line.match(/^Correct Answer:\s+([A-D])/);
+        if (answerMatch && currentQuestion) {
+            currentQuestion.answer = answerMatch[1];
+            continue;
+        }
+    }
+
     if (currentQuestion) {
         questions.push(currentQuestion);
     }
