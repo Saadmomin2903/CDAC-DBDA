@@ -1310,6 +1310,12 @@ async function markQuestionCompleted(status = null) {
     updateMarkCompletedButton();
     updateQuestionProgress();
     updateOverallProgress();
+
+    // Re-render section cards if user is on sections view (to update progress bars)
+    const sectionView = document.getElementById('sectionView');
+    if (sectionView && sectionView.style.display !== 'none') {
+        renderSections();
+    }
 }
 function updateMarkCompletedButton() {
     const btn = document.getElementById('markCompleted');
