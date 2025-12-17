@@ -68,6 +68,13 @@ const MODULES = [
         icon: '🗄️',
         file: './big_data_mcqs_2000.md',
         description: 'Hadoop, Spark, distributed computing'
+    },
+    {
+        id: 'english',
+        name: 'English - CCEE',
+        icon: '📖',
+        file: './CDAC_CCEE_English_Question_Bank.md',
+        description: 'Grammar, Vocabulary, Sentence Structure, Ordering'
     }
 ];
 
@@ -872,6 +879,10 @@ function extractSections(questions, module) {
         return extractMLSections(questions);
     }
 
+    if (module.id === 'english') {
+        return extractEnglishSections(questions);
+    }
+
     // For other modules, create sections by question ranges
     const sections = [];
     const questionsPerSection = 200;
@@ -909,6 +920,43 @@ function extractMLSections(questions) {
             endIndex: end,
             count: end - i
         });
+    }
+
+    return sections;
+}
+
+function extractEnglishSections(questions) {
+    // English module has topic-based sections marked by section property in each question
+    // Group questions by section
+    const sectionMap = new Map();
+
+    questions.forEach((question, index) => {
+        if (question.section) {
+            if (!sectionMap.has(question.section)) {
+                sectionMap.set(question.section, []);
+            }
+            sectionMap.get(question.section).push(index);
+        }
+    });
+
+    // Convert map to sections array
+    const sections = [];
+    let currentIndex = 0;
+
+    for (const [sectionName, indices] of sectionMap) {
+        if (indices.length > 0) {
+            const startIndex = indices[0];
+            const endIndex = indices[indices.length - 1] + 1;
+
+            sections.push({
+                id: `english_${sectionName.replace(/\s+/g, '_').toLowerCase()}`,
+                name: sectionName,
+                range: `Q${startIndex + 1} - Q${endIndex}`,
+                startIndex: startIndex,
+                endIndex: endIndex,
+                count: indices.length
+            });
+        }
     }
 
     return sections;

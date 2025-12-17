@@ -13,6 +13,8 @@ export function parseQuestionsFromMarkdown(text, moduleId) {
             return parseDBMSFormat(text);
         case 'python_r':
             return parsePythonRFormat(text);
+        case 'english':
+            return parseEnglishFormat(text);
         case 'ml':
         case 'java':
         case 'analytics':
@@ -307,6 +309,76 @@ export function parseStandardFormat(text) {
 
     // Add last question
     if (currentQuestion) {
+        questions.push(currentQuestion);
+    }
+
+    return questions;
+}
+
+// Parser for English format (**Answer:** pattern with ### sections)
+export function parseEnglishFormat(text) {
+    const questions = [];
+    const lines = text.split('\n');
+    let currentQuestion = null;
+    let currentSection = null;
+
+    for (let i = 0; i < lines.length; i++) {
+        const line = lines[i].trim();
+
+        // Track section headings (### Section Name)
+        const sectionMatch = line.match(/^###\s+(.+?)(?:\s+\(\d+\s+Questions?\))?$/);
+        if (sectionMatch) {
+            // Extract section name, remove "(30 Questions)" suffix
+            currentSection = sectionMatch[1].replace(/\s*\(.*?\)\s*$/, '').trim();
+            // Skip correction sections
+            if (currentSection.includes('Correction')) {
+                currentSection = null;
+            }
+            continue;
+        }
+
+        // Question: **number. Question text**
+        const questionMatch = line.match(/^\*\*(\d+)\.\s+(.+?)\*\*$/);
+        if (questionMatch) {
+            if (currentQuestion && currentQuestion.options.length === 4) {
+                questions.push(currentQuestion);
+            }
+
+            currentQuestion = {
+                number: parseInt(questionMatch[1]),
+                text: questionMatch[2],
+                options: [],
+                answer: null,
+                section: currentSection  // Track which section this question belongs to
+            };
+            continue;
+        }
+
+        // Option: A. Option text
+        const optionMatch = line.match(/^([A-D])\.\s+(.+)$/);
+        if (optionMatch && currentQuestion && currentQuestion.options.length < 4) {
+            currentQuestion.options.push({
+                label: optionMatch[1],
+                text: optionMatch[2]
+            });
+            continue;
+        }
+
+        // Answer: **Answer:** X
+        const answerMatch = line.match(/^\*\*Answer:\*\*\s+([A-D])$/);
+        if (answerMatch && currentQuestion) {
+            currentQuestion.answer = answerMatch[1];
+            continue;
+        }
+
+        // Continue question text if multiline
+        if (currentQuestion && currentQuestion.options.length === 0 && line && !line.startsWith('#') && !line.startsWith('**')) {
+            currentQuestion.text += ' ' + line;
+        }
+    }
+
+    // Add last question
+    if (currentQuestion && currentQuestion.options.length === 4) {
         questions.push(currentQuestion);
     }
 
