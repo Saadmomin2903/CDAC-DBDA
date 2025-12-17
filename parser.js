@@ -14,11 +14,12 @@ export function parseQuestionsFromMarkdown(text, moduleId) {
         case 'python_r':
             return parsePythonRFormat(text);
         case 'english':
+            return parseEnglishFormat(text); // English has unique **Answer:** format
         case 'ml':
         case 'java':
         case 'analytics':
         case 'dv':
-            return parseSectionedStandardFormat(text); // All use ### sections + standard format
+            return parseSectionedStandardFormat(text); // Standard format with ### sections
         default:
             return parseStandardFormat(text);
     }
