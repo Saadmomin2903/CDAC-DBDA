@@ -1,5 +1,8 @@
 # Batch 1: Q1–Q100 - Business Analytics Foundations & Descriptive Statistics
 
+
+### Visualization Fundamentals
+
 1. A retail company observes a significant drop in sales in the last quarter. An analyst is tasked with determining the root cause. Which stage of statistical investigation is primarily concerned with identifying the relevant data sources and methods (e.g., transaction logs, customer surveys) to begin the inquiry?
     A. Organization of data
     B. Analysis of data
@@ -8054,6 +8057,9 @@
     C. $4/10$
     D. $1/10$
 
+
+### Tools & Technologies
+
 151. The **Hypergeometric Distribution** is used when sampling is done:
     A. With replacement from a finite population.
     B. Without replacement from a finite population.
@@ -9798,6 +9804,9 @@
 # Batch 4: Q301–Q400 - Hypothesis Testing and Data Exploration & Preparation
 
     Correct Answer: C
+
+### Dashboard Design
+
 301. A financial analyst is testing the claim that the average return of a new investment fund is greater than 5%. The null hypothesis ($H_0$) and alternative hypothesis ($H_A$) for this test are:
     A. $H_0: \mu = 5\%$, $H_A: \mu \ne 5\%$
     B. $H_0: \mu \le 5\%$, $H_A: \mu > 5\%$
@@ -10849,6 +10858,9 @@
     D. Independence.
 
     Correct Answer: A
+
+### Advanced Techniques
+
 451. **Risk Management** involves a cyclical process that includes:
     A. Only risk identification.
     B. Risk identification, assessment, response, and monitoring.

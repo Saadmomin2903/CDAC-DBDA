@@ -1,8 +1,5 @@
 # Batch 1: Q1–Q100 - Business Analytics Foundations & Descriptive Statistics
 
-
-### Statistical Foundations
-
 1. A retail company observes a significant drop in sales in the last quarter. An analyst is tasked with determining the root cause. Which stage of statistical investigation is primarily concerned with identifying the relevant data sources and methods (e.g., transaction logs, customer surveys) to begin the inquiry?
     A. Organization of data
     B. Analysis of data
@@ -114,7 +111,7 @@
     C. The data is categorized into nominal groups.
     D. The data is measured on a ratio scale.
 
-    Correct Answer: D
+    Correct Answer: B
 17. A researcher is using a dataset where the variable 'Temperature' is measured in Celsius. This scale has an arbitrary zero point (0°C does not mean 'no heat'). What type of quantitative variable scale is this?
     A. Nominal
     B. Ordinal
@@ -142,7 +139,7 @@
     C. 2.0
     D. 10.0
 
-    Correct Answer: C
+    Correct Answer: A
 21. A business analyst uses a model to recommend the optimal pricing strategy for a new product to maximize profit. This is an example of which type of analytics?
     A. Descriptive
     B. Diagnostic
@@ -156,7 +153,7 @@
     C. Discrete series is always arranged in ascending order, while continuous series is always descending.
     D. Discrete series has no mode, while continuous series always has a mode.
 
-    Correct Answer: C
+    Correct Answer: A
 23. A dataset of customer ages is analyzed. The mean is 45, and the standard deviation is 10. According to the Empirical Rule (for a bell-shaped distribution), approximately 95% of the customer ages will fall within which range?
     A. 35 to 55
     B. 25 to 65
@@ -191,7 +188,7 @@
     C. 80
     D. 77.5
 
-    Correct Answer: C
+    Correct Answer: D
 28. A financial analyst is comparing the risk of two stocks. Stock X has a standard deviation of $2, and Stock Y has a standard deviation of $5. Both have the same mean price. What does this suggest about Stock Y compared to Stock X?
     A. Stock Y has a higher average return.
     B. Stock Y is less volatile and therefore less risky.
@@ -240,7 +237,7 @@
     C. Discrete Quantitative
     D. Continuous Quantitative
 
-    Correct Answer: B
+    Correct Answer: C
 35. A researcher wants to study the effect of a new drug on a population of 10,000 patients. Due to cost, they select a sample of 100 patients. A measure calculated from the 100 patients is a **statistic**, while the true measure for all 10,000 patients is a **parameter**.
     A. True
     B. False
@@ -254,14 +251,14 @@
     C. It only considers the highest and lowest values, ignoring the variation of all other observations.
     D. It can only be used for discrete data.
 
-    Correct Answer: A
+    Correct Answer: B
 37. Which of the following is an example of a **Prescriptive Analytics** outcome?
     A. A report showing the average customer churn rate over the last year.
     B. A model predicting a 15% increase in customer churn next quarter.
     C. A recommendation system suggesting specific actions to reduce churn by 5%.
     D. A dashboard showing the reasons why customers churned last month.
 
-    Correct Answer: B
+    Correct Answer: D
 38. A researcher is studying the average income of residents in a large city. They divide the city into 50 distinct neighborhoods (clusters) and randomly select 5 of these neighborhoods to survey all residents within them. Which sampling technique is this?
     A. Simple Random Sampling
     B. Stratified Random Sampling
@@ -275,7 +272,7 @@
     C. It is expressed in the same units as the original data.
     D. It is a measure of central tendency.
 
-    Correct Answer: C
+    Correct Answer: A
 40. In a dataset, the mean, median, and mode are all equal to 75. This indicates that the distribution is most likely:
     A. Positively skewed
     B. Negatively skewed
@@ -302,57 +299,57 @@
     B. Ordinal Qualitative
     C. Interval Quantitative
     D. Ratio Quantitative
-    Correct Answer: B
 
+    Correct Answer: B
 44. A data analyst is performing data summarization. Which of the following is a measure of **dispersion**?
     A. Mean
     B. Median
     C. Mode
     D. Interquartile Range (IQR)
 
-    Correct Answer: B
+    Correct Answer: D
 45. The **Central Limit Theorem** is a foundational concept in statistical inference. Which of the following is a key application of the Central Limit Theorem?
     A. Calculating the mode of a dataset.
     B. Determining the sample size for a survey.
     C. Approximating the sampling distribution of the sample mean as a normal distribution, regardless of the population distribution, for large sample sizes.
     D. Calculating the range of a dataset.
 
-    Correct Answer: D
+    Correct Answer: B
 46. A data set has a mean of 100 and a standard deviation of 10. An observation has a Z-score of -1.5. What is the value of this observation?
     A. 85
     B. 98.5
     C. 101.5
     D. 115
 
-    Correct Answer: C
+    Correct Answer: A
 47. In the context of a statistical study, what is the term for the characteristic of an individual that is being measured or observed?
     A. Population
     B. Sample
     C. Variable
-    Correct Answer: C
     D. Parameter
 
+    Correct Answer: D
 48. A company is analyzing the number of website visitors per hour. The data is presented as a list of exact counts (e.g., 15, 22, 18, 30). This is an example of which type of series?
     A. Continuous Series
     B. Discrete Series
     C. Individual Series
     D. Time Series
 
-    Correct Answer: A
+    Correct Answer: B
 49. Which type of bias occurs when a sample is drawn from a healthier segment of the overall population, such as polling customers at a health food store to study diet and health?
     A. Selection Bias
     B. Survivorship Bias
-    Correct Answer: A
     C. Healthy-user Bias
     D. Under-coverage Bias
 
+    Correct Answer: D
 50. The sum of the squared distances between each item in a population and the population mean, divided by the total number of items, is the formula for the:
     A. Population Standard Deviation
     B. Population Variance
     C. Sample Standard Deviation
     D. Sample Mean
 
-    Correct Answer: B
+    Correct Answer: C
 51. A data set is {10, 12, 15, 18, 20}. What is the range of this data set?
     A. 5
     B. 10
@@ -366,42 +363,42 @@
     C. What should we do?
     D. What happened?
 
-    Correct Answer: B
+    Correct Answer: C
 53. A marketing team wants to study the impact of a new ad campaign. They only survey customers who responded positively to the ad, ignoring those who did not respond or responded negatively. This is an example of:
     A. Under-coverage Bias
-    Correct Answer: B
     B. Self-selection Bias
     C. Cluster Sampling
     D. Stratified Sampling
 
+    Correct Answer: A
 54. Which measure of central tendency is most affected by extreme outliers?
     A. Mode
     B. Median
     C. Mean
     D. Interquartile Range
 
-    Correct Answer: C
+    Correct Answer: B
 55. The concept of **Survivorship Bias** is best illustrated by which scenario?
     A. A study on successful companies only includes those that are still in business, ignoring those that failed.
     B. A survey only includes participants who volunteered to answer.
     C. A researcher only samples from a specific geographic region.
     D. A study on health only includes people who already follow a healthy lifestyle.
 
-    Correct Answer: A
+    Correct Answer: B
 56. In a frequency distribution, if the class intervals are stated as 10-20, 20-30, 30-40, etc., where the upper limit of one class is the lower limit of the next, this is known as:
     A. Individual Series
     B. Discrete Series
     C. Inclusive Class Intervals
     D. Exclusive Class Intervals
 
-    Correct Answer: D
+    Correct Answer: B
 57. A data set of the number of children per family is collected: {0, 1, 2, 2, 3, 4}. Since the number of children must be a whole number, this is an example of which type of quantitative variable?
     A. Continuous
     B. Discrete
     C. Nominal
     D. Ordinal
 
-    Correct Answer: B
+    Correct Answer: C
 58. Which of the following is a measure of **positional** central tendency?
     A. Arithmetic Mean
     B. Geometric Mean
@@ -415,14 +412,14 @@
     C. It remains the same.
     D. It becomes the mean.
 
-    Correct Answer: B
+    Correct Answer: D
 60. A business analyst is using **Diagnostic Analytics**. Which question is the analyst trying to answer?
-    Correct Answer: B
     A. What will happen next?
     B. Why did this happen?
     C. What should we do about it?
     D. What is the current state?
 
+    Correct Answer: C
 61. A researcher is using a dataset where the variable 'Year of Birth' is recorded. This is an example of a:
     A. Nominal Qualitative Variable
     B. Time Series Variable
@@ -443,50 +440,49 @@
     C. Chebyshev's Theorem
     D. The Law of Large Numbers
 
-    Correct Answer: A
+    Correct Answer: D
 64. A dataset of customer names is collected. This is an example of a:
     A. Quantitative Variable
     B. Nominal Qualitative Variable
     C. Ordinal Qualitative Variable
     D. Continuous Variable
 
-    Correct Answer: B
+    Correct Answer: D
 65. A data set is {2, 4, 6, 8, 10}. What is the mean?
     A. 5
     B. 6
     C. 7
     D. 8
 
-    Correct Answer: B
+    Correct Answer: A
 66. A company is analyzing its website traffic. The variable 'Source' (e.g., Google, Direct, Social Media) is used. This variable is:
     A. Ordinal, as the sources can be ranked by traffic volume.
     B. Nominal, as the sources are categories with no inherent order.
     C. Interval, as the difference between sources is meaningful.
     D. Ratio, as a source can have zero traffic.
 
-    Correct Answer: D
+    Correct Answer: C
 67. In a statistical study, the term **Individual** refers to:
     A. The characteristic being measured.
     B. The object or person included in the study.
     C. The entire group of interest.
     D. The numerical summary of the data.
 
-    Correct Answer: B
+    Correct Answer: D
 68. A researcher wants to use a sampling method that ensures every member of the population has an equal chance of being selected. Which method should be used?
     A. Stratified Random Sampling
     B. Cluster Sampling
     C. Simple Random Sampling
     D. Convenience Sampling
 
-    Correct Answer: C
     Correct Answer: B
 69. The **standard score (Z-score)** measures:
     A. The mean of the distribution.
     B. The number of standard deviations a particular observation lies above or below the mean.
     C. The total spread of the data.
     D. The median of the distribution.
-    Correct Answer: B
 
+    Correct Answer: B
 70. A dataset of temperatures in Kelvin is collected. Since 0 Kelvin represents the complete absence of thermal energy (absolute zero), this is an example of a:
     A. Nominal Scale
     B. Ordinal Scale
@@ -515,51 +511,48 @@
     D. Prescriptive
 
     Correct Answer: C
-    Correct Answer: C
 74. A researcher decides to omit an entire segment of the population (e.g., night shift workers) from a survey. This leads to:
     A. Self-selection Bias
     B. Healthy-user Bias
     C. Under-coverage Bias
-    Correct Answer: C
     D. Survivorship Bias
 
+    Correct Answer: B
 75. In a statistical investigation, the stage where conclusions are drawn and forecasting is made is the:
     A. Collection of data
     B. Organization of data
     C. Analysis of data
     D. Interpretation of data
-    Correct Answer: D
 
     Correct Answer: B
 76. A dataset is {1, 2, 3, 4, 5, 6}. What is the mode?
     A. 3.5
     B. 6
-    Correct Answer: D
     C. 1
     D. No mode (or multi-modal, depending on definition, but typically 'No mode' for uniform distribution)
 
+    Correct Answer: C
 77. Which of the following is a measure of **Mathematical** central tendency?
     A. Mode
     B. Median
     C. Harmonic Mean
-    Correct Answer: C
     D. Interquartile Range
 
-    Correct Answer: C
+    Correct Answer: B
 78. A data set of exam scores is {50, 60, 70, 80, 90}. What is the range?
     A. 10
-    Correct Answer: C
     B. 20
     C. 40
     D. 50
 
+    Correct Answer: B
 79. A data set of the number of cars sold per month is collected over 10 years. This data is best described as a:
     A. Discrete Series
     B. Continuous Series
     C. Time Series
     D. Individual Series
 
-    Correct Answer: D
+    Correct Answer: C
 80. A researcher is comparing the variability of two different datasets measured in different units (e.g., height in cm and weight in kg). Which measure of dispersion is most appropriate for a direct comparison of relative variability?
     A. Range
     B. Standard Deviation
@@ -573,68 +566,63 @@
     C. Calculate statistical measures like mean and variance.
     D. Draw final conclusions and make forecasts.
 
-    Correct Answer: B
+    Correct Answer: C
 82. A dataset of customer ratings (1 to 5 stars) is collected. This is an example of a:
     A. Nominal Qualitative Variable
     B. Ordinal Qualitative Variable
-    Correct Answer: C
     C. Interval Quantitative Variable
     D. Ratio Quantitative Variable
 
-    Correct Answer: B
+    Correct Answer: A
 83. A financial analyst is using the **standard deviation** of a stock's returns to assess risk. A higher standard deviation indicates:
-    Correct Answer: C
     A. Lower average return.
     B. Higher consistency in returns.
     C. Higher volatility and risk.
     D. Lower volatility and risk.
 
+    Correct Answer: D
 84. In a **Stratified Random Sample**, why is the population first divided into segments (strata)?
     A. To reduce the cost of data collection.
-    Correct Answer: B
     B. To ensure that every member has an equal chance of being selected.
     C. To ensure that groups within the population are adequately represented in the sample.
     D. To make the sample size smaller.
 
-    Correct Answer: C
     Correct Answer: B
 85. A statistical study is conducted on the heights of all students in a large school. The mean height calculated from this complete set of data is a:
     A. Statistic
     B. Parameter
     C. Variable
     D. Sample
-    Correct Answer: B
 
+    Correct Answer: B
 86. Which of the following is a key characteristic of **Descriptive Statistics**?
-    Correct Answer: C
     A. It uses probability theory to make generalizations.
     B. It makes inferences about a larger population.
     C. It summarizes and presents the characteristics of the data already known.
     D. It is primarily concerned with hypothesis testing.
 
-    Correct Answer: C
-    Correct Answer: C
+    Correct Answer: B
 87. A dataset is {5, 5, 5, 5, 5}. What is the standard deviation?
     A. 5
     B. 1
     C. 0
-    Correct Answer: C
     D. 25
 
+    Correct Answer: B
 88. A researcher is analyzing a dataset where the variable 'Gender' is recorded as 'Male' or 'Female'. This is an example of a:
     A. Discrete Quantitative Variable
     B. Nominal Qualitative Variable
     C. Ordinal Qualitative Variable
     D. Continuous Quantitative Variable
 
-    Correct Answer: D
+    Correct Answer: B
 89. A data set has a mean of 10. If an observation has a value of 15 and a standard deviation of 2, what is its standard score (Z-score)?
     A. 5
     B. 2.5
     C. -2.5
     D. 1.5
 
-    Correct Answer: B
+    Correct Answer: A
 90. The primary purpose of calculating the **Interquartile Range (IQR)** is to:
     A. Find the average value of the dataset.
     B. Measure the spread of the middle 50% of the data.
@@ -648,7 +636,7 @@
     C. Marks: 40 (Frequency: 4), 45 (Frequency: 3)
     D. Age: 30, 40, 35, 45 (Individual Series)
 
-    Correct Answer: C
+    Correct Answer: B
 92. A data set is {10, 12, 15, 18, 20}. What is the median?
     A. 10
     B. 15
@@ -662,14 +650,13 @@
     C. Three or more variables simultaneously.
     D. Only qualitative variables.
 
-    Correct Answer: B
+    Correct Answer: C
 94. In the context of a statistical study, a **Variable** is:
     A. A fixed value that describes the population.
     B. A quantity that is being manipulated in an experiment.
     C. A characteristic of individuals to be measured or observed.
     D. The result of a calculation on a sample.
 
-    Correct Answer: C
     Correct Answer: B
 95. A company is using **Predictive Analytics**. Which question is the analyst trying to answer?
     A. What happened?
@@ -683,30 +670,28 @@
     B. Selection Bias
     C. Healthy-user Bias
     D. Self-selection Bias
-    Correct Answer: C
 
+    Correct Answer: A
 97. A dataset of house prices is analyzed. The mean is $300,000, and the standard deviation is $50,000. A house priced at $450,000 is how many standard deviations above the mean?
     A. 1.5
     B. 2.0
     C. 3.0
     D. 4.5
-    Correct Answer: C
 
     Correct Answer: B
 98. Which of the following is a **Positional** measure of central tendency?
     A. Mean
     B. Harmonic Mean
-    Correct Answer: C
     C. Mode
     D. Variance
 
+    Correct Answer: B
 99. The use of **charts, tables, and graphs** to summarize and represent data is a key component of which type of statistics?
     A. Inferential Statistics
     B. Predictive Statistics
     C. Prescriptive Statistics
     D. Descriptive Statistics
 
-    Correct Answer: B
     Correct Answer: C
 100. A data set of the number of defects per batch of products is collected. The data is presented in a table showing the number of defects and the corresponding number of batches (frequency). This is an example of a:
     A. Continuous Series
@@ -719,33 +704,31 @@
 901. **Generalized Linear Models (GLMs)** extend ordinary least squares regression to cases where the error distribution is:
     A. Always Normal.
     B. Not necessarily Normal, but belongs to the exponential family (e.g., Poisson, Binomial).
-    Correct Answer: C
     C. Always Uniform.
     D. Always Student's t-distribution.
 
+    Correct Answer: B
 902. The **Link Function** in a GLM connects the linear predictor to the:
     A. Variance of the response variable.
-    Correct Answer: B
     B. Mean of the response variable.
     C. Standard deviation of the response variable.
-    Correct Answer: C
     D. Residuals.
 
     Correct Answer: B
 903. **Logistic Regression** is a type of GLM that uses the **Logit** link function and is appropriate for a dependent variable with a:
     A. Normal distribution.
-    Correct Answer: B
     B. Poisson distribution.
     C. Binomial distribution (binary outcome).
     D. Gamma distribution.
 
+    Correct Answer: B
 904. **Poisson Regression** is a type of GLM that uses the **Log** link function and is appropriate for a dependent variable that is a:
     A. Continuous variable.
-    Correct Answer: B
     B. Count variable.
     C. Binary variable.
     D. Categorical variable.
 
+    Correct Answer: A
 905. **Ridge Regression** is a regularization technique that adds a penalty proportional to the:
     A. Sum of the absolute values of the coefficients ($\ell_1$ norm).
     B. Sum of the squared values of the coefficients ($\ell_2$ norm).
@@ -769,7 +752,6 @@
     Correct Answer: B
 908. **Elastic Net Regression** combines the penalties of Ridge and Lasso regression to benefit from:
     A. The feature selection of Ridge and the coefficient shrinkage of Lasso.
-    Correct Answer: B
     B. The feature selection of Lasso and the group effect/stability of Ridge.
     C. Only the $\ell_1$ norm.
     D. Only the $\ell_2$ norm.
@@ -778,27 +760,23 @@
 909. **Cross-Validation** is a model evaluation technique used to:
     A. Train the model on the entire dataset.
     B. Estimate the model's performance on unseen data and prevent overfitting.
-    Correct Answer: B
     C. Select the most informative attributes.
     D. Clean the data.
 
     Correct Answer: A
-    Correct Answer: B
 910. The **k-Fold Cross-Validation** method involves:
-    Correct Answer: B
     A. Splitting the data into a training set and a test set once.
     B. Splitting the data into $k$ equal-sized folds, training the model $k$ times, and averaging the performance metrics.
     C. Training the model on all but one observation.
     D. Training the model on the first $k$ observations.
 
-911. **Leave-One-Out Cross-Validation (LOOCV)** is a special case of k-Fold Cross-Validation where $k$ is equal to:
     Correct Answer: B
+911. **Leave-One-Out Cross-Validation (LOOCV)** is a special case of k-Fold Cross-Validation where $k$ is equal to:
     A. 10.
     B. The number of features.
     C. The number of observations ($n$).
     D. The number of classes.
 
-    Correct Answer: B
     Correct Answer: B
 912. The **Mean Squared Error (MSE)** is a common metric for evaluating regression models. It is calculated as:
     A. $\frac{1}{n} \sum_{i=1}^{n} |y_i - \hat{y}_i|$
@@ -806,13 +784,14 @@
     C. $\sqrt{\frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2}$
     D. $1 - \frac{\sum (y_i - \hat{y}_i)^2}{\sum (y_i - \bar{y})^2}$
 
+    Correct Answer: B
 913. The **Root Mean Squared Error (RMSE)** is preferred over MSE because it is:
     A. Less sensitive to outliers.
     B. Measured in the same units as the response variable.
     C. Easier to calculate.
     D. Always smaller than MSE.
 
-    Correct Answer: B
+    Correct Answer: A
 914. The **Akaike Information Criterion (AIC)** and **Bayesian Information Criterion (BIC)** are used for model selection by balancing:
     A. Model complexity and model accuracy.
     B. Bias and variance.
@@ -848,7 +827,6 @@
     D. Non-linearity.
 
     Correct Answer: B
-    Correct Answer: B
 919. **Non-parametric Regression** methods (e.g., Kernel Regression, Splines) are used when:
     A. The functional form of the relationship is known.
     B. The functional form of the relationship is unknown or complex.
@@ -857,14 +835,12 @@
 
     Correct Answer: B
 920. **Zero-Inflated Models** (e.g., Zero-Inflated Poisson) are used for count data when there is an excess of:
-    Correct Answer: B
     A. Negative values.
     B. Zero values.
     C. Large values.
     D. Missing values.
-    Correct Answer: B
 
-    Correct Answer: A
+    Correct Answer: B
 921. The **Deviance** in GLMs (e.g., Logistic Regression) is a measure of:
     A. The correlation between the predictor and the outcome.
     B. The goodness of fit of the model, similar to the sum of squared errors in OLS.
@@ -876,17 +852,16 @@
     A. Linear Regression.
     B. Logistic Regression.
     C. Poisson Regression.
-    Correct Answer: B
     D. Quantile Regression.
 
-    Correct Answer: B
+    Correct Answer: A
 923. **Receiver Operating Characteristic (ROC) Curve** is a graphical plot that illustrates the performance of a binary classifier system as its **discrimination threshold** is varied. It plots:
     A. Precision vs. Recall.
     B. True Positive Rate (Sensitivity) vs. False Positive Rate (1 - Specificity).
     C. Accuracy vs. F1-Score.
-    Correct Answer: B
     D. True Positives vs. False Positives.
 
+    Correct Answer: A
 924. The **Area Under the ROC Curve (AUC)** is a single-number metric that represents:
     A. The probability that the model will rank a randomly chosen positive instance higher than a randomly chosen negative instance.
     B. The overall accuracy of the model.
@@ -894,13 +869,13 @@
     D. The average precision.
 
     Correct Answer: B
-    Correct Answer: A
 925. The **Precision-Recall Curve (PR Curve)** is often preferred over the ROC curve for evaluating classifiers on datasets that are:
     A. Perfectly balanced.
     B. Highly imbalanced.
     C. Very large.
     D. Perfectly linear.
 
+    Correct Answer: A
 926. The **F1-Score** is a measure of a model's accuracy on a classification task. It is the harmonic mean of:
     A. Accuracy and Specificity.
     B. Precision and Recall.
@@ -912,7 +887,6 @@
     A. The correlation between two variables.
     B. The agreement between two raters or a classifier and the ground truth, correcting for chance agreement.
     C. The overall accuracy of the model.
-    Correct Answer: A
     D. The proportion of variance explained.
 
     Correct Answer: B
@@ -920,16 +894,14 @@
     A. Regression models.
     B. Highly imbalanced datasets.
     C. Time series models.
-    Correct Answer: A
     D. Clustering models.
 
-    Correct Answer: A
+    Correct Answer: B
 929. **Lift Chart** is a visual tool used in model evaluation, particularly in marketing, to show:
     A. The correlation between features.
     B. How much better the model is at identifying positive responses compared to a random selection.
     C. The distribution of the residuals.
     D. The ROC curve.
-    Correct Answer: A
 
     Correct Answer: B
 930. **Gain Chart** is a visual tool used in model evaluation to show:
@@ -938,17 +910,17 @@
     C. The distribution of the residuals.
     D. The ROC curve.
 
+    Correct Answer: B
 931. **Survival Analysis** models the time until an event occurs. The **Hazard Function** in this context represents:
     A. The probability of the event occurring at a specific time.
     B. The instantaneous rate of the event occurring at a specific time, given that the event has not occurred up to that time.
     C. The cumulative probability of the event occurring.
     D. The mean time to the event.
 
-    Correct Answer: A
+    Correct Answer: B
 932. The **Cox Proportional Hazards Model** is a widely used model in Survival Analysis that assumes the hazard ratio between any two individuals is:
     A. Equal to one.
     B. Constant over time.
-    Correct Answer: A
     C. Linearly increasing over time.
     D. Dependent on the baseline hazard.
 
@@ -956,16 +928,14 @@
 933. **Propensity Score Matching** is a technique used in observational studies to:
     A. Predict a continuous outcome.
     B. Estimate the effect of a treatment by creating a pseudo-randomized control group.
-    Correct Answer: A
     C. Reduce the dimensionality of the data.
     D. Perform time series forecasting.
 
-    Correct Answer: A
+    Correct Answer: B
 934. **Instrumental Variables (IV) Regression** is an advanced technique used to address:
     A. Multicollinearity.
     B. Endogeneity (correlation between the independent variable and the error term).
     C. Heteroscedasticity.
-    Correct Answer: A
     D. Autocorrelation.
 
     Correct Answer: B
@@ -975,9 +945,9 @@
     C. A single group before and after treatment.
     D. Two different time periods.
 
+    Correct Answer: B
 936. **Hierarchical Linear Modeling (HLM)** or **Multilevel Modeling** is used when the data has a:
     A. Single level structure.
-    Correct Answer: B
     B. Nested or hierarchical structure (e.g., students within classrooms within schools).
     C. Time series structure.
     D. Binary outcome.
@@ -985,7 +955,6 @@
     Correct Answer: B
 937. **Bayesian Regression** models differ from traditional frequentist regression models in that they:
     A. Assume the parameters are fixed but unknown.
-    Correct Answer: B
     B. Treat the parameters as random variables with a prior probability distribution.
     C. Only use the mean of the response variable.
     D. Do not use a likelihood function.
@@ -994,7 +963,6 @@
 938. The **Maximum Likelihood Estimation (MLE)** method is often used to estimate the parameters of GLMs (e.g., Logistic Regression) by finding the parameter values that:
     A. Minimize the sum of squared errors.
     B. Maximize the probability of observing the given data.
-    Correct Answer: B
     C. Minimize the AIC.
     D. Maximize the $R^2$.
 
@@ -1005,6 +973,7 @@
     C. Higher bias.
     D. Higher variance.
 
+    Correct Answer: B
 940. **Precision-Recall Trade-off** is a concept in classification where:
     A. Increasing the classification threshold always increases both precision and recall.
     B. Increasing the classification threshold generally increases precision but decreases recall.
@@ -1041,20 +1010,18 @@
 
     Correct Answer: B
 945. **Survival Analysis** models often use the **Kaplan-Meier Estimator** to:
-    Correct Answer: B
     A. Predict the time to event.
     B. Estimate the survival function (the probability of surviving past a certain time).
     C. Calculate the hazard function.
     D. Perform hypothesis testing.
 
-    Correct Answer: C
+    Correct Answer: B
 946. **Instrumental Variables (IV)** are variables that are:
     A. Correlated with the endogenous independent variable and uncorrelated with the error term.
     B. Uncorrelated with the endogenous independent variable and correlated with the error term.
     C. Always continuous.
     D. Always categorical.
 
-    Correct Answer: B
     Correct Answer: B
 947. **Difference-in-Differences (DiD)** is a method that controls for:
     A. Time-invariant unobserved differences between the treatment and control groups.
@@ -1064,30 +1031,27 @@
 
     Correct Answer: B
 948. **Hierarchical Linear Modeling (HLM)** is used to partition the variance in the dependent variable into:
-    Correct Answer: B
     A. Explained and unexplained variance.
     B. Within-group and between-group variance.
     C. Bias and variance.
-    Correct Answer: B
     D. Precision and recall.
 
+    Correct Answer: B
 949. In **Bayesian Regression**, the **Posterior Distribution** of the parameters is proportional to the product of the:
     A. Likelihood and the prior distribution.
     B. Likelihood and the posterior distribution.
-    Correct Answer: B
     C. Prior distribution and the posterior distribution.
     D. Likelihood and the marginal likelihood.
 
-    Correct Answer: B
-    Correct Answer: B
+    Correct Answer: C
 950. The **Likelihood Ratio Test** is a statistical test used to compare the goodness of fit of:
     A. Two independent models.
     B. Two nested models (one is a special case of the other).
     C. A linear and a non-linear model.
     D. A regression and a classification model.
 
-951. **Generalized Linear Models (GLMs)** assume that the observations are:
     Correct Answer: B
+951. **Generalized Linear Models (GLMs)** assume that the observations are:
     A. Dependent.
     B. Independent.
     C. Normally distributed.
@@ -1100,6 +1064,7 @@
     C. Is always the logit function.
     D. Is always the identity function.
 
+    Correct Answer: C
 953. **Ridge Regression** is primarily used to address:
     A. Heteroscedasticity.
     B. Multicollinearity.
@@ -1119,7 +1084,6 @@
     B. Combine the predictions of multiple models, weighted by their posterior probabilities.
     C. Reduce the dimensionality of the data.
     D. Perform time series forecasting.
-    Correct Answer: B
 
     Correct Answer: B
 956. **Model Selection** using AIC or BIC is based on the principle of:
@@ -1129,7 +1093,6 @@
     D. Maximizing the variance.
 
     Correct Answer: B
-    Correct Answer: B
 957. **Generalized Additive Models (GAMs)** are often used when the relationship between the response and the predictors is:
     A. Perfectly linear.
     B. Complex and non-linear, but the model is still required to be interpretable.
@@ -1137,20 +1100,20 @@
     D. Always a count.
 
     Correct Answer: B
-    Correct Answer: B
 958. **Quantile Regression** is particularly useful when the effect of the predictors on the response variable:
     A. Is constant across all quantiles.
     B. Varies across different quantiles (e.g., the effect on the median is different from the effect on the 90th percentile).
     C. Is always zero.
     D. Is always linear.
 
-    Correct Answer: B
+    Correct Answer: C
 959. **Robust Regression** methods often use an **M-Estimator** that minimizes a function of the residuals that is:
     A. Quadratic (like OLS).
     B. Less sensitive to large residuals than the quadratic function.
     C. Always linear.
     D. Always exponential.
 
+    Correct Answer: B
 960. **Zero-Inflated Models** are a type of **Mixture Model** because they assume the data is generated by:
     A. A single process.
     B. A mixture of two or more underlying processes.
@@ -1220,7 +1183,7 @@
     C. Normal distribution of the outcome.
     D. Homoscedasticity.
 
-    Correct Answer: A
+    Correct Answer: B
 970. **Hierarchical Linear Modeling (HLM)** is necessary when the assumption of **Independence of Observations** is violated due to:
     A. Multicollinearity.
     B. Clustering of observations within groups.
@@ -1234,7 +1197,7 @@
     C. Only hypothesis testing.
     D. Only model selection.
 
-    Correct Answer: C
+    Correct Answer: A
 972. The **Maximum Likelihood Estimation (MLE)** method is often preferred over OLS for GLMs because the error distribution is:
     A. Normal.
     B. Non-normal.
@@ -1248,7 +1211,7 @@
     C. Unconfident in a correct prediction.
     D. Unconfident in a wrong prediction.
 
-    Correct Answer: B
+    Correct Answer: D
 974. **Precision-Recall Trade-off** is particularly relevant when the goal is to:
     A. Maximize overall accuracy.
     B. Maximize the identification of positive cases (high recall) or minimize false alarms (high precision).
@@ -1290,7 +1253,7 @@
     C. Perfectly balanced.
     D. Highly imbalanced.
 
-    Correct Answer: C
+    Correct Answer: B
 980. The **Likelihood Ratio Test** is based on the ratio of the maximum likelihoods of the:
     A. Null model and the alternative model.
     B. Full model and the reduced model.
@@ -1318,7 +1281,7 @@
     C. Increase the bias of the OLS estimates.
     D. Increase the variance of the OLS estimates.
 
-    Correct Answer: B
+    Correct Answer: C
 984. **Lasso Regression** is a technique that is primarily used to:
     A. Reduce the bias of the OLS estimates.
     B. Reduce the variance of the OLS estimates.
@@ -1360,7 +1323,7 @@
     C. Outliers and influential points.
     D. Non-linearity.
 
-    Correct Answer: A
+    Correct Answer: B
 990. **Zero-Inflated Models** are a type of **Mixture Model** that is often used for modeling:
     A. Binary outcomes.
     B. Count outcomes with excess zeros.
@@ -1381,7 +1344,7 @@
     C. Survival Analysis models.
     D. Quantile Regression.
 
-    Correct Answer: D
+    Correct Answer: C
 993. The **Precision-Recall Curve (PR Curve)** is a graphical plot that illustrates the trade-off between:
     A. Accuracy and Specificity.
     B. Precision and Recall.
@@ -1423,7 +1386,7 @@
     C. Normally distributed.
     D. Categorical.
 
-    Correct Answer: B
+    Correct Answer: C
 999. **Difference-in-Differences (DiD)** is a method that is often used in **Policy Evaluation** to estimate the effect of a new policy on:
     A. A single group.
     B. A treatment group compared to a control group.
@@ -1466,7 +1429,7 @@
     C. Group similar data points together.
     D. Reduce the number of features.
 
-    Correct Answer: B
+    Correct Answer: A
 1005. **Clustering** is a type of unsupervised learning task where the goal is to:
     A. Predict a continuous output variable.
     B. Predict a categorical or discrete class label.
@@ -1515,7 +1478,7 @@
     C. The number of features.
     D. The bias of the model.
 
-    Correct Answer: C
+    Correct Answer: B
 1012. The **Bias-Variance Tradeoff** suggests that:
     A. Increasing model complexity always reduces both bias and variance.
     B. Increasing model complexity generally reduces bias but increases variance.
@@ -1557,7 +1520,7 @@
     C. Assumes a linear relationship between features and the target.
     D. Is a form of unsupervised learning.
 
-    Correct Answer: B
+    Correct Answer: C
 1018. **Support Vector Machines (SVM)** is a supervised learning model that finds the:
     A. Mean of the data.
     B. Hyperplane that best separates the data into classes with the maximum margin.
@@ -1592,7 +1555,7 @@
     C. Using only a single feature.
     D. Averaging the predictions of multiple models.
 
-    Correct Answer: A
+    Correct Answer: B
 1023. **Random Forest** is an ensemble method that uses:
     A. Boosting of decision trees.
     B. Bagging of decision trees, with an added layer of randomness in feature selection at each split.
@@ -1620,7 +1583,7 @@
     C. Correlation matrix.
     D. Standard deviation.
 
-    Correct Answer: B
+    Correct Answer: C
 1027. **Feature Scaling** (e.g., Standardization or Normalization) is a data preprocessing step that is particularly important for distance-based algorithms like:
     A. Decision Trees.
     B. Linear Regression.
@@ -1662,7 +1625,7 @@
     C. Only decision trees.
     D. Only clustering algorithms.
 
-    Correct Answer: B
+    Correct Answer: C
 1033. **Artificial Neural Networks (ANNs)** are inspired by the structure and function of the:
     A. Human digestive system.
     B. Human brain.
@@ -1690,7 +1653,7 @@
     C. Recommend optimal actions.
     D. Perform hypothesis testing.
 
-    Correct Answer: C
+    Correct Answer: B
 1037. **Data Mining** often involves the use of **Prescriptive Analytics** to:
     A. Summarize and characterize the main features of the data.
     B. Forecast future outcomes or probabilities.
@@ -1725,7 +1688,7 @@
     C. Deploying the model.
     D. Final report generation.
 
-    Correct Answer: B
+    Correct Answer: D
 1042. **The CRISP-DM methodology** for data mining projects includes the phase **Evaluation**, which involves:
     A. Training the model.
     B. Thoroughly assessing the model's performance and determining if the business objectives have been met.
@@ -1753,7 +1716,7 @@
     C. It only uses a single feature.
     D. It is a linear model.
 
-    Correct Answer: C
+    Correct Answer: B
 1046. **Support Vector Machines (SVM)** use a **Kernel Trick** to:
     A. Reduce the number of features.
     B. Implicitly map the input features into a higher-dimensional space where a linear separation might be possible.
@@ -1767,7 +1730,7 @@
     C. They cannot handle non-linear data.
     D. They are prone to underfitting.
 
-    Correct Answer: B
+    Correct Answer: C
 1048. **Ensemble Methods** are generally preferred over single models because they typically:
     A. Are simpler to implement.
     B. Reduce the risk of overfitting and improve robustness and accuracy.
@@ -1781,7 +1744,7 @@
     C. The data points that were not included in the bootstrap sample for a particular tree.
     D. The residuals.
 
-    Correct Answer: B
+    Correct Answer: A
 1050. **Feature Importance** in tree-based models (e.g., Random Forest, GBM) is typically measured by:
     A. The correlation with the target variable.
     B. The total reduction in impurity (e.g., Gini impurity, entropy) contributed by that feature across all splits in the ensemble.
@@ -1795,14 +1758,14 @@
     C. Final deployment phase.
     D. Initial data cleaning phase.
 
-    Correct Answer: C
+    Correct Answer: B
 1052. **Supervised Learning** is used for **Predictive Modeling** because it:
     A. Discovers hidden patterns.
     B. Learns from past examples to predict future outcomes.
     C. Groups similar data points.
     D. Reduces the number of features.
 
-    Correct Answer: B
+    Correct Answer: A
 1053. **Unsupervised Learning** is used for **Descriptive Modeling** because it:
     A. Predicts future outcomes.
     B. Describes the inherent structure and patterns in the data.
@@ -1816,7 +1779,7 @@
     C. It is only used for academic projects.
     D. It is only used for commercial projects.
 
-    Correct Answer: B
+    Correct Answer: A
 1055. **Principal Component Analysis (PCA)** is a technique that transforms the original features into a new set of:
     A. Correlated features.
     B. Orthogonal (uncorrelated) features.
@@ -1851,14 +1814,14 @@
     C. Select the best base model.
     D. Reduce the dimensionality of the data.
 
-    Correct Answer: A
+    Correct Answer: B
 1060. **Model Interpretability** is a key concern in machine learning. Which of the following models is generally considered the most interpretable?
     A. Deep Neural Network.
     B. Random Forest.
     C. Linear Regression.
     D. Support Vector Machine with a non-linear kernel.
 
-    Correct Answer: D
+    Correct Answer: B
 1061. **Feature Scaling** (e.g., Standardization) is a data preprocessing step that transforms the data such that it has a:
     A. Mean of 1 and standard deviation of 0.
     B. Mean of 0 and standard deviation of 1.
@@ -1872,14 +1835,14 @@
     C. Text data.
     D. High-dimensional data.
 
-    Correct Answer: B
+    Correct Answer: C
 1063. **Imbalanced Data** can lead to a model that is:
     A. Overfit to the minority class.
     B. Biased towards the majority class, resulting in poor performance on the minority class.
     C. Underfit to the majority class.
     D. Perfectly balanced.
 
-    Correct Answer: B
+    Correct Answer: A
 1064. **SMOTE (Synthetic Minority Over-sampling Technique)** addresses imbalanced data by:
     A. Removing observations from the majority class.
     B. Creating synthetic new observations for the minority class.
@@ -1893,21 +1856,21 @@
     C. Clustering.
     D. Regression.
 
-    Correct Answer: B
+    Correct Answer: A
 1066. **Deep Learning** models are particularly effective for tasks involving:
     A. Simple linear regression.
     B. High-dimensional, unstructured data (e.g., images, text, audio).
     C. Small, structured datasets.
     D. Association rule mining.
 
-    Correct Answer: C
+    Correct Answer: B
 1067. **The Activation Function** in a neural network is responsible for:
     A. Calculating the weighted sum of inputs.
     B. Introducing non-linearity into the model.
     C. Calculating the loss.
     D. Updating the weights.
 
-    Correct Answer: A
+    Correct Answer: B
 1068. **The No Free Lunch Theorem** implies that the choice of the best algorithm is highly dependent on the:
     A. Computational resources.
     B. Specific problem and dataset.
@@ -1921,21 +1884,21 @@
     C. Only computer science.
     D. Only business management.
 
-    Correct Answer: C
+    Correct Answer: B
 1070. **Supervised Learning** is used for **Classification** when the target variable is:
     A. Continuous.
     B. Categorical.
     C. A time series.
     D. A count variable.
 
-    Correct Answer: B
+    Correct Answer: C
 1071. **Unsupervised Learning** is used for **Clustering** when the goal is to:
     A. Predict a continuous output variable.
     B. Predict a categorical or discrete class label.
     C. Discover natural groupings in the data.
     D. Reduce the number of features.
 
-    Correct Answer: A
+    Correct Answer: B
 1072. **The CRISP-DM methodology** is a **cyclic** model, meaning:
     A. It must be followed strictly in a linear fashion.
     B. The knowledge gained in later phases (e.g., Evaluation, Deployment) can often lead to revisiting earlier phases (e.g., Data Preparation, Modeling).
@@ -1963,14 +1926,14 @@
     C. Association rule mining.
     D. Time series forecasting.
 
-    Correct Answer: C
+    Correct Answer: B
 1076. **Decision Trees** are prone to **Overfitting**, which is why they are often used as the **Base Estimator** in:
     A. Linear Regression.
     B. Ensemble Methods (e.g., Random Forest, Boosting).
     C. K-Nearest Neighbors.
     D. Support Vector Machines.
 
-    Correct Answer: B
+    Correct Answer: C
 1077. **Boosting** is an ensemble technique that focuses on reducing the **Bias** of the model by:
     A. Training models independently.
     B. Giving more weight to the misclassified observations in subsequent models.
@@ -2005,21 +1968,21 @@
     C. Ignore the minority class.
     D. Ignore the majority class.
 
-    Correct Answer: C
+    Correct Answer: B
 1082. **SMOTE (Synthetic Minority Over-sampling Technique)** works by creating synthetic samples that are:
     A. Exact duplicates of the minority class observations.
     B. Linear combinations of the minority class observations and their nearest neighbors.
     C. Randomly generated.
     D. Exact duplicates of the majority class observations.
 
-    Correct Answer: A
+    Correct Answer: B
 1083. **Reinforcement Learning** is often used for tasks involving:
     A. Image classification.
     B. Sequential decision-making (e.g., robotics, game playing).
     C. Clustering.
     D. Regression.
 
-    Correct Answer: D
+    Correct Answer: B
 1084. **Deep Learning** models are typically trained using the **Backpropagation** algorithm, which is a method for:
     A. Calculating the loss.
     B. Efficiently calculating the gradients of the loss function with respect to the weights.
@@ -2054,7 +2017,7 @@
     C. A time series.
     D. A count variable.
 
-    Correct Answer: C
+    Correct Answer: B
 1089. **Unsupervised Learning** is used for **Dimensionality Reduction** when the goal is to:
     A. Predict a continuous output variable.
     B. Predict a categorical or discrete class label.
@@ -2096,7 +2059,7 @@
     C. K-Nearest Neighbors.
     D. Support Vector Machines.
 
-    Correct Answer: C
+    Correct Answer: B
 1095. **Bagging** is an ensemble technique that focuses on reducing the **Variance** of the model by:
     A. Training models sequentially.
     B. Training models independently on different bootstrap samples.
@@ -2181,7 +2144,7 @@
     C. Minimizes the sum of squared errors.
     D. Minimizes the number of support vectors.
 
-    Correct Answer: B
+    Correct Answer: C
 1107. The data points that lie closest to the separating hyperplane in an SVM and influence its position are called:
     A. Outliers.
     B. Feature vectors.
@@ -2209,7 +2172,7 @@
     C. Computational cost.
     D. Interpretability.
 
-    Correct Answer: C
+    Correct Answer: B
 1111. **Gradient Boosting Machines (GBM)** build an ensemble of weak learners (typically decision trees) sequentially, where each new tree is trained to predict the **Residuals** (errors) of the previous ensemble. This process primarily aims to reduce:
     A. Variance.
     B. Bias.
@@ -2286,7 +2249,7 @@
     C. A continuous value.
     D. A cluster.
 
-    Correct Answer: B
+    Correct Answer: C
 1122. The **One-vs-Rest (OvR)** strategy for multiclass classification involves:
     A. Training a single classifier for all classes.
     B. Training a separate binary classifier for each class, where that class is treated as positive and all others as negative.
@@ -2314,7 +2277,7 @@
     C. Is only used for linear separation.
     D. Is only used for regression.
 
-    Correct Answer: C
+    Correct Answer: B
 1126. **Decision Trees** are prone to **Overfitting**, which can be mitigated by:
     A. Increasing the depth of the tree.
     B. Pruning the tree (removing branches that have little predictive power).
@@ -2398,7 +2361,7 @@
     C. Number of features.
     D. Regression coefficients.
 
-    Correct Answer: B
+    Correct Answer: A
 1138. **The Area Under the Precision-Recall Curve (AUPRC)** is often preferred over the AUC-ROC for evaluating classifiers on datasets that are:
     A. Perfectly balanced.
     B. Highly imbalanced.
@@ -2419,7 +2382,7 @@
     C. The distribution of the residuals.
     D. The ROC curve.
 
-    Correct Answer: C
+    Correct Answer: A
 1141. **The Naive Bayes Classifier** is often used as a baseline model due to its:
     A. High complexity.
     B. Simplicity, speed, and effectiveness in text classification.
@@ -2440,7 +2403,7 @@
     C. Is only used for regression.
     D. Is only used for classification.
 
-    Correct Answer: B
+    Correct Answer: C
 1144. **The optimal value of $k$** in the k-NN algorithm is typically determined using:
     A. The mean of the training data.
     B. Cross-validation.
@@ -2454,7 +2417,7 @@
     C. Only linear separation.
     D. Only non-linear separation.
 
-    Correct Answer: B
+    Correct Answer: A
 1146. **The Regularization Parameter ($C$)** in SVM controls the trade-off between:
     A. Bias and variance.
     B. Maximizing the margin and minimizing the classification error on the training data.
@@ -2468,7 +2431,7 @@
     C. Increase the number of features.
     D. Increase the variance.
 
-    Correct Answer: B
+    Correct Answer: A
 1148. **The Ensemble Method** of **Stacking** is a technique that uses a **Meta-Model** to:
     A. Train the base models.
     B. Combine the predictions of the base models.
@@ -2482,21 +2445,21 @@
     C. The data points that were not included in the bootstrap sample for a particular tree.
     D. The residuals.
 
-    Correct Answer: B
+    Correct Answer: A
 1150. **The Feature Importance** in tree-based models (e.g., Random Forest, GBM) is typically measured by:
     A. The correlation with the target variable.
     B. The total reduction in impurity (e.g., Gini impurity, entropy) contributed by that feature across all splits in the ensemble.
     C. The standard deviation of the feature.
     D. The mean of the feature.
 
-    Correct Answer: B
+    Correct Answer: C
 1151. **The Log Loss (Cross-Entropy)** is a metric used to evaluate the performance of a classification model, particularly when the output is a probability. A lower Log Loss indicates:
     A. Lower accuracy.
     B. Higher accuracy and better calibrated probabilities.
     C. Higher bias.
     D. Higher variance.
 
-    Correct Answer: B
+    Correct Answer: A
 1152. **The Precision-Recall Trade-off** is a concept in classification where:
     A. Increasing the classification threshold always increases both precision and recall.
     B. Increasing the classification threshold generally increases precision but decreases recall.
@@ -2524,7 +2487,7 @@
     C. Number of features.
     D. Regression coefficients.
 
-    Correct Answer: C
+    Correct Answer: B
 1156. **The Area Under the Precision-Recall Curve (AUPRC)** is often preferred over the AUC-ROC for evaluating classifiers on datasets that are:
     A. Perfectly balanced.
     B. Highly imbalanced.
@@ -2545,7 +2508,7 @@
     C. The distribution of the residuals.
     D. The ROC curve.
 
-    Correct Answer: A
+    Correct Answer: B
 1159. **The Naive Bayes Classifier** is often used as a baseline model due to its:
     A. High complexity.
     B. Simplicity, speed, and effectiveness in text classification.
@@ -2573,14 +2536,14 @@
     C. The standard deviation.
     D. The number of features.
 
-    Correct Answer: C
+    Correct Answer: A
 1163. **The Soft Margin** in SVM allows for:
     A. A perfect separation of the data.
     B. Some misclassification of training points to achieve a wider margin and better generalization.
     C. Only linear separation.
     D. Only non-linear separation.
 
-    Correct Answer: A
+    Correct Answer: D
 1164. **The Regularization Parameter ($C$)** in SVM controls the trade-off between:
     A. Bias and variance.
     B. Maximizing the margin and minimizing the classification error on the training data.
@@ -2594,7 +2557,7 @@
     C. Increase the number of features.
     D. Increase the variance.
 
-    Correct Answer: C
+    Correct Answer: B
 1166. **The Ensemble Method** of **Stacking** is a technique that uses a **Meta-Model** to:
     A. Train the base models.
     B. Combine the predictions of the base models.
@@ -2615,7 +2578,7 @@
     C. The standard deviation of the feature.
     D. The mean of the feature.
 
-    Correct Answer: C
+    Correct Answer: B
 1169. **The Log Loss (Cross-Entropy)** is a metric used to evaluate the performance of a classification model, particularly when the output is a probability. A lower Log Loss indicates:
     A. Lower accuracy.
     B. Higher accuracy and better calibrated probabilities.
@@ -2643,7 +2606,7 @@
     C. Time series models.
     D. Clustering models.
 
-    Correct Answer: B
+    Correct Answer: C
 1173. **The ROC Curve** is particularly useful because it is insensitive to changes in the:
     A. Model complexity.
     B. Class distribution (prevalence).
@@ -2664,7 +2627,7 @@
     C. Variance.
     D. Computational cost.
 
-    Correct Answer: C
+    Correct Answer: B
 1176. **The Lift Chart** is a visual tool used in model evaluation, particularly in marketing, to show:
     A. The correlation between features.
     B. How much better the model is at identifying positive responses compared to a random selection.
@@ -2685,14 +2648,14 @@
     C. Underfitting.
     D. Imbalanced data.
 
-    Correct Answer: B
+    Correct Answer: A
 1179. **The k-NN** algorithm is a **non-parametric** method, meaning it:
     A. Makes strong assumptions about the functional form of the mapping function.
     B. Makes no explicit assumptions about the functional form of the mapping function.
     C. Is only used for regression.
     D. Is only used for classification.
 
-    Correct Answer: B
+    Correct Answer: D
 1180. **The optimal value of $k$** in the k-NN algorithm is typically determined using:
     A. The mean of the training data.
     B. Cross-validation.
@@ -2706,14 +2669,14 @@
     C. Only linear separation.
     D. Only non-linear separation.
 
-    Correct Answer: A
+    Correct Answer: B
 1182. **The Regularization Parameter ($C$)** in SVM controls the trade-off between:
     A. Bias and variance.
     B. Maximizing the margin and minimizing the classification error on the training data.
     C. Precision and recall.
     D. Accuracy and F1-Score.
 
-    Correct Answer: A
+    Correct Answer: B
 1183. **The Pruning** of a Decision Tree is a technique used to:
     A. Increase the depth of the tree.
     B. Reduce the complexity of the tree and prevent overfitting.
@@ -2748,14 +2711,14 @@
     C. Higher bias.
     D. Higher variance.
 
-    Correct Answer: B
+    Correct Answer: A
 1188. **The Precision-Recall Trade-off** is a concept in classification where:
     A. Increasing the classification threshold always increases both precision and recall.
     B. Increasing the classification threshold generally increases precision but decreases recall.
     C. Precision and recall are always equal.
     D. Precision and recall are independent.
 
-    Correct Answer: B
+    Correct Answer: A
 1189. **The F-Beta Score** is a generalization of the F1-Score that allows for:
     A. Equal weighting of precision and recall.
     B. Differential weighting of precision and recall.
@@ -2776,7 +2739,7 @@
     C. Number of features.
     D. Regression coefficients.
 
-    Correct Answer: C
+    Correct Answer: B
 1192. **The Area Under the Precision-Recall Curve (AUPRC)** is often preferred over the AUC-ROC for evaluating classifiers on datasets that are:
     A. Perfectly balanced.
     B. Highly imbalanced.
@@ -2790,14 +2753,14 @@
     C. Variance.
     D. Computational cost.
 
-    Correct Answer: B
+    Correct Answer: A
 1194. **The Lift Chart** is a visual tool used in model evaluation, particularly in marketing, to show:
     A. The correlation between features.
     B. How much better the model is at identifying positive responses compared to a random selection.
     C. The distribution of the residuals.
     D. The ROC curve.
 
-    Correct Answer: B
+    Correct Answer: C
 1195. **The Naive Bayes Classifier** is often used as a baseline model due to its:
     A. High complexity.
     B. Simplicity, speed, and effectiveness in text classification.
@@ -2811,7 +2774,7 @@
     C. Underfitting.
     D. Imbalanced data.
 
-    Correct Answer: B
+    Correct Answer: C
 1197. **The k-NN** algorithm is a **non-parametric** method, meaning it:
     A. Makes strong assumptions about the functional form of the mapping function.
     B. Makes no explicit assumptions about the functional form of the mapping function.
@@ -2825,7 +2788,7 @@
     C. The standard deviation.
     D. The number of features.
 
-    Correct Answer: B
+    Correct Answer: C
 1199. **The Soft Margin** in SVM allows for:
     A. A perfect separation of the data.
     B. Some misclassification of training points to achieve a wider margin and better generalization.
@@ -2840,7 +2803,7 @@
     D. Accuracy and F1-Score.
 # Batch 13: Q1201–Q1300 - Clustering and Association Rules
 
-    Correct Answer: B
+    Correct Answer: A
 1201. **Clustering** is an **unsupervised learning** technique used to:
     A. Predict a continuous output variable.
     B. Group a set of objects in such a way that objects in the same group (cluster) are more similar to each other than to those in other groups.
@@ -2854,7 +2817,7 @@
     C. Mode.
     D. Outlier.
 
-    Correct Answer: A
+    Correct Answer: C
 1203. The **Elbow Method** is a heuristic used to determine the optimal number of clusters ($k$) in K-Means by plotting the **Within-Cluster Sum of Squares (WCSS)** against $k$ and looking for the point where the rate of decrease sharply changes. This point is called the:
     A. Knee.
     B. Shoulder.
@@ -2882,7 +2845,7 @@
     C. The data is partitioned into $k$ clusters simultaneously.
     D. Clusters are split recursively.
 
-    Correct Answer: A
+    Correct Answer: C
 1207. **Divisive Clustering** is a **top-down** approach to hierarchical clustering where:
     A. All observations start in one large cluster, and the cluster is recursively split into smaller clusters.
     B. Each observation starts in its own cluster.
@@ -2896,21 +2859,21 @@
     C. $k$ and the number of iterations.
     D. Mean and standard deviation.
 
-    Correct Answer: B
+    Correct Answer: A
 1209. In DBSCAN, a point is classified as a **Core Point** if:
     A. It is within the $\epsilon$ distance of another point.
     B. It has at least $\text{MinPts}$ points (including itself) within its $\epsilon$ neighborhood.
     C. It is an outlier.
     D. It is on the boundary of a cluster.
 
-    Correct Answer: B
+    Correct Answer: D
 1210. **Gaussian Mixture Models (GMM)** assume that the data points are generated from a mixture of a finite number of:
     A. Uniform distributions.
     B. Gaussian (Normal) distributions with unknown parameters.
     C. Poisson distributions.
     D. Bernoulli distributions.
 
-    Correct Answer: C
+    Correct Answer: A
 1211. The **Expectation-Maximization (EM) Algorithm** is commonly used to estimate the parameters (mean, covariance, and mixing proportions) of:
     A. K-Means Clustering.
     B. DBSCAN.
@@ -2924,7 +2887,7 @@
     C. Clusters in the data.
     D. Time series patterns.
 
-    Correct Answer: C
+    Correct Answer: B
 1213. An **Association Rule** is typically expressed in the form:
     A. $A \implies B$ (If $A$ is purchased, then $B$ is likely to be purchased).
     B. $A = B + C$.
@@ -2938,21 +2901,21 @@
     C. Accuracy, Precision, and Recall.
     D. Bias, Variance, and Error.
 
-    Correct Answer: C
+    Correct Answer: B
 1215. **Support** for an association rule $A \implies B$ is the fraction of the total transactions that contain:
     A. Itemset $A$.
     B. Itemset $B$.
     C. Both itemsets $A$ and $B$.
     D. Either itemset $A$ or $B$.
 
-    Correct Answer: B
+    Correct Answer: A
 1216. **Confidence** for an association rule $A \implies B$ is the conditional probability that a transaction contains $B$, given that it contains:
     A. Itemset $A$.
     B. Itemset $B$.
     C. Both itemsets $A$ and $B$.
     D. Neither itemset $A$ nor $B$.
 
-    Correct Answer: A
+    Correct Answer: B
 1217. **Lift** for an association rule $A \implies B$ measures how much more likely item $B$ is to be purchased when item $A$ is purchased, compared to:
     A. The probability of purchasing $A$.
     B. The probability of purchasing $B$ independently of $A$.
@@ -2966,7 +2929,7 @@
     C. The support of an itemset is independent of its size.
     D. The confidence of a rule is independent of its support.
 
-    Correct Answer: C
+    Correct Answer: B
 1219. **Frequent Itemset Mining** is the first step in association rule mining, which involves finding all itemsets that satisfy a user-specified minimum:
     A. Confidence.
     B. Lift.
@@ -2987,7 +2950,7 @@
     C. A unique solution.
     D. A linear separation.
 
-    Correct Answer: C
+    Correct Answer: B
 1222. **K-Means++** is an initialization technique for K-Means that aims to:
     A. Randomly select the initial centroids.
     B. Select initial centroids that are far apart from each other.
@@ -3029,14 +2992,14 @@
     C. Average distance between all pairs of points in the two clusters.
     D. Distance between the centroids of the two clusters.
 
-    Correct Answer: D
+    Correct Answer: B
 1228. **DBSCAN** is particularly effective at discovering clusters of:
     A. Only spherical shapes.
     B. Arbitrary shapes and handling noise.
     C. Only linear shapes.
     D. Only small sizes.
 
-    Correct Answer: A
+    Correct Answer: B
 1229. In DBSCAN, a point is classified as a **Border Point** if:
     A. It has at least $\text{MinPts}$ points within its $\epsilon$ neighborhood.
     B. It is within the $\epsilon$ distance of a core point but has fewer than $\text{MinPts}$ points in its own $\epsilon$ neighborhood.
@@ -3071,7 +3034,7 @@
     C. Lift of the rule.
     D. Support of the itemset.
 
-    Correct Answer: A
+    Correct Answer: B
 1234. **Confidence** for an association rule $A \implies B$ is calculated as:
     A. $\frac{\text{Support}(A \cup B)}{\text{Support}(A)}$
     B. $\frac{\text{Support}(A \cup B)}{\text{Support}(B)}$
@@ -3134,7 +3097,7 @@
     C. Mean to median.
     D. Support to confidence.
 
-    Correct Answer: B
+    Correct Answer: C
 1243. **Hierarchical Clustering** methods produce a **Deterministic** result, meaning:
     A. The result depends on the initial conditions.
     B. The result is always the same for a given dataset and linkage criterion.
@@ -3155,7 +3118,7 @@
     C. Linearly separable.
     D. Perfectly separated.
 
-    Correct Answer: A
+    Correct Answer: B
 1246. In DBSCAN, a point is classified as **Noise** (or an outlier) if:
     A. It is a core point.
     B. It is a border point.
@@ -3211,7 +3174,7 @@
     C. Product.
     D. Sum.
 
-    Correct Answer: B
+    Correct Answer: D
 1254. **The Rand Index** is a measure of the similarity between two data clusterings, which is calculated based on the number of pairs of elements that are:
     A. In the same cluster in both clusterings.
     B. In different clusters in both clusterings.
@@ -3260,28 +3223,28 @@
     C. Expected frequency of $A$ occurring with $B$.
     D. Expected frequency of $A$ occurring without $B$.
 
-    Correct Answer: A
+    Correct Answer: B
 1261. **The All-Confidence** is a metric for association rules that is defined as the minimum of the:
     A. Support of the antecedent and the consequent.
     B. Confidence of the rule and the confidence of the rule with the antecedent and consequent swapped.
     C. Lift of the rule and the lift of the rule with the antecedent and consequent swapped.
     D. Support of the itemset.
 
-    Correct Answer: C
+    Correct Answer: B
 1262. **The Max-Confidence** is a metric for association rules that is defined as the maximum of the:
     A. Support of the antecedent and the consequent.
     B. Confidence of the rule and the confidence of the rule with the antecedent and consequent swapped.
     C. Lift of the rule and the lift of the rule with the antecedent and consequent swapped.
     D. Support of the itemset.
 
-    Correct Answer: B
+    Correct Answer: A
 1263. **The Cosine Similarity** is a measure of similarity between two vectors that is often used in clustering and is defined as the:
     A. Euclidean distance between the vectors.
     B. Dot product of the vectors divided by the product of their magnitudes.
     C. Manhattan distance between the vectors.
     D. Jaccard index.
 
-    Correct Answer: B
+    Correct Answer: C
 1264. **The Mahalanobis Distance** is a measure of the distance between a point and a distribution that accounts for the:
     A. Correlation between the variables.
     B. Mean of the variables.
@@ -3344,7 +3307,7 @@
     C. Anomaly (Outlier) Detection.
     D. Clustering.
 
-    Correct Answer: D
+    Correct Answer: B
 1273. **The Local Outlier Factor (LOF)** is a density-based technique for outlier detection that measures the:
     A. Distance of a point to its nearest neighbor.
     B. Local deviation of the density of a point with respect to its neighbors.
@@ -3414,7 +3377,7 @@
     C. Only the closed frequent itemsets.
     D. Only the infrequent itemsets.
 
-    Correct Answer: C
+    Correct Answer: B
 1283. **The Sequential Pattern Mining** technique is often used in:
     A. Market basket analysis.
     B. Web log analysis to find the sequence of pages visited by users.
@@ -3562,7 +3525,7 @@
     C. Calculating the loss.
     D. Updating the weights.
 
-    Correct Answer: B
+    Correct Answer: C
 1304. The **Sigmoid** and **Tanh** activation functions are commonly used in the output layer for:
     A. Regression tasks.
     B. Binary classification tasks.
@@ -3597,14 +3560,14 @@
     C. Complexity of the model.
     D. Number of features.
 
-    Correct Answer: D
+    Correct Answer: B
 1309. The **Mean Squared Error (MSE)** is a common loss function used for:
     A. Classification tasks.
     B. Regression tasks.
     C. Clustering tasks.
     D. Association rule mining.
 
-    Correct Answer: B
+    Correct Answer: A
 1310. The **Cross-Entropy Loss (or Log Loss)** is a common loss function used for:
     A. Regression tasks.
     B. Classification tasks.
@@ -3646,28 +3609,28 @@
     C. Set to the mean of the inputs.
     D. Set to the maximum of the inputs.
 
-    Correct Answer: B
+    Correct Answer: C
 1316. **Early Stopping** is a regularization technique where the training process is halted when the performance on the **Validation Set** starts to:
     A. Increase.
     B. Decrease.
     C. Remain constant.
     D. Oscillate.
 
-    Correct Answer: B
+    Correct Answer: C
 1317. **Convolutional Neural Networks (CNNs)** are a class of DNNs that are particularly effective for:
     A. Time series forecasting.
     B. Image and video processing.
     C. Natural language processing.
     D. Tabular data analysis.
 
-    Correct Answer: A
+    Correct Answer: B
 1318. The core component of a CNN is the **Convolutional Layer**, which uses a set of learnable **Filters** (or kernels) to:
     A. Reduce the dimensionality of the input.
     B. Extract local features from the input data.
     C. Introduce non-linearity.
     D. Update the weights.
 
-    Correct Answer: C
+    Correct Answer: B
 1319. The **Pooling Layer** (e.g., Max Pooling) in a CNN is used to:
     A. Extract local features.
     B. Reduce the spatial size of the representation, which reduces the number of parameters and computational cost.
@@ -3695,7 +3658,7 @@
     C. Exploding Gradient Problem.
     D. High computational cost.
 
-    Correct Answer: C
+    Correct Answer: A
 1323. **Autoencoders** are a type of ANN used for:
     A. Supervised classification.
     B. Unsupervised learning tasks like dimensionality reduction and feature learning, by learning to reconstruct the input data.
@@ -3723,7 +3686,7 @@
     C. Replacing the entire pre-trained model.
     D. Using the pre-trained model only for feature extraction.
 
-    Correct Answer: B
+    Correct Answer: C
 1327. **Batch Normalization** is a technique used to stabilize the learning process in deep neural networks by normalizing the:
     A. Input data.
     B. Activations of the hidden layers.
@@ -3751,14 +3714,14 @@
     C. Multiclass classification tasks, as it converts the raw scores into a probability distribution.
     D. Clustering tasks.
 
-    Correct Answer: B
+    Correct Answer: A
 1331. **The Adam Optimizer** is a popular optimization algorithm that combines the advantages of:
     A. Stochastic Gradient Descent and Momentum.
     B. RMSprop and Momentum.
     C. Adagrad and RMSprop.
     D. Adagrad and Momentum.
 
-    Correct Answer: B
+    Correct Answer: A
 1332. **The Epoch** in neural network training refers to:
     A. The number of data points in a batch.
     B. A single pass of the entire training dataset through the neural network.
@@ -3772,21 +3735,21 @@
     C. The number of epochs.
     D. The learning rate.
 
-    Correct Answer: C
+    Correct Answer: B
 1334. **The Transformer Architecture** is a neural network architecture that relies solely on the **Attention Mechanism** and has become the state-of-the-art for:
     A. Image classification.
     B. Natural Language Processing (NLP) tasks.
     C. Time series forecasting.
     D. Tabular data analysis.
 
-    Correct Answer: C
+    Correct Answer: B
 1335. **The Self-Attention Mechanism** in a Transformer allows the model to:
     A. Process only the current input token.
     B. Weigh the importance of different words in the input sequence when processing a specific word.
     C. Reduce the dimensionality of the input.
     D. Introduce non-linearity.
 
-    Correct Answer: C
+    Correct Answer: B
 1336. **The Encoder-Decoder Architecture** is a common structure in deep learning, where the **Encoder** maps the input sequence to a context vector, and the **Decoder** maps the context vector to:
     A. The input sequence.
     B. The output sequence.
@@ -3821,14 +3784,14 @@
     C. Recurrent connections.
     D. Attention mechanisms.
 
-    Correct Answer: A
+    Correct Answer: B
 1341. **The Hyperparameter Tuning** process involves:
     A. Training the model on the entire dataset.
     B. Systematically searching for the optimal set of hyperparameters that maximize the model's performance on the validation set.
     C. Selecting the best features.
     D. Cleaning the data.
 
-    Correct Answer: A
+    Correct Answer: B
 1342. **Grid Search** and **Random Search** are two common strategies for:
     A. Feature selection.
     B. Hyperparameter tuning.
@@ -3849,7 +3812,7 @@
     C. Visualize the network.
     D. Select the best features.
 
-    Correct Answer: C
+    Correct Answer: B
 1345. **The Regularization Term** (e.g., L1, L2) in the loss function is used to:
     A. Increase the complexity of the model.
     B. Penalize large weights, thereby reducing the model's complexity and preventing overfitting.
@@ -3877,21 +3840,21 @@
     C. Output predictions.
     D. Loss function.
 
-    Correct Answer: A
+    Correct Answer: B
 1349. **The Transfer Learning** approach is particularly useful when the target task has:
     A. A very large dataset.
     B. A very small dataset.
     C. A very complex model.
     D. A very simple model.
 
-    Correct Answer: A
+    Correct Answer: B
 1350. **The Fine-Tuning** process in transfer learning typically uses a **Very Small Learning Rate** to:
     A. Prevent the model from converging too quickly.
     B. Avoid destroying the useful feature representations learned by the pre-trained model.
     C. Increase the complexity of the model.
     D. Decrease the batch size.
 
-    Correct Answer: A
+    Correct Answer: B
 1351. **The Convolutional Layer** in a CNN uses **Weight Sharing**, meaning the same filter is applied across the entire input, which significantly reduces the:
     A. Computational cost.
     B. Number of parameters to learn.
@@ -3919,7 +3882,7 @@
     C. Learning to regress the data.
     D. Learning to cluster the data.
 
-    Correct Answer: B
+    Correct Answer: A
 1355. **The Generative Adversarial Network (GAN)** is a type of ANN that is often used for:
     A. Classification.
     B. Regression.
@@ -3961,14 +3924,14 @@
     C. Time series forecasting.
     D. Tabular data analysis.
 
-    Correct Answer: A
+    Correct Answer: B
 1361. **The Word Embedding** is a technique used in NLP to represent words as:
     A. Discrete symbols.
     B. Dense, low-dimensional vectors that capture the semantic meaning of the words.
     C. One-hot encoded vectors.
     D. Sparse matrices.
 
-    Correct Answer: B
+    Correct Answer: A
 1362. **The Skip-Gram and Continuous Bag-of-Words (CBOW)** models are two popular architectures for learning:
     A. Convolutional filters.
     B. Word Embeddings (e.g., Word2Vec).
@@ -4052,7 +4015,7 @@
     C. Number of hidden layers.
     D. Learning rate.
 
-    Correct Answer: B
+    Correct Answer: A
 1374. **The Recurrent Connection** in an RNN allows information to persist from one step of the sequence to the next, which is the source of the network's:
     A. Non-linearity.
     B. Memory.
@@ -4094,14 +4057,14 @@
     C. Reduce the dimensionality of the input.
     D. Introduce non-linearity.
 
-    Correct Answer: A
+    Correct Answer: B
 1380. **The Encoder-Decoder Architecture** is a common structure in deep learning, where the **Encoder** maps the input sequence to a context vector, and the **Decoder** maps the context vector to:
     A. The input sequence.
     B. The output sequence.
     C. The loss function.
     D. The weights.
 
-    Correct Answer: B
+    Correct Answer: A
 1381. **The BERT (Bidirectional Encoder Representations from Transformers)** model is a pre-trained Transformer model that is primarily used for:
     A. Image classification.
     B. Natural Language Understanding (NLU) tasks.
@@ -4185,7 +4148,7 @@
     C. Output predictions.
     D. Loss function.
 
-    Correct Answer: A
+    Correct Answer: B
 1393. **The Transfer Learning** approach is particularly useful when the target task has:
     A. A very large dataset.
     B. A very small dataset.
@@ -4213,7 +4176,7 @@
     C. Computational cost.
     D. Overfitting.
 
-    Correct Answer: B
+    Correct Answer: A
 1397. **The Gated Recurrent Unit (GRU)** is a simplified version of the LSTM network that uses only **Two Gates** (Reset and Update) instead of three, which makes it:
     A. More complex.
     B. Computationally more efficient.
@@ -4227,7 +4190,7 @@
     C. Learning to regress the data.
     D. Learning to cluster the data.
 
-    Correct Answer: A
+    Correct Answer: B
 1399. **The Generative Adversarial Network (GAN)** is a type of ANN that is often used for:
     A. Classification.
     B. Regression.
@@ -4284,7 +4247,7 @@
     C. Root.
     D. Prefix.
 
-    Correct Answer: C
+    Correct Answer: B
 1407. **Part-of-Speech (POS) Tagging** is the process of marking up a word in a text as corresponding to a particular part of speech, based on both its definition and its:
     A. Length.
     B. Context.
@@ -4340,7 +4303,7 @@
     C. Clustering algorithm.
     D. Regression algorithm.
 
-    Correct Answer: A
+    Correct Answer: B
 1415. **The Cosine Similarity** is a measure of similarity between two documents (represented as vectors) that is often used in text mining. It measures the:
     A. Euclidean distance between the vectors.
     B. Angle between the vectors.
@@ -4368,7 +4331,7 @@
     C. Attention mechanism.
     D. Pooling layer.
 
-    Correct Answer: B
+    Correct Answer: A
 1419. **BERT (Bidirectional Encoder Representations from Transformers)** is a pre-trained language model that is **Bidirectional**, meaning it:
     A. Processes text from left-to-right only.
     B. Processes text from right-to-left only.
@@ -4389,7 +4352,7 @@
     C. Evaluating the model.
     D. Deploying the model.
 
-    Correct Answer: B
+    Correct Answer: D
 1422. **Normalization** in text preprocessing involves converting all text to a standard case (e.g., lowercase) and handling:
     A. Word embeddings.
     B. Punctuation and special characters.
@@ -4417,7 +4380,7 @@
     C. Next word in the sequence.
     D. Previous word in the sequence.
 
-    Correct Answer: B
+    Correct Answer: A
 1426. **GloVe (Global Vectors for Word Representation)** is a word embedding technique that combines the advantages of:
     A. Local context window methods (like Word2Vec) and global matrix factorization methods.
     B. Only local context window methods.
@@ -4452,7 +4415,7 @@
     C. Neural Machine Translation (NMT) using Seq2Seq and Transformer models.
     D. Dictionary lookups.
 
-    Correct Answer: A
+    Correct Answer: B
 1431. **The BLEU (Bilingual Evaluation Understudy) Score** is a metric used to evaluate the quality of:
     A. Text classification.
     B. Machine translation output.
@@ -4487,7 +4450,7 @@
     C. Product.
     D. Sum.
 
-    Correct Answer: A
+    Correct Answer: B
 1436. **The Edit Distance (or Levenshtein Distance)** is a metric used to measure the similarity between two strings, defined as the minimum number of single-character edits (insertions, deletions, or substitutions) required to change one word into the other. It is often used in:
     A. Spell checking.
     B. Sentiment analysis.
@@ -4501,7 +4464,7 @@
     C. Calculate the TF-IDF.
     D. Perform stemming.
 
-    Correct Answer: A
+    Correct Answer: B
 1438. **The Skip-Thought Vector** is a type of sentence embedding that is trained to predict the:
     A. Current sentence given the context sentences.
     B. Context sentences given the current sentence.
@@ -4515,7 +4478,7 @@
     C. Perform stemming.
     D. Perform lemmatization.
 
-    Correct Answer: D
+    Correct Answer: B
 1440. **The Attention Mechanism** in a Transformer allows the model to:
     A. Process only the current input token.
     B. Focus on the most relevant parts of the input sequence when producing an output.
@@ -4543,7 +4506,7 @@
     C. Predict the previous word in the sequence.
     D. Predict the sentiment of the sentence.
 
-    Correct Answer: A
+    Correct Answer: B
 1444. **The Next Sentence Prediction (NSP)** is a pre-training objective used by BERT, where the model is trained to predict whether:
     A. The next sentence is grammatically correct.
     B. The second sentence in a pair is the actual next sentence in the document.
@@ -4564,7 +4527,7 @@
     C. Only perform regression.
     D. Only perform clustering.
 
-    Correct Answer: B
+    Correct Answer: A
 1447. **The Few-Shot Learning** in NLP refers to the ability of a model to:
     A. Classify instances into classes it has seen during training.
     B. Classify instances into classes it has not seen during training, using only a small number of examples for each new class.
@@ -4690,7 +4653,7 @@
     C. Only translations of existing documents.
     D. Only classifications of existing documents.
 
-    Correct Answer: A
+    Correct Answer: B
 1465. **The Language Modeling** is the task of assigning a probability to a sequence of words, which is used for:
     A. Text classification.
     B. Text generation and speech recognition.
@@ -4767,7 +4730,7 @@
     C. Using only the first sentence.
     D. Using only the last sentence.
 
-    Correct Answer: A
+    Correct Answer: B
 1476. **The Self-Consistency** is a technique used to improve the reliability of LLMs by:
     A. Generating a single answer.
     B. Generating multiple diverse reasoning paths and selecting the most consistent answer.
@@ -4985,7 +4948,7 @@
     C. Only structured data.
     D. Only small data.
 
-    Correct Answer: B
+    Correct Answer: A
 1507. **Distributed Computing** is a field of computer science that studies distributed systems, which are systems whose components are located on:
     A. A single machine.
     B. Different networked computers, which communicate and coordinate their actions by passing messages.
@@ -5111,7 +5074,7 @@
     C. Only the data destination.
     D. Only the data processing.
 
-    Correct Answer: A
+    Correct Answer: B
 1525. **Data Security** in Big Data is a critical concern due to the large volume and variety of data, and it involves techniques such as:
     A. Only encryption.
     B. Encryption, access control, and anonymization.
@@ -5188,7 +5151,7 @@
     C. Only virtualized computing resources.
     D. Only data storage.
 
-    Correct Answer: A
+    Correct Answer: B
 1536. **Software as a Service (SaaS)** provides:
     A. Only virtualized computing resources.
     B. Software applications over the internet, on demand, typically on a subscription basis.
@@ -5202,7 +5165,7 @@
     C. Volume, Velocity, and Variety.
     D. Map, Shuffle, and Reduce.
 
-    Correct Answer: B
+    Correct Answer: A
 1538. **Public Cloud** is a cloud computing model where the services are rendered over a network that is open for:
     A. Only a single organization.
     B. Public use.
@@ -5279,7 +5242,7 @@
     C. Only structured data.
     D. Only small data.
 
-    Correct Answer: B
+    Correct Answer: A
 1549. **The CRISP-DM (Cross-Industry Standard Process for Data Mining)** is a data mining process model that consists of six phases:
     A. Business Understanding, Data Understanding, Data Preparation, Modeling, Evaluation, and Deployment.
     B. Map, Shuffle, and Reduce.
@@ -5321,14 +5284,14 @@
     C. Data processing systems.
     D. Data visualization.
 
-    Correct Answer: B
+    Correct Answer: C
 1555. **The Machine Learning Engineer** is a professional who focuses on the:
     A. Business understanding.
     B. Design, building, and deployment of machine learning models in production.
     C. Data visualization.
     D. Data preparation.
 
-    Correct Answer: B
+    Correct Answer: A
 1556. **The Data Visualization** in Big Data is the process of presenting data in a:
     A. Textual format.
     B. Graphical or pictorial format to enable users to understand the data easily.
@@ -5349,7 +5312,7 @@
     C. Only store the data.
     D. Only process the data.
 
-    Correct Answer: B
+    Correct Answer: A
 1559. **The Ethical Considerations** in Big Data include:
     A. Only data storage.
     B. Data privacy, fairness, and transparency.
@@ -5363,14 +5326,14 @@
     C. Only neutral outcomes.
     D. Only random outcomes.
 
-    Correct Answer: B
+    Correct Answer: C
 1561. **The Explainable AI (XAI)** is a set of tools and techniques that allow users to:
     A. Only use the model.
     B. Understand and trust the results and output created by machine learning models.
     C. Only train the model.
     D. Only deploy the model.
 
-    Correct Answer: B
+    Correct Answer: C
 1562. **The Fairness, Accountability, and Transparency (FAT)** principles are a set of ethical guidelines for the development and deployment of:
     A. Only traditional statistical models.
     B. AI and machine learning systems.
@@ -5412,7 +5375,7 @@
     C. Legal documents.
     D. Paper.
 
-    Correct Answer: A
+    Correct Answer: B
 1568. **The Decentralized Autonomous Organization (DAO)** is an organization represented by rules encoded as a transparent computer program, controlled by:
     A. A central authority.
     B. Organization members, and not influenced by a central government.
@@ -5447,21 +5410,21 @@
     C. Only bytes.
     D. Only classical logic.
 
-    Correct Answer: B
+    Correct Answer: C
 1573. **The Quantum Machine Learning** is an emerging field that explores how quantum computing can be used to:
     A. Only solve classical machine learning problems.
     B. Enhance machine learning algorithms and speed up the training process.
     C. Only solve quantum physics problems.
     D. Only solve classical physics problems.
 
-    Correct Answer: C
+    Correct Answer: B
 1574. **The Neuromorphic Computing** is a type of computing that mimics the:
     A. Structure and function of the human brain.
     B. Structure and function of the human digestive system.
     C. Structure and function of the solar system.
     D. Structure and function of the internet.
 
-    Correct Answer: A
+    Correct Answer: B
 1575. **The Artificial General Intelligence (AGI)** is a hypothetical type of intelligent agent that could:
     A. Only solve a single task.
     B. Understand, learn, and apply its intelligence to solve any problem that a human being can.
@@ -5482,7 +5445,7 @@
     C. Data type.
     D. Data source.
 
-    Correct Answer: A
+    Correct Answer: B
 1578. **The Data Fabric** is a design concept that serves as a single, consistent data management platform across:
     A. A single cloud.
     B. Multiple clouds, on-premises, and edge environments.
@@ -5496,7 +5459,7 @@
     C. Only a single data source.
     D. Only a single data type.
 
-    Correct Answer: C
+    Correct Answer: B
 1580. **The Data Mart** is a subset of the data warehouse that is designed to serve a:
     A. Single business process.
     B. Specific business function or team.
@@ -5510,21 +5473,21 @@
     C. Only the data content.
     D. Only the data meaning.
 
-    Correct Answer: A
+    Correct Answer: B
 1582. **The Metadata** is data that provides information about:
     A. The data content.
     B. Other data.
     C. The data meaning.
     D. The data location.
 
-    Correct Answer: B
+    Correct Answer: A
 1583. **The Data Lineage** in Big Data refers to the data's lifecycle, which includes:
     A. Only the data source.
     B. All the data's origins, and where it moves over time.
     C. Only the data destination.
     D. Only the data processing.
 
-    Correct Answer: B
+    Correct Answer: A
 1584. **The Data Quality** in Big Data refers to the overall fitness of the data to serve its purpose, which includes:
     A. Only accuracy.
     B. Accuracy, completeness, consistency, and timeliness.
@@ -5566,14 +5529,14 @@
     C. Only data acquisition.
     D. Only data preparation.
 
-    Correct Answer: B
+    Correct Answer: C
 1590. **The Data Scientist** is a professional who uses:
     A. Only statistics.
     B. Scientific methods, processes, algorithms, and systems to extract knowledge and insights from structured and unstructured data.
     C. Only computer science.
     D. Only domain knowledge.
 
-    Correct Answer: C
+    Correct Answer: D
 1591. **The Data Engineer** is a professional who focuses on the:
     A. Modeling and evaluation.
     B. Design, construction, installation, and management of data processing systems.
@@ -5601,7 +5564,7 @@
     C. Tabular format.
     D. Raw format.
 
-    Correct Answer: B
+    Correct Answer: D
 1595. **The Dashboard** is a data visualization tool that provides a:
     A. Single view of the data.
     B. Centralized, interactive display of key performance indicators (KPIs) and metrics.
@@ -5644,28 +5607,28 @@
     D. Only non-linear models.
 # Batch 17: Q1601–Q1700 - Ethical and Legal Issues in Analytics
 
-    Correct Answer: A
+    Correct Answer: B
 1601. **Data Ethics** is a branch of ethics that evaluates data practices, focusing on the moral obligations related to:
     A. Data storage and processing speed.
     B. Data collection, sharing, and use.
     C. Data visualization techniques.
     D. Data mining algorithms.
 
-    Correct Answer: A
+    Correct Answer: B
 1602. **Privacy** in data analytics primarily concerns the right of individuals to:
     A. Have their data stored indefinitely.
     B. Control the collection and use of their personal information.
     C. Access all data collected about them.
     D. Have their data publicly shared.
 
-    Correct Answer: A
+    Correct Answer: B
 1603. **The General Data Protection Regulation (GDPR)** is a comprehensive data protection law in the European Union that grants individuals greater control over their personal data and imposes strict rules on:
     A. Data storage capacity.
     B. Data processing and handling.
     C. Data visualization.
     D. Data modeling.
 
-    Correct Answer: B
+    Correct Answer: A
 1604. A core principle of GDPR is **Lawfulness, Fairness, and Transparency**, which requires that personal data be processed:
     A. Only with explicit consent.
     B. Lawfully, fairly, and in a transparent manner in relation to the data subject.
@@ -5700,7 +5663,7 @@
     C. Real names.
     D. Email addresses.
 
-    Correct Answer: D
+    Correct Answer: A
 1609. **Differential Privacy** is a system for publicly sharing information about a dataset by describing the patterns of groups within the dataset while withholding:
     A. Only group information.
     B. Information about individuals.
@@ -5721,7 +5684,7 @@
     C. Only the training data.
     D. Only the test data.
 
-    Correct Answer: A
+    Correct Answer: B
 1612. **Transparency** in AI and analytics refers to the ability to:
     A. Hide the model's inner workings.
     B. Understand how a model works and why it made a particular decision.
@@ -5798,7 +5761,7 @@
     C. Only for marketing purposes.
     D. Only for research purposes.
 
-    Correct Answer: A
+    Correct Answer: B
 1623. **Integrity and Confidentiality** in data processing requires that personal data be processed in a manner that ensures:
     A. Only confidentiality.
     B. Appropriate security of the personal data, including protection against unauthorized or unlawful processing and against accidental loss, destruction, or damage.
@@ -5833,7 +5796,7 @@
     C. Correct inaccurate data.
     D. Receive their personal data in a portable format.
 
-    Correct Answer: A
+    Correct Answer: B
 1628. **The Right to Object** under GDPR allows individuals to:
     A. Request the deletion of their data.
     B. Object to the processing of personal data concerning them, including processing for direct marketing purposes.
@@ -5854,14 +5817,14 @@
     C. Only low-risk processing operations.
     D. Only marketing processing operations.
 
-    Correct Answer: B
+    Correct Answer: A
 1631. **The Ethical Dilemma** in analytics often arises when there is a conflict between:
     A. Data storage and data processing.
     B. Maximizing business value and protecting individual rights.
     C. Data visualization and data modeling.
     D. Data mining and data warehousing.
 
-    Correct Answer: B
+    Correct Answer: A
 1632. **The Principle of Non-Maleficence** in data ethics states that data practices should:
     A. Maximize benefits.
     B. Avoid causing harm to individuals or groups.
@@ -5882,14 +5845,14 @@
     C. Access all data collected about them.
     D. Have their data publicly shared.
 
-    Correct Answer: B
+    Correct Answer: A
 1635. **The Principle of Justice** in data ethics states that the benefits and burdens of data practices should be:
     A. Unequally distributed.
     B. Fairly distributed across different groups.
     C. Only for marketing purposes.
     D. Only for research purposes.
 
-    Correct Answer: B
+    Correct Answer: A
 1636. **The Homomorphic Encryption** is a form of encryption that allows computations to be performed on:
     A. Only unencrypted data.
     B. Encrypted data without decrypting it first.
@@ -5980,14 +5943,14 @@
     C. Linear.
     D. Predictable.
 
-    Correct Answer: A
+    Correct Answer: B
 1649. **The Data Mesh** is a decentralized data architecture that organizes data by:
     A. Centralized data teams.
     B. Specific business domains.
     C. Data type.
     D. Data source.
 
-    Correct Answer: A
+    Correct Answer: B
 1650. **The Data Fabric** is a design concept that serves as a single, consistent data management platform across:
     A. A single cloud.
     B. Multiple clouds, on-premises, and edge environments.
@@ -6015,7 +5978,7 @@
     C. Only the data content.
     D. Only the data meaning.
 
-    Correct Answer: A
+    Correct Answer: B
 1654. **The Metadata** is data that provides information about:
     A. The data content.
     B. Other data.
@@ -6050,7 +6013,7 @@
     C. Only structured data.
     D. Only small data.
 
-    Correct Answer: B
+    Correct Answer: A
 1659. **The CRISP-DM (Cross-Industry Standard Process for Data Mining)** is a data mining process model that consists of six phases:
     A. Business Understanding, Data Understanding, Data Preparation, Modeling, Evaluation, and Deployment.
     B. Map, Shuffle, and Reduce.
@@ -6197,7 +6160,7 @@
     C. Only centralized servers.
     D. Only a single database.
 
-    Correct Answer: B
+    Correct Answer: A
 1680. **The Metaverse** is a hypothetical iteration of the Internet as a single, universal, and immersive virtual world that is facilitated by the use of:
     A. Only text.
     B. Virtual and augmented reality headsets.
@@ -6239,14 +6202,14 @@
     C. Only solve a limited set of tasks.
     D. Only solve mathematical problems.
 
-    Correct Answer: A
+    Correct Answer: B
 1686. **The Singularity** is a hypothetical future point in time when technological growth becomes:
     A. Slow.
     B. Uncontrollable and irreversible, resulting in unfathomable changes to human civilization.
     C. Linear.
     D. Predictable.
 
-    Correct Answer: A
+    Correct Answer: B
 1687. **The Data Mesh** is a decentralized data architecture that organizes data by:
     A. Centralized data teams.
     B. Specific business domains.
@@ -6274,7 +6237,7 @@
     C. Single data source.
     D. Single data type.
 
-    Correct Answer: B
+    Correct Answer: A
 1691. **The Data Catalog** is a tool that provides an inventory of all data assets in an organization, which includes:
     A. Only the data location.
     B. Metadata, data lineage, and data quality information.
@@ -6316,7 +6279,7 @@
     C. Only structured data.
     D. Only small data.
 
-    Correct Answer: B
+    Correct Answer: C
 1697. **The CRISP-DM (Cross-Industry Standard Process for Data Mining)** is a data mining process model that consists of six phases:
     A. Business Understanding, Data Understanding, Data Preparation, Modeling, Evaluation, and Deployment.
     B. Map, Shuffle, and Reduce.
@@ -6330,7 +6293,7 @@
     C. Only data selection.
     D. Only data preprocessing.
 
-    Correct Answer: A
+    Correct Answer: B
 1699. **The Data Science Lifecycle** is a process that includes:
     A. Only data mining.
     B. Problem definition, data acquisition, data preparation, modeling, evaluation, and deployment.
@@ -6345,7 +6308,7 @@
     D. Only domain knowledge.
 # Batch 18: Q1701–Q1800 - Advanced Statistical Concepts (e.g., Bayesian Methods, Non-Parametric Tests)
 
-    Correct Answer: B
+    Correct Answer: A
 1701. **Bayesian Statistics** is an approach to statistical inference where probability is interpreted as:
     A. The long-run frequency of an event.
     B. A measure of belief or plausibility.
@@ -6359,7 +6322,7 @@
     C. The updated belief after observing the data.
     D. The likelihood of the data.
 
-    Correct Answer: B
+    Correct Answer: C
 1703. In Bayesian inference, the **Likelihood Function** represents:
     A. The information about the parameters before observing the data.
     B. The probability of observing the data given the parameters.
@@ -6373,7 +6336,7 @@
     C. The updated belief about the parameters after observing the data.
     D. The marginal probability of the data.
 
-    Correct Answer: B
+    Correct Answer: A
 1705. **Bayes' Theorem** is the mathematical rule that links the prior probability to the posterior probability, and is given by:
     A. $P(A|B) = \frac{P(B|A)P(A)}{P(B)}$
     B. $P(A|B) = P(B|A)P(A)$
@@ -6436,14 +6399,14 @@
     C. Independent samples t-test.
     D. Paired samples t-test.
 
-    Correct Answer: A
+    Correct Answer: C
 1714. The **Spearman's Rank Correlation Coefficient** is the non-parametric alternative to the:
     A. Pearson correlation coefficient.
     B. Simple linear regression.
     C. Multiple linear regression.
     D. Logistic regression.
 
-    Correct Answer: A
+    Correct Answer: B
 1715. The **Chi-Square Test of Independence** is a non-parametric test used to determine if there is a significant association between:
     A. Two continuous variables.
     B. Two categorical variables.
@@ -6506,21 +6469,21 @@
     C. Residuals.
     D. Standard error.
 
-    Correct Answer: B
+    Correct Answer: A
 1724. **Logistic Regression** is a type of GLM where the random component is a **Binomial Distribution** and the link function is the:
     A. Identity function.
     B. Logit function.
     C. Log function.
     D. Exponential function.
 
-    Correct Answer: B
+    Correct Answer: A
 1725. **Poisson Regression** is a type of GLM where the random component is a **Poisson Distribution** and the link function is the:
     A. Identity function.
     B. Logit function.
     C. Log function.
     D. Exponential function.
 
-    Correct Answer: B
+    Correct Answer: A
 1726. **Survival Analysis** (or time-to-event analysis) is a branch of statistics for analyzing the expected duration of time until one or more events happen, such as:
     A. Only death.
     B. Death, failure of a mechanical system, or the onset of a disease.
@@ -6541,14 +6504,14 @@
     C. Estimate the hazard function.
     D. Estimate the cumulative distribution function.
 
-    Correct Answer: A
+    Correct Answer: B
 1729. **Censoring** in survival analysis occurs when the information about the survival time is:
     A. Complete.
     B. Incomplete (e.g., the study ends before the event occurs).
     C. Only for death.
     D. Only for success.
 
-    Correct Answer: A
+    Correct Answer: B
 1730. **Longitudinal Data Analysis** (or panel data analysis) is a statistical method for analyzing data in which the same variables are measured:
     A. Only once.
     B. Repeatedly over time on the same subjects.
@@ -6562,7 +6525,7 @@
     C. Only random effects.
     D. Only continuous variables.
 
-    Correct Answer: B
+    Correct Answer: C
 1732. **Structural Equation Modeling (SEM)** is a multivariate statistical analysis technique that is used to analyze:
     A. Only observed variables.
     B. Structural relationships between measured variables and latent constructs.
@@ -6583,7 +6546,7 @@
     C. Only continuous variables.
     D. Only categorical variables.
 
-    Correct Answer: B
+    Correct Answer: A
 1735. **The Difference between PCA and Factor Analysis** is that PCA is primarily a **Dimensionality Reduction** technique, while Factor Analysis is primarily a **Latent Variable** modeling technique used to:
     A. Only reduce the number of variables.
     B. Explain the covariance among observed variables.
@@ -6604,7 +6567,7 @@
     C. Only continuous variables.
     D. Only categorical variables.
 
-    Correct Answer: C
+    Correct Answer: B
 1738. **The Mahalanobis Distance** is a measure of the distance between a point and a distribution that accounts for the:
     A. Correlation between the variables.
     B. Mean of the variables.
@@ -6625,21 +6588,21 @@
     C. Only a single independent variable.
     D. Only a single continuous variable.
 
-    Correct Answer: C
+    Correct Answer: B
 1741. **The Difference between ANOVA and MANOVA** is that ANOVA tests for the difference in means of a single dependent variable, while MANOVA tests for the difference in means of:
     A. A single dependent variable.
     B. Multiple dependent variables.
     C. A single independent variable.
     D. Multiple independent variables.
 
-    Correct Answer: C
+    Correct Answer: B
 1742. **The Repeated Measures ANOVA** is a statistical test used to compare the means of three or more groups where the same subjects are:
     A. Measured only once.
     B. Measured repeatedly over time.
     C. Measured only on different subjects.
     D. Measured only on a single subject.
 
-    Correct Answer: A
+    Correct Answer: B
 1743. **The Mixed ANOVA** (or split-plot ANOVA) is a statistical test used to compare the means of three or more groups where there is at least one:
     A. Only between-subjects factor.
     B. Between-subjects factor and at least one within-subjects factor.
@@ -6653,14 +6616,14 @@
     C. Kruskal-Wallis H Test.
     D. Friedman Test.
 
-    Correct Answer: D
+    Correct Answer: B
 1745. **The Non-Parametric Test** for comparing two dependent groups on an ordinal or continuous variable is the:
     A. Mann-Whitney U Test.
     B. Wilcoxon Signed-Rank Test.
     C. Kruskal-Wallis H Test.
     D. Friedman Test.
 
-    Correct Answer: B
+    Correct Answer: A
 1746. **The Non-Parametric Test** for comparing three or more independent groups on an ordinal or continuous variable is the:
     A. Mann-Whitney U Test.
     B. Wilcoxon Signed-Rank Test.
@@ -6674,28 +6637,28 @@
     C. Kruskal-Wallis H Test.
     D. Friedman Test.
 
-    Correct Answer: A
+    Correct Answer: B
 1748. **The Bayesian Information Criterion (BIC)** is a criterion for model selection among a finite set of models, where the model with the lowest BIC is preferred. It penalizes models with:
     A. Fewer parameters.
     B. More parameters.
     C. Lower likelihood.
     D. Higher likelihood.
 
-    Correct Answer: D
+    Correct Answer: B
 1749. **The Akaike Information Criterion (AIC)** is a criterion for model selection among a finite set of models, where the model with the lowest AIC is preferred. It penalizes models with:
     A. Fewer parameters.
     B. More parameters.
     C. Lower likelihood.
     D. Higher likelihood.
 
-    Correct Answer: D
+    Correct Answer: B
 1750. **The Difference between AIC and BIC** is that BIC imposes a **Heavier Penalty** on the number of parameters than AIC, which tends to favor:
     A. More complex models.
     B. Simpler models.
     C. Models with lower likelihood.
     D. Models with higher likelihood.
 
-    Correct Answer: B
+    Correct Answer: A
 1751. **The Bayesian Model Averaging (BMA)** is a technique that combines the predictions of multiple models, weighted by their:
     A. Prior probability.
     B. Posterior probability.
@@ -6709,7 +6672,7 @@
     C. Likelihood.
     D. Marginal likelihood.
 
-    Correct Answer: A
+    Correct Answer: B
 1753. **The Predictive Posterior Distribution** in Bayesian statistics is the distribution of the:
     A. Parameters given the data.
     B. Future observations given the observed data.
@@ -6730,35 +6693,35 @@
     C. Likelihood.
     D. Prior.
 
-    Correct Answer: C
+    Correct Answer: B
 1756. **The Bayesian Factor** is a measure of the evidence in the data in favor of one model over another, and it is defined as the ratio of the:
     A. Prior probabilities.
     B. Marginal likelihoods.
     C. Posterior probabilities.
     D. Likelihoods.
 
-    Correct Answer: A
+    Correct Answer: B
 1757. **The Non-Parametric Regression** methods, such as **Kernel Regression** and **Spline Regression**, are used when the relationship between the dependent and independent variables is:
     A. Linear.
     B. Non-linear and the functional form is unknown.
     C. Only for continuous variables.
     D. Only for categorical variables.
 
-    Correct Answer: C
+    Correct Answer: B
 1758. **The Generalized Additive Models (GAMs)** are a class of GLMs where the linear predictor is modeled as a sum of:
     A. Only linear terms.
     B. Smooth functions of the predictor variables.
     C. Only non-linear terms.
     D. Only a single term.
 
-    Correct Answer: A
+    Correct Answer: B
 1759. **The Quantile Regression** is a type of regression analysis used to estimate the conditional **Quantile Functions** of the response variable, which is more robust to:
     A. The sample size.
     B. Outliers and non-normal errors.
     C. The number of variables.
     D. The presence of missing values.
 
-    Correct Answer: A
+    Correct Answer: B
 1760. **The Zero-Inflated Models** (e.g., Zero-Inflated Poisson) are statistical models used to analyze count data that have an:
     A. Only a few zeros.
     B. Excess number of zero observations.
@@ -6786,14 +6749,14 @@
     C. Only the trend.
     D. Only the seasonality.
 
-    Correct Answer: C
+    Correct Answer: B
 1764. **The ARIMA (Autoregressive Integrated Moving Average) Model** is a time series forecasting model that is used to model:
     A. Only stationary time series.
     B. Non-stationary time series that can be made stationary by differencing.
     C. Only non-stationary time series.
     D. Only stationary time series that cannot be made stationary by differencing.
 
-    Correct Answer: C
+    Correct Answer: B
 1765. **The ARCH (Autoregressive Conditional Heteroskedasticity) Model** is a time series model used to model the:
     A. Mean of the time series.
     B. Variance of the time series.
@@ -6828,91 +6791,91 @@
     C. Correlating with another time series.
     D. Clustering another time series.
 
-    Correct Answer: D
+    Correct Answer: B
 1770. **The Kalman Filter** is an algorithm that uses a series of measurements observed over time, containing statistical noise and other inaccuracies, and produces estimates of:
     A. Only the current state.
     B. Unknown variables that tend to be more precise than those based on a single measurement alone.
     C. Only the future state.
     D. Only the past state.
 
-    Correct Answer: C
+    Correct Answer: B
 1771. **The Hidden Markov Model (HMM)** is a statistical Markov model in which the system being modeled is assumed to be a Markov process with:
     A. Only observed states.
     B. Unobserved (hidden) states.
     C. Only continuous variables.
     D. Only categorical variables.
 
-    Correct Answer: A
+    Correct Answer: B
 1772. **The Sequential Monte Carlo (SMC)** methods, such as **Particle Filters**, are a set of techniques used to approximate the:
     A. Prior distribution.
     B. Posterior distribution of a state-space model.
     C. Likelihood function.
     D. Marginal likelihood.
 
-    Correct Answer: B
+    Correct Answer: A
 1773. **The Gaussian Process (GP)** is a stochastic process where every finite collection of random variables has a:
     A. Uniform distribution.
     B. Multivariate normal distribution.
     C. Poisson distribution.
     D. Binomial distribution.
 
-    Correct Answer: C
+    Correct Answer: B
 1774. **The Gaussian Process Regression (GPR)** is a non-parametric, Bayesian approach to regression that provides a measure of:
     A. Only the mean.
     B. Uncertainty (variance) in the predictions.
     C. Only the variance.
     D. Only the median.
 
-    Correct Answer: A
+    Correct Answer: B
 1775. **The Kernel Trick** is a method used in GPR to implicitly map the input features into a higher-dimensional space where a linear separation might be possible, using a:
     A. Linear kernel.
     B. Non-linear kernel.
     C. Identity function.
     D. Logit function.
 
-    Correct Answer: C
+    Correct Answer: B
 1776. **The Bayesian Optimization** is a sequential design strategy for finding the global optimum of a function that is expensive to evaluate, by using a:
     A. Linear model.
     B. Surrogate model (e.g., Gaussian Process) to model the objective function.
     C. Non-linear model.
     D. Decision tree.
 
-    Correct Answer: B
+    Correct Answer: A
 1777. **The Acquisition Function** in Bayesian Optimization is used to determine the next point to evaluate, by balancing:
     A. Only exploration.
     B. Exploration (sampling in uncertain regions) and exploitation (sampling near the current best point).
     C. Only exploitation.
     D. Only the mean.
 
-    Correct Answer: B
+    Correct Answer: A
 1778. **The Expectation-Maximization (EM) Algorithm** is an iterative method for finding maximum likelihood or maximum a posteriori estimates of parameters in statistical models, particularly when the model depends on:
     A. Only observed variables.
     B. Unobserved latent variables.
     C. Only continuous variables.
     D. Only categorical variables.
 
-    Correct Answer: C
+    Correct Answer: B
 1779. **The E-Step (Expectation Step)** in the EM algorithm is responsible for:
     A. Maximizing the likelihood.
     B. Calculating the expected value of the complete-data log-likelihood, given the observed data and the current parameter estimates.
     C. Updating the parameters.
     D. Calculating the prior distribution.
 
-    Correct Answer: A
+    Correct Answer: B
 1780. **The M-Step (Maximization Step)** in the EM algorithm is responsible for:
     A. Calculating the expected value of the complete-data log-likelihood.
     B. Maximizing the expected log-likelihood found in the E-step to update the parameter estimates.
     C. Calculating the prior distribution.
     D. Calculating the posterior distribution.
 
-    Correct Answer: C
+    Correct Answer: B
 1781. **The Latent Dirichlet Allocation (LDA)** is a generative statistical model that is used to explain the:
     A. Only observed variables.
     B. Observed data (documents) as arising from unobserved latent variables (topics).
     C. Only latent variables.
     D. Only a single variable.
 
-    Correct Answer: A
+    Correct Answer: B
 1782. **The Non-Negative Matrix Factorization (NMF)** is a group of algorithms in multivariate analysis and linear algebra where a matrix $V$ is factorized into two matrices $W$ and $H$, such that all three matrices have:
     A. Only negative elements.
     B. No negative elements.
@@ -6926,7 +6889,7 @@
     C. Only a single component.
     D. Only two components.
 
-    Correct Answer: D
+    Correct Answer: B
 1784. **The Principal Component Regression (PCR)** is a regression technique that uses the **Principal Components** of the predictor variables as the:
     A. Dependent variables.
     B. Predictor variables in a linear regression model.
@@ -6947,14 +6910,14 @@
     C. Correlation between the predictor variables.
     D. Correlation between the response variables.
 
-    Correct Answer: C
+    Correct Answer: B
 1787. **The Ridge Regression** is a technique used to address the problem of **Multicollinearity** in linear regression by adding a penalty term to the:
     A. Loss function that is proportional to the sum of the absolute values of the coefficients.
     B. Loss function that is proportional to the sum of the squared values of the coefficients.
     C. Likelihood function.
     D. Prior distribution.
 
-    Correct Answer: A
+    Correct Answer: B
 1788. **The Lasso Regression** is a technique used to address the problem of **Multicollinearity** in linear regression by adding a penalty term to the:
     A. Loss function that is proportional to the sum of the squared values of the coefficients.
     B. Loss function that is proportional to the sum of the absolute values of the coefficients.
@@ -6975,7 +6938,7 @@
     C. Only continuous variables.
     D. Only categorical variables.
 
-    Correct Answer: D
+    Correct Answer: B
 1791. **The Mixed-Effects Models** are a statistical method used to estimate the parameters of a GLM when the data has:
     A. Independent observations.
     B. Correlated observations (e.g., longitudinal data).
@@ -7024,14 +6987,14 @@
     C. Only multiple units.
     D. Only a single unit and the control group is a single untreated unit.
 
-    Correct Answer: B
+    Correct Answer: A
 1798. **The Causal Inference** is a field of statistics that is concerned with the question of whether a change in one variable causes a change in another variable, which is often addressed using:
     A. Only correlation.
     B. Experimental and quasi-experimental designs.
     C. Only regression.
     D. Only clustering.
 
-    Correct Answer: C
+    Correct Answer: B
 1799. **The Potential Outcomes Framework** (or Rubin Causal Model) is a framework for causal inference that defines the causal effect as the difference between the:
     A. Observed outcomes.
     B. Potential outcomes under treatment and control.
@@ -7053,7 +7016,7 @@
     C. Only minimizing a function.
     D. Finding the average of a function.
 
-    Correct Answer: C
+    Correct Answer: B
 1802. An **Objective Function** in an optimization problem is the function that is to be:
     A. Ignored.
     B. Maximized or minimized.
@@ -7067,49 +7030,49 @@
     C. Only inequality constraints.
     D. Only non-negativity constraints.
 
-    Correct Answer: A
+    Correct Answer: B
 1804. A **Feasible Region** in an optimization problem is the set of all possible points that satisfy:
     A. Only the objective function.
     B. All the constraints.
     C. Only the non-negativity constraints.
     D. Only the equality constraints.
 
-    Correct Answer: C
+    Correct Answer: B
 1805. **Linear Programming (LP)** is a mathematical method for determining a way to achieve the best outcome (such as maximum profit or lowest cost) in a mathematical model whose requirements are expressed as:
     A. Non-linear relationships.
     B. Linear relationships.
     C. Exponential relationships.
     D. Logarithmic relationships.
 
-    Correct Answer: A
+    Correct Answer: B
 1806. The **Simplex Algorithm** is a popular algorithm for solving:
     A. Non-linear programming problems.
     B. Linear programming problems.
     C. Integer programming problems.
     D. Dynamic programming problems.
 
-    Correct Answer: C
+    Correct Answer: B
 1807. **Integer Programming (IP)** is a mathematical optimization program in which some or all of the variables are restricted to be:
     A. Continuous.
     B. Integers.
     C. Binary.
     D. Real numbers.
 
-    Correct Answer: A
+    Correct Answer: B
 1808. **Mixed-Integer Programming (MIP)** is a mathematical optimization program in which some variables are restricted to be **Integers** and others are allowed to be:
     A. Binary.
     B. Continuous.
     C. Only positive.
     D. Only negative.
 
-    Correct Answer: B
+    Correct Answer: A
 1809. **Non-Linear Programming (NLP)** is the process of solving an optimization problem where the objective function or the constraints are:
     A. Linear.
     B. Non-linear.
     C. Integer.
     D. Binary.
 
-    Correct Answer: B
+    Correct Answer: A
 1810. **Convex Optimization** is a subfield of optimization where the objective function is **Convex** and the feasible region is a **Convex Set**, which guarantees that any local optimum is also a:
     A. Local minimum.
     B. Global minimum.
@@ -7123,14 +7086,14 @@
     C. Integer conditions are met.
     D. Binary conditions are met.
 
-    Correct Answer: C
+    Correct Answer: B
 1812. **Dynamic Programming** is a method for solving complex problems by breaking them down into simpler subproblems, which is applicable when the problem has:
     A. Only a single stage.
     B. Overlapping subproblems and optimal substructure.
     C. Only a single solution.
     D. Only a single constraint.
 
-    Correct Answer: C
+    Correct Answer: B
 1813. **Stochastic Optimization** is an optimization method that deals with optimization problems in which the objective function or the constraints are:
     A. Deterministic.
     B. Stochastic (involve random variables).
@@ -7144,7 +7107,7 @@
     C. Only find the average.
     D. Only find the standard deviation.
 
-    Correct Answer: C
+    Correct Answer: B
 1815. **Monte Carlo Simulation** is a broad class of computational algorithms that rely on repeated:
     A. Deterministic calculations.
     B. Random sampling to obtain numerical results.
@@ -7165,35 +7128,35 @@
     C. Only linear relationships.
     D. Only non-linear relationships.
 
-    Correct Answer: C
+    Correct Answer: B
 1818. **Risk Analysis** is the process of identifying and analyzing potential issues that could negatively impact key business initiatives or projects, which often uses:
     A. Only deterministic models.
     B. Simulation and probability distributions.
     C. Only linear programming.
     D. Only non-linear programming.
 
-    Correct Answer: C
+    Correct Answer: B
 1819. **Value at Risk (VaR)** is a measure of the risk of loss for investments, which estimates the maximum loss expected over a given time period at a specified:
     A. Mean.
     B. Confidence level.
     C. Standard deviation.
     D. Median.
 
-    Correct Answer: C
+    Correct Answer: B
 1820. **Conditional Value at Risk (CVaR)**, also known as Expected Shortfall (ES), is a risk measure that is more sensitive to the shape of the:
     A. Right tail of the distribution.
     B. Left tail of the distribution (extreme losses).
     C. Mean of the distribution.
     D. Standard deviation of the distribution.
 
-    Correct Answer: B
+    Correct Answer: A
 1821. **Decision Analysis** is a systematic, quantitative, and transparent approach to making decisions under conditions of:
     A. Certainty.
     B. Uncertainty.
     C. Only risk.
     D. Only ambiguity.
 
-    Correct Answer: B
+    Correct Answer: A
 1822. A **Decision Tree** in decision analysis is a tree-like model of decisions and their possible consequences, including:
     A. Only chance event outcomes.
     B. Chance event outcomes, resource costs, and utility.
@@ -7305,7 +7268,7 @@
     C. Only holding.
     D. Only shortage.
 
-    Correct Answer: B
+    Correct Answer: A
 1838. **The Newsboy Problem** is a classic inventory problem that seeks to determine the optimal order quantity for a perishable product with a single selling period, which balances the cost of:
     A. Only overstocking.
     B. Overstocking and understocking.
@@ -7410,7 +7373,7 @@
     C. Only a single parameter.
     D. Only a single layer.
 
-    Correct Answer: B
+    Correct Answer: A
 1853. **The Conjugate Gradient Method** is an algorithm for the numerical solution of particular systems of linear equations, namely those whose matrix is:
     A. Symmetric and positive definite.
     B. Asymmetric and negative definite.
@@ -7543,14 +7506,14 @@
     C. Cycle in the network.
     D. Tree in the network.
 
-    Correct Answer: B
+    Correct Answer: A
 1872. **The Game Theory** is the study of mathematical models of strategic interaction among:
     A. Only a single rational decision-maker.
     B. Rational decision-makers.
     C. Only two rational decision-makers.
     D. Only three rational decision-makers.
 
-    Correct Answer: B
+    Correct Answer: A
 1873. **The Nash Equilibrium** is a concept in game theory where the optimal outcome of a game is one where no player has an incentive to:
     A. Change their strategy, given the strategies of the other players.
     B. Change their strategy, regardless of the strategies of the other players.
@@ -7648,14 +7611,14 @@
     C. Ants.
     D. Spiders.
 
-    Correct Answer: B
+    Correct Answer: A
 1887. **The Ant Colony Optimization (ACO)** is a probabilistic technique for solving computational problems which can be reduced to finding paths through graphs, which is inspired by the behavior of:
     A. Bees.
     B. Ants seeking a path to food.
     C. Birds.
     D. Fish.
 
-    Correct Answer: B
+    Correct Answer: A
 1888. **The Hill Climbing** is a mathematical optimization technique that belongs to the family of **Local Search** algorithms, which iteratively moves in the direction of:
     A. Decreasing elevation.
     B. Increasing elevation (uphill).
@@ -7711,7 +7674,7 @@
     C. Only the boundary.
     D. Only the center.
 
-    Correct Answer: B
+    Correct Answer: C
 1896. **The Branch and Bound Algorithm** is a general algorithm for finding optimal solutions to various optimization problems, especially those of:
     A. Linear programming.
     B. Discrete and combinatorial optimization.
@@ -7732,14 +7695,14 @@
     C. Removing existing rows from the problem.
     D. Removing existing columns from the problem.
 
-    Correct Answer: B
+    Correct Answer: C
 1899. **The Network Flow Problem** is an optimization problem that seeks to find the maximum flow from a source node to a sink node in a network, which is solved using the:
     A. Simplex algorithm.
     B. Ford-Fulkerson algorithm.
     C. Dijkstra's algorithm.
     D. Bellman-Ford algorithm.
 
-    Correct Answer: B
+    Correct Answer: C
 1900. **The Minimum Cost Flow Problem** is an optimization problem that seeks to find the flow from a source node to a sink node in a network such that the total cost is:
     A. Maximized.
     B. Minimized.
@@ -7747,28 +7710,28 @@
     D. Set to one.
 # Batch 2: Q101–Q200 - Probability Theory and Distributions
 
-    Correct Answer: B
+    Correct Answer: A
 101. A financial analyst is modeling the number of daily trades for a specific stock. Since the trades occur independently and at a constant average rate, which discrete probability distribution is most appropriate for this scenario?
     A. Binomial Distribution
     B. Normal Distribution
     C. Poisson Distribution
     D. Uniform Distribution
 
-    Correct Answer: B
+    Correct Answer: C
 102. A company manufactures light bulbs, and historical data shows that 5% of the bulbs are defective. If a quality control inspector randomly selects 20 bulbs, what is the probability distribution that should be used to find the probability of exactly 2 defective bulbs in the sample?
     A. Poisson Distribution
     B. Binomial Distribution
     C. Exponential Distribution
     D. Chi-square Distribution
 
-    Correct Answer: B
+    Correct Answer: D
 103. In a standard Normal Distribution, what is the mean ($\mu$) and standard deviation ($\sigma$)?
     A. $\mu = 1, \sigma = 1$
     B. $\mu = 0, \sigma = 1$
     C. $\mu = 1, \sigma = 0$
     D. $\mu = 0, \sigma = 0$
 
-    Correct Answer: C
+    Correct Answer: B
 104. A data scientist is calculating the probability of two independent events, A and B, both occurring. Which formula correctly represents this joint probability, P(A and B)?
     A. $P(A) + P(B)$
     B. $P(A) \cdot P(B)$
@@ -7782,21 +7745,21 @@
     C. Conditional Probability
     D. Complementary Events
 
-    Correct Answer: C
+    Correct Answer: D
 106. A marketing team is trying to predict the success of a new ad campaign. They use Bayes' Theorem to update their initial belief (prior probability) about the campaign's success based on the results of a small test market (new evidence). This process is known as:
     A. Frequentist Inference
     B. Maximum Likelihood Estimation
     C. Probabilistic Reasoning
     D. Hypothesis Testing
 
-    Correct Answer: D
+    Correct Answer: C
 107. The time taken for a customer service representative to answer a call is a continuous variable. Which of the following is a key characteristic of a continuous probability distribution?
     A. The probability of the variable taking on any single, exact value is zero.
     B. The sum of all probabilities must be greater than 1.
     C. It can only be used for discrete counting data.
     D. The distribution is always symmetrical.
 
-    Correct Answer: B
+    Correct Answer: D
 108. In the context of probability, what is the **Sample Space**?
     A. The outcome of a single trial.
     B. The set of all possible outcomes of an experiment.
@@ -7817,21 +7780,21 @@
     C. Approximately 89%
     D. Approximately 95%
 
-    Correct Answer: C
+    Correct Answer: B
 111. A data scientist is calculating the number of ways to select a committee of 3 people from a group of 10, where the order of selection does not matter. Which mathematical concept should be used?
     A. Permutation
     B. Combination
     C. Factorial
     D. Probability
 
-    Correct Answer: C
+    Correct Answer: B
 112. A machine has a 90% success rate for a certain operation. If the operation is repeated 10 times, what are the parameters ($n$ and $p$) for the Binomial Distribution that models the number of successful operations?
     A. $n=10, p=0.1$
     B. $n=10, p=0.9$
     C. $n=0.9, p=10$
     D. $n=1, p=0.9$
 
-    Correct Answer: C
+    Correct Answer: B
 113. If $P(A) = 0.5$, $P(B) = 0.4$, and $P(A \text{ and } B) = 0.2$, what is the probability of $P(A \text{ or } B)$?
     A. 0.9
     B. 0.7
@@ -7845,28 +7808,28 @@
     C. Getting exactly three heads.
     D. Getting no heads (all tails).
 
-    Correct Answer: D
+    Correct Answer: A
 115. A Poisson distribution is often used to model:
     A. The number of successes in a fixed number of trials.
     B. The time until the first success in a series of trials.
     C. The number of events occurring in a fixed interval of time or space.
     D. The probability of a continuous variable.
 
-    Correct Answer: C
+    Correct Answer: A
 116. If two events, A and B, are **mutually exclusive**, what is the probability of both events occurring, $P(A \text{ and } B)$?
     A. $P(A) \cdot P(B)$
     B. $P(A) + P(B)$
     C. 1
     D. 0
 
-    Correct Answer: B
+    Correct Answer: A
 117. A manufacturing process produces 1% defective items. If a sample of 100 items is taken, the mean ($\mu$) and variance ($\sigma^2$) of the number of defective items, assuming a Binomial distribution, are:
     A. $\mu = 1, \sigma^2 = 0.99$
     B. $\mu = 1, \sigma^2 = 1$
     C. $\mu = 100, \sigma^2 = 1$
     D. $\mu = 0.01, \sigma^2 = 0.0099$
 
-    Correct Answer: B
+    Correct Answer: A
 118. In a continuous distribution, the area under the probability density function (PDF) curve between two points represents:
     A. The probability of the variable taking on a single value.
     B. The cumulative probability between those two points.
@@ -7894,7 +7857,7 @@
     C. 1.0
     D. 3.0
 
-    Correct Answer: B
+    Correct Answer: C
 122. The **Normal Distribution** is often referred to as the "bell curve" due to its shape. Which of the following is a characteristic of the Normal Distribution?
     A. It is always skewed to the right.
     B. The mean, median, and mode are all equal.
@@ -7922,7 +7885,7 @@
     C. $12! / 8!$
     D. $12 \cdot 4$
 
-    Correct Answer: A
+    Correct Answer: B
 126. In a game, the probability of winning is $0.6$. If you play the game 5 times, what is the probability of winning exactly 3 times?
     A. $\binom{5}{3} (0.6)^3 (0.4)^2$
     B. $\binom{5}{3} (0.4)^3 (0.6)^2$
@@ -7936,7 +7899,7 @@
     C. $f(x) = 10$
     D. $f(x) = 1$
 
-    Correct Answer: B
+    Correct Answer: D
 128. If $P(A) = 0.6$ and $P(B|A) = 0.8$, what is the joint probability $P(A \text{ and } B)$?
     A. 0.48
     B. 1.4
@@ -7950,35 +7913,35 @@
     C. Determine if two events are independent.
     D. Calculate the expected value of a random variable.
 
-    Correct Answer: B
+    Correct Answer: A
 130. A discrete probability distribution is defined by the probability mass function (PMF). What must the sum of all probabilities in a PMF equal?
     A. 0
     B. 1
     C. The mean
     D. The standard deviation
 
-    Correct Answer: D
+    Correct Answer: C
 131. The **Bayes' Factor** is a ratio used in Bayesian statistics to compare:
     A. The prior probability to the posterior probability.
     B. The likelihood of the data under two competing hypotheses.
     C. The mean to the standard deviation.
     D. The sample size to the population size.
 
-    Correct Answer: C
+    Correct Answer: D
 132. Which of the following is a key assumption of the **Binomial Distribution**?
     A. The trials are dependent.
     B. The probability of success changes from trial to trial.
     C. There are only two possible outcomes for each trial (success or failure).
     D. The number of trials is infinite.
 
-    Correct Answer: C
+    Correct Answer: A
 133. A dataset of the time between successive customer arrivals at a store is collected. Which continuous distribution is typically used to model the time between events in a Poisson process?
     A. Normal Distribution
     B. Uniform Distribution
     C. Exponential Distribution
     D. Binomial Distribution
 
-    Correct Answer: B
+    Correct Answer: C
 134. A researcher is interested in the probability of event A occurring, given that event B has already occurred. This is the definition of:
     A. Joint Probability
     B. Marginal Probability
@@ -7992,42 +7955,42 @@
     C. -1
     D. -2
 
-    Correct Answer: B
+    Correct Answer: C
 136. A box contains 10 items, 3 of which are defective. If 2 items are randomly selected *without* replacement, what is the probability that both are defective?
     A. $(3/10) \cdot (3/10)$
     B. $(3/10) \cdot (2/9)$
     C. $(3/10) \cdot (7/10)$
     D. $(3/10) + (2/9)$
 
-    Correct Answer: C
+    Correct Answer: B
 137. In the context of probability, what is an **Impossible Event**?
     A. An event with a probability of 1.
     B. An event with a probability of 0.
     C. An event that is mutually exclusive with all other events.
     D. An event that is independent of all other events.
 
-    Correct Answer: C
+    Correct Answer: A
 138. The **Central Limit Theorem** allows the use of the Normal Distribution to approximate the sampling distribution of the sample mean, even if the population distribution is not normal, provided that:
     A. The population standard deviation is known.
     B. The sample size is sufficiently large (typically $n \ge 30$).
     C. The population mean is known.
     D. The data is continuous.
 
-    Correct Answer: B
+    Correct Answer: C
 139. The number of ways to arrange 5 distinct books on a shelf is an example of:
     A. Combination
     B. Permutation
     C. Poisson Process
     D. Binomial Trial
 
-    Correct Answer: B
+    Correct Answer: A
 140. A discrete random variable $X$ is the number of heads in 4 coin tosses. What is the maximum value of $X$?
     A. 1
     B. 2
     C. 3
     D. 4
 
-    Correct Answer: C
+    Correct Answer: D
 141. The **Poisson Distribution** is a limiting case of the Binomial Distribution when:
     A. $n$ is small and $p$ is large.
     B. $n$ is large and $p$ is large.
@@ -8041,65 +8004,55 @@
     C. The distribution is symmetrical.
     D. The probability of failure is constant over time.
 
-    Correct Answer: C
+    Correct Answer: B
 143. A continuous random variable $X$ is normally distributed. The probability $P(X > \mu)$ is:
     A. 0
     B. 0.5
     C. 1
     D. Depends on the standard deviation
 
-    Correct Answer: C
+    Correct Answer: B
 144. If $P(A) = 0.3$ and $P(B) = 0.5$, and A and B are independent, what is $P(A \text{ or } B)$?
     A. 0.8
     B. 0.15
     C. 0.65
     D. 0.7
 
-    Correct Answer: B
 145. In the context of Bayes' Theorem, the term $P(B|A)$ is known as the:
     A. Prior Probability
     B. Posterior Probability
     C. Marginal Likelihood
     D. Likelihood
 
-    Correct Answer: D
 146. A researcher is selecting 5 students from a class of 20 to participate in a focus group. How many different groups can be formed?
     A. $\binom{20}{5}$
     B. $P(20, 5)$
     C. $20^5$
     D. $5^{20}$
 
-    Correct Answer: A
 147. The **Expected Value** of a discrete random variable is conceptually equivalent to which measure of central tendency?
     A. Mode
     B. Median
     C. Mean
     D. Range
 
-    Correct Answer: B
 148. A discrete random variable $X$ follows a Binomial distribution with $n=10$ and $p=0.5$. What is the variance $\sigma^2$?
     A. 5
     B. 2.5
     C. 10
     D. 0.5
 
-    Correct Answer: B
 149. The **Z-score** transformation is used to convert any Normal Distribution into the Standard Normal Distribution. This allows for:
     A. Calculating the mean of the distribution.
     B. Comparing values from different normal distributions.
     C. Determining if the distribution is skewed.
     D. Calculating the sample size.
 
-    Correct Answer: C
 150. A box contains 4 red and 6 blue balls. What is the probability of drawing a red ball?
     A. $4/6$
     B. $6/10$
     C. $4/10$
     D. $1/10$
-
-    Correct Answer: D
-
-### Regression Analysis
 
 151. The **Hypergeometric Distribution** is used when sampling is done:
     A. With replacement from a finite population.
@@ -8107,70 +8060,61 @@
     C. From an infinite population.
     D. When the trials are independent.
 
-    Correct Answer: A
 152. Which of the following is a characteristic of the **Poisson Distribution**?
     A. The mean is equal to the variance ($\mu = \sigma^2 = \lambda$).
     B. The mean is always greater than the variance.
     C. The distribution is always symmetrical.
     D. It is used for continuous data.
 
-    Correct Answer: A
 153. A continuous random variable $X$ is normally distributed with $\mu=10$ and $\sigma=2$. What is the probability $P(X=10)$?
     A. 0.5
     B. 1.0
     C. 0
     D. 0.68
 
-    Correct Answer: C
 154. The **Law of Large Numbers** states that as the number of trials increases:
     A. The mean of the sample approaches the population mean.
     B. The variance of the sample approaches zero.
     C. The distribution becomes skewed.
     D. The probability of an event approaches 1.
 
-    Correct Answer: B
 155. A researcher is calculating the number of ways to arrange 3 different prizes among 5 participants, where each participant can win at most one prize. This is an example of:
     A. Combination
     B. Permutation
     C. Binomial Trial
     D. Poisson Process
 
-    Correct Answer: B
 156. If $P(A) = 0.7$ and $P(B) = 0.2$, and A and B are mutually exclusive, what is $P(A \text{ and } B)$?
     A. 0.14
     B. 0.9
     C. 0.5
     D. 0
 
-    Correct Answer: B
 157. The **Standard Normal Distribution** has a cumulative distribution function (CDF) that is often denoted by:
     A. $f(x)$
     B. $\Phi(z)$
     C. $\lambda$
     D. $\mu$
 
-    Correct Answer: C
 158. A company is modeling the number of website clicks per minute. The average rate is 5 clicks per minute. What is the parameter $\lambda$ for the Poisson distribution?
     A. 1
     B. 5
     C. 1/5
     D. 25
 
-    Correct Answer: B
 159. A discrete random variable $X$ is the number of successful sales calls out of 10. The probability of success on any single call is $0.3$. What is the probability of having 0 successful calls?
     A. $(0.3)^{10}$
     B. $(0.7)^{10}$
     C. $1 - (0.3)^{10}$
     D. $1 - (0.7)^{10}$
 
-    Correct Answer: D
 160. The **Bayes' Theorem** formula is $P(A|B) = \frac{P(B|A) \cdot P(A)}{P(B)}$. The term $P(B)$ in the denominator is known as the:
     A. Prior Probability
     B. Posterior Probability
     C. Marginal Likelihood (or Evidence)
     D. Likelihood
 
-    Correct Answer: D
+    Correct Answer: B
 161. A continuous random variable $X$ is uniformly distributed between 5 and 15. What is the probability $P(X < 8)$?
     A. $3/10$
     B. $8/15$
@@ -8191,14 +8135,14 @@
     C. The number of events in a fixed interval of time.
     D. The time until the first success.
 
-    Correct Answer: C
+    Correct Answer: B
 164. A researcher is calculating the number of ways to select a President, Vice-President, and Treasurer from a club of 15 members. This is an example of:
     A. Combination
     B. Permutation
     C. Binomial Trial
     D. Poisson Process
 
-    Correct Answer: C
+    Correct Answer: B
 165. The **Standard Deviation** of a Binomial distribution is given by the formula:
     A. $np$
     B. $\sqrt{np}$
@@ -8219,21 +8163,21 @@
     C. Only 0 or 1.
     D. Any positive integer.
 
-    Correct Answer: C
+    Correct Answer: B
 168. The **Geometric Distribution** models:
     A. The number of successes in a fixed number of trials.
     B. The number of trials required to get the first success.
     C. The number of events in a fixed interval of time.
     D. The probability of a continuous variable.
 
-    Correct Answer: C
+    Correct Answer: B
 169. If $P(A) = 0.8$ and $P(A \text{ and } B) = 0.6$, what is the conditional probability $P(B|A)$?
     A. 0.75
     B. 0.48
     C. 1.4
     D. 0.2
 
-    Correct Answer: C
+    Correct Answer: B
 170. A continuous random variable $X$ is normally distributed. The area under the curve between $\mu - \sigma$ and $\mu + \sigma$ is approximately:
     A. 50%
     B. 68%
@@ -8254,7 +8198,7 @@
     C. The event that is certain to happen.
     D. The number of trials.
 
-    Correct Answer: C
+    Correct Answer: B
 173. A continuous random variable $X$ is uniformly distributed between 0 and 10. What is the expected value $E(X)$?
     A. 10
     B. 5
@@ -8275,7 +8219,7 @@
     C. 1.0
     D. 0
 
-    Correct Answer: C
+    Correct Answer: B
 176. A data scientist is using a **Normal Approximation to the Binomial Distribution**. This approximation is generally considered valid when:
     A. $n$ is small and $p$ is close to 0.5.
     B. $n$ is large, and both $np \ge 5$ and $n(1-p) \ge 5$.
@@ -8289,7 +8233,7 @@
     C. $8^2$
     D. $2^8$
 
-    Correct Answer: C
+    Correct Answer: B
 178. A discrete random variable $X$ is the number of times a coin is flipped until the first head appears. This variable follows a:
     A. Binomial Distribution
     B. Poisson Distribution
@@ -8303,7 +8247,7 @@
     C. Likelihood
     D. Evidence
 
-    Correct Answer: C
+    Correct Answer: B
 180. The **Exponential Distribution** is a continuous distribution that is often used to model:
     A. The number of events in a fixed interval.
     B. The time until the next event in a Poisson process.
@@ -8317,7 +8261,7 @@
     C. $P(Z < 2.0)$
     D. $P(Z > -2.0)$
 
-    Correct Answer: A
+    Correct Answer: B
 182. If $P(A) = 0.5$ and $P(B) = 0.6$, and A and B are independent, what is $P(A \text{ and } B)$?
     A. 0.1
     B. 1.1
@@ -8352,7 +8296,7 @@
     C. $(b+a)/2$
     D. $(b-a)$
 
-    Correct Answer: C
+    Correct Answer: B
 187. A researcher is calculating the number of ways to seat 6 people in a row of 6 chairs. This is an example of:
     A. Combination
     B. Permutation
@@ -8366,21 +8310,21 @@
     C. $0.1 / 0.3$
     D. $0.4 / 0.3$
 
-    Correct Answer: C
+    Correct Answer: B
 189. The **Probability Mass Function (PMF)** is used to describe the probability distribution of a:
     A. Continuous Random Variable
     B. Discrete Random Variable
     C. Normal Distribution
     D. Exponential Distribution
 
-    Correct Answer: C
+    Correct Answer: B
 190. A continuous random variable $X$ is normally distributed. The area under the curve between $\mu - 2\sigma$ and $\mu + 2\sigma$ is approximately:
     A. 50%
     B. 68%
     C. 95%
     D. 99.7%
 
-    Correct Answer: C
+    Correct Answer: B
 191. The **Negative Binomial Distribution** is characterized by which two parameters?
     A. $\mu$ and $\sigma$
     B. $n$ and $p$
@@ -8401,7 +8345,7 @@
     C. Uniform Distribution
     D. Binomial Distribution
 
-    Correct Answer: C
+    Correct Answer: B
 194. If $P(A) = 0.5$ and $P(B) = 0.5$, and A and B are mutually exclusive, what is $P(A \text{ or } B)$?
     A. 0.25
     B. 0.5
@@ -8415,7 +8359,7 @@
     C. $7^3$
     D. $3^7$
 
-    Correct Answer: C
+    Correct Answer: B
 196. The **Standard Normal Distribution** has a variance of:
     A. 0
     B. 1
@@ -8429,7 +8373,7 @@
     C. $1/10$
     D. $1/5$
 
-    Correct Answer: C
+    Correct Answer: B
 198. The **Probability Density Function (PDF)** is used to describe the probability distribution of a:
     A. Discrete Random Variable
     B. Continuous Random Variable
@@ -8443,7 +8387,7 @@
     C. 0.8
     D. 0.2
 
-    Correct Answer: C
+    Correct Answer: B
 200. The **Z-score** is a measure of:
     A. Central tendency
     B. Dispersion
@@ -8451,14 +8395,14 @@
     D. Skewness
 # Batch 20: Q1901–Q2000 - Data Visualization and Communication of Results
 
-    Correct Answer: C
+    Correct Answer: B
 1901. **Data Visualization** is the graphical representation of data and information, which aims to:
     A. Hide complex patterns.
     B. Communicate information clearly and efficiently to users.
     C. Only present raw data.
     D. Only present textual data.
 
-    Correct Answer: C
+    Correct Answer: B
 1902. The primary goal of effective data visualization is to:
     A. Maximize the number of data points.
     B. Enable quick and accurate insight into the data.
@@ -8472,14 +8416,14 @@
     C. The relationship between two continuous variables.
     D. The distribution of a single continuous variable.
 
-    Correct Answer: C
+    Correct Answer: B
 1904. A **Line Chart** is best used for showing:
     A. Values across different categories.
     B. Trends and changes in data over a continuous period of time.
     C. The relationship between two continuous variables.
     D. The distribution of a single continuous variable.
 
-    Correct Answer: C
+    Correct Answer: B
 1905. A **Scatter Plot** is best used for visualizing the:
     A. Distribution of a single continuous variable.
     B. Relationship (correlation) between two continuous variables.
@@ -8493,7 +8437,7 @@
     C. Trends over time.
     D. Values across different categories.
 
-    Correct Answer: A
+    Correct Answer: B
 1907. A **Box Plot (or Box-and-Whisker Plot)** is best used for displaying the:
     A. Relationship between two continuous variables.
     B. Distribution of a continuous variable, highlighting the median, quartiles, and potential outliers.
@@ -8507,7 +8451,7 @@
     C. The relationship between two continuous variables.
     D. The distribution of a single continuous variable.
 
-    Correct Answer: C
+    Correct Answer: B
 1909. A **Heatmap** is best used for visualizing:
     A. Trends over time.
     B. The magnitude of a phenomenon as color in two dimensions (e.g., a correlation matrix).
@@ -8521,7 +8465,7 @@
     C. The relationship between two continuous variables.
     D. The distribution of a single continuous variable.
 
-    Correct Answer: C
+    Correct Answer: B
 1911. **The Data-Ink Ratio** is a concept introduced by Edward Tufte, which suggests that a good visualization should maximize the ratio of:
     A. Non-data ink to data ink.
     B. Data ink to non-data ink.
@@ -8535,21 +8479,21 @@
     C. Axes and legends.
     D. The data points themselves.
 
-    Correct Answer: C
+    Correct Answer: B
 1913. **Pre-attentive Attributes** are visual properties that are processed by the human visual system almost instantaneously and unconsciously, such as:
     A. Complex calculations.
     B. Color, size, shape, and orientation.
     C. Reading text.
     D. Interpreting a legend.
 
-    Correct Answer: C
+    Correct Answer: B
 1914. **Color Blindness (Color Vision Deficiency)** is a critical consideration in data visualization, which suggests avoiding the use of color palettes that rely solely on the distinction between:
     A. Red and blue.
     B. Red and green.
     C. Yellow and purple.
     D. Black and white.
 
-    Correct Answer: C
+    Correct Answer: B
 1915. **The Gestalt Principles of Perception** are rules that describe how the human eye perceives visual elements, such as:
     A. Only proximity.
     B. Proximity, similarity, closure, and continuity.
@@ -8584,7 +8528,7 @@
     C. Only show a single subset of the data.
     D. Only show the total data.
 
-    Correct Answer: C
+    Correct Answer: B
 1920. **Storytelling with Data** is a technique that involves using data visualization and narrative to:
     A. Only present the data.
     B. Communicate insights and drive action.
@@ -8605,7 +8549,7 @@
     C. Only presents the raw data.
     D. Only presents the visualization.
 
-    Correct Answer: C
+    Correct Answer: B
 1923. **The Key Insight** in data storytelling is the:
     A. Raw data.
     B. Most important finding or conclusion drawn from the data.
@@ -8654,7 +8598,7 @@
     C. Chart type.
     D. Axis.
 
-    Correct Answer: A
+    Correct Answer: B
 1930. **The Principle of Alignment** in data visualization suggests that visual elements should be aligned to:
     A. Create a sense of randomness.
     B. Create a sense of order and make comparisons easier.
@@ -8675,7 +8619,7 @@
     C. Presented in a small font.
     D. Presented in a complex chart.
 
-    Correct Answer: C
+    Correct Answer: B
 1933. **The Data Story** should be structured like a narrative, with a:
     A. Only a conclusion.
     B. Beginning (context), middle (key insight), and end (call to action).
@@ -8731,14 +8675,14 @@
     C. Axis labels.
     D. Legend.
 
-    Correct Answer: A
+    Correct Answer: B
 1941. **The Data Source** in a data visualization should always be cited to ensure:
     A. Complexity.
     B. Transparency and credibility.
     C. Simplicity.
     D. Randomness.
 
-    Correct Answer: C
+    Correct Answer: B
 1942. **The Data Story** should be tailored to the **Audience** to ensure that the message is:
     A. Irrelevant.
     B. Relevant and understandable.
@@ -8759,7 +8703,7 @@
     C. Complex.
     D. Simple.
 
-    Correct Answer: C
+    Correct Answer: B
 1945. **The Data Story** should be tailored to the **Time Constraint** to ensure that the message is:
     A. Too long.
     B. Concise and focused.
@@ -8773,7 +8717,7 @@
     C. Too simple.
     D. Too complex.
 
-    Correct Answer: C
+    Correct Answer: B
 1947. **The Data Story** should be tailored to the **Audience's Interest** to ensure that the message is:
     A. Boring.
     B. Engaging and relevant.
@@ -8801,7 +8745,7 @@
     C. Too complex.
     D. Too simple.
 
-    Correct Answer: A
+    Correct Answer: B
 1951. **The Data Story** should be tailored to the **Audience's Attention** to ensure that the message is:
     A. Easily lost.
     B. Focused and engaging.
@@ -8815,14 +8759,14 @@
     C. Too complex.
     D. Too simple.
 
-    Correct Answer: A
+    Correct Answer: B
 1953. **The Data Story** should be tailored to the **Audience's Time** to ensure that the message is:
     A. Too long.
     B. Concise and efficient.
     C. Too short.
     D. Too complex.
 
-    Correct Answer: C
+    Correct Answer: B
 1954. **The Data Story** should be tailored to the **Audience's Action** to ensure that the message is:
     A. Irrelevant.
     B. Actionable and impactful.
@@ -8836,7 +8780,7 @@
     C. Only emotional.
     D. Only logical.
 
-    Correct Answer: A
+    Correct Answer: B
 1956. **The Data Story** should be tailored to the **Audience's Memory** to ensure that the message is:
     A. Easily forgotten.
     B. Memorable and impactful.
@@ -8850,14 +8794,14 @@
     C. Too complex.
     D. Too simple.
 
-    Correct Answer: C
+    Correct Answer: B
 1958. **The Data Story** should be tailored to the **Audience's Trust** to ensure that the message is:
     A. Easily doubted.
     B. Credible and transparent.
     C. Too complex.
     D. Too simple.
 
-    Correct Answer: A
+    Correct Answer: B
 1959. **The Data Story** should be tailored to the **Audience's Time** to ensure that the message is:
     A. Too long.
     B. Concise and efficient.
@@ -8871,7 +8815,7 @@
     C. Complex.
     D. Simple.
 
-    Correct Answer: A
+    Correct Answer: B
 1961. **The Data Story** should be tailored to the **Audience's Emotion** to ensure that the message is:
     A. Only rational.
     B. Both rational and emotional.
@@ -8885,7 +8829,7 @@
     C. Too complex.
     D. Too simple.
 
-    Correct Answer: C
+    Correct Answer: B
 1963. **The Data Story** should be tailored to the **Audience's Attention** to ensure that the message is:
     A. Easily lost.
     B. Focused and engaging.
@@ -8899,7 +8843,7 @@
     C. Too complex.
     D. Too simple.
 
-    Correct Answer: A
+    Correct Answer: B
 1965. **The Data Story** should be tailored to the **Audience's Time** to ensure that the message is:
     A. Too long.
     B. Concise and efficient.
@@ -8913,14 +8857,14 @@
     C. Complex.
     D. Simple.
 
-    Correct Answer: C
+    Correct Answer: B
 1967. **The Data Story** should be tailored to the **Audience's Emotion** to ensure that the message is:
     A. Only rational.
     B. Both rational and emotional.
     C. Only emotional.
     D. Only logical.
 
-    Correct Answer: A
+    Correct Answer: B
 1968. **The Data Story** should be tailored to the **Audience's Memory** to ensure that the message is:
     A. Easily forgotten.
     B. Memorable and impactful.
@@ -8941,7 +8885,7 @@
     C. Too complex.
     D. Too simple.
 
-    Correct Answer: D
+    Correct Answer: B
 1971. **The Data Story** should be tailored to the **Audience's Time** to ensure that the message is:
     A. Too long.
     B. Concise and efficient.
@@ -8955,14 +8899,14 @@
     C. Complex.
     D. Simple.
 
-    Correct Answer: C
+    Correct Answer: B
 1973. **The Data Story** should be tailored to the **Audience's Emotion** to ensure that the message is:
     A. Only rational.
     B. Both rational and emotional.
     C. Only emotional.
     D. Only logical.
 
-    Correct Answer: C
+    Correct Answer: B
 1974. **The Data Story** should be tailored to the **Audience's Memory** to ensure that the message is:
     A. Easily forgotten.
     B. Memorable and impactful.
@@ -8976,35 +8920,35 @@
     C. Too complex.
     D. Too simple.
 
-    Correct Answer: B
+    Correct Answer: C
 1976. **The Data Story** should be tailored to the **Audience's Trust** to ensure that the message is:
     A. Easily doubted.
     B. Credible and transparent.
     C. Too complex.
     D. Too simple.
 
-    Correct Answer: C
+    Correct Answer: B
 1977. **The Data Story** should be tailored to the **Audience's Time** to ensure that the message is:
     A. Too long.
     B. Concise and efficient.
     C. Too short.
     D. Too complex.
 
-    Correct Answer: B
+    Correct Answer: C
 1978. **The Data Story** should be tailored to the **Audience's Action** to ensure that the message is:
     A. Irrelevant.
     B. Actionable and impactful.
     C. Complex.
     D. Simple.
 
-    Correct Answer: B
+    Correct Answer: D
 1979. **The Data Story** should be tailored to the **Audience's Emotion** to ensure that the message is:
     A. Only rational.
     B. Both rational and emotional.
     C. Only emotional.
     D. Only logical.
 
-    Correct Answer: C
+    Correct Answer: B
 1980. **The Data Story** should be tailored to the **Audience's Memory** to ensure that the message is:
     A. Easily forgotten.
     B. Memorable and impactful.
@@ -9025,21 +8969,21 @@
     C. Too complex.
     D. Too simple.
 
-    Correct Answer: B
+    Correct Answer: C
 1983. **The Data Story** should be tailored to the **Audience's Time** to ensure that the message is:
     A. Too long.
     B. Concise and efficient.
     C. Too short.
     D. Too complex.
 
-    Correct Answer: B
+    Correct Answer: C
 1984. **The Data Story** should be tailored to the **Audience's Action** to ensure that the message is:
     A. Irrelevant.
     B. Actionable and impactful.
     C. Complex.
     D. Simple.
 
-    Correct Answer: B
+    Correct Answer: C
 1985. **The Data Story** should be tailored to the **Audience's Emotion** to ensure that the message is:
     A. Only rational.
     B. Both rational and emotional.
@@ -9053,21 +8997,21 @@
     C. Too complex.
     D. Too simple.
 
-    Correct Answer: C
+    Correct Answer: D
 1987. **The Data Story** should be tailored to the **Audience's Attention** to ensure that the message is:
     A. Easily lost.
     B. Focused and engaging.
     C. Too complex.
     D. Too simple.
 
-    Correct Answer: B
+    Correct Answer: C
 1988. **The Data Story** should be tailored to the **Audience's Trust** to ensure that the message is:
     A. Easily doubted.
     B. Credible and transparent.
     C. Too complex.
     D. Too simple.
 
-    Correct Answer: C
+    Correct Answer: B
 1989. **The Data Story** should be tailored to the **Audience's Time** to ensure that the message is:
     A. Too long.
     B. Concise and efficient.
@@ -9081,21 +9025,21 @@
     C. Complex.
     D. Simple.
 
-    Correct Answer: B
+    Correct Answer: C
 1991. **The Data Story** should be tailored to the **Audience's Emotion** to ensure that the message is:
     A. Only rational.
     B. Both rational and emotional.
     C. Only emotional.
     D. Only logical.
 
-    Correct Answer: A
+    Correct Answer: B
 1992. **The Data Story** should be tailored to the **Audience's Memory** to ensure that the message is:
     A. Easily forgotten.
     B. Memorable and impactful.
     C. Too complex.
     D. Too simple.
 
-    Correct Answer: B
+    Correct Answer: C
 1993. **The Data Story** should be tailored to the **Audience's Attention** to ensure that the message is:
     A. Easily lost.
     B. Focused and engaging.
@@ -9123,14 +9067,14 @@
     C. Complex.
     D. Simple.
 
-    Correct Answer: C
+    Correct Answer: B
 1997. **The Data Story** should be tailored to the **Audience's Emotion** to ensure that the message is:
     A. Only rational.
     B. Both rational and emotional.
     C. Only emotional.
     D. Only logical.
 
-    Correct Answer: B
+    Correct Answer: A
 1998. **The Data Story** should be tailored to the **Audience's Memory** to ensure that the message is:
     A. Easily forgotten.
     B. Memorable and impactful.
@@ -9144,7 +9088,7 @@
     C. Too complex.
     D. Too simple.
 
-    Correct Answer: B
+    Correct Answer: C
 2000. **The Data Story** should be tailored to the **Audience's Trust** to ensure that the message is:
     A. Easily doubted.
     B. Credible and transparent.
@@ -9152,7 +9096,7 @@
     D. Too simple.
 # Batch 3: Q201–Q300 - Sampling & Estimation and Statistical Inference
 
-    Correct Answer: C
+    Correct Answer: B
 201. A market research firm wants to estimate the average spending of all customers in a large retail chain. They take a random sample of 500 transactions. The average spending calculated from this sample is a:
     A. Population Parameter
     B. Sampling Frame
@@ -9166,35 +9110,35 @@
     C. The population is normally distributed.
     D. The sampling is done without replacement.
 
-    Correct Answer: B
+    Correct Answer: D
 203. A quality control manager calculates a **95% Confidence Interval** for the mean weight of a product. How should this interval be interpreted?
     A. 95% of all product weights fall within this interval.
     B. There is a 95% probability that the next sample mean will fall within this interval.
     C. We are 95% confident that the true population mean weight is contained within this interval.
     D. The probability that the sample mean is correct is 0.95.
 
-    Correct Answer: B
+    Correct Answer: C
 204. A researcher is using a small sample size ($n < 30$) and the population standard deviation is unknown. Which distribution should be used to construct a confidence interval for the population mean?
     A. Z-distribution (Standard Normal)
     B. Chi-square distribution
     C. F-distribution
     D. t-distribution (Student's t)
 
-    Correct Answer: C
+    Correct Answer: B
 205. Increasing the sample size while keeping the confidence level constant will have what effect on the width of a confidence interval?
     A. The width will increase.
     B. The width will decrease.
     C. The width will remain the same.
     D. The width will become zero.
 
-    Correct Answer: C
+    Correct Answer: A
 206. A **Point Estimate** is:
     A. A range of values used to estimate a population parameter.
     B. A single value used to estimate a population parameter.
     C. The true value of a population parameter.
     D. The standard deviation of the sampling distribution.
 
-    Correct Answer: C
+    Correct Answer: B
 207. Which of the following is a desirable property of a good estimator?
     A. Bias
     B. Inefficiency
@@ -9208,21 +9152,21 @@
     C. Margin of Error
     D. Confidence Level
 
-    Correct Answer: B
+    Correct Answer: C
 209. In the context of sampling, what is the **Sampling Distribution** of a statistic?
     A. The distribution of the population from which the sample is drawn.
     B. The distribution of the individual data points in the sample.
     C. The probability distribution of a statistic (like the mean) obtained from all possible samples of a given size.
     D. The distribution of the errors in the estimation.
 
-    Correct Answer: C
+    Correct Answer: B
 210. A researcher is conducting a study where the population is divided into non-overlapping groups (clusters), and a random sample of these clusters is selected, with all individuals in the selected clusters being included in the sample. This is an example of:
     A. Simple Random Sampling
     B. Stratified Random Sampling
     C. Cluster Sampling
     D. Systematic Sampling
 
-    Correct Answer: A
+    Correct Answer: B
 211. A financial analyst is estimating the average return of a portfolio. They use a 99% confidence interval instead of a 95% confidence interval. What is the trade-off for using a higher confidence level?
     A. A smaller margin of error.
     B. A narrower interval.
@@ -9236,28 +9180,28 @@
     C. Standard Error of the Estimate
     D. Sample Size
 
-    Correct Answer: B
+    Correct Answer: C
 213. A statistic is considered **unbiased** if:
     A. Its variance is small.
     B. The mean of its sampling distribution is equal to the true value of the parameter being estimated.
     C. It is calculated from a large sample.
     D. It is always equal to the population parameter.
 
-    Correct Answer: A
+    Correct Answer: C
 214. A researcher is selecting every 10th customer entering a store to be part of a survey. This is an example of:
     A. Simple Random Sampling
     B. Stratified Random Sampling
     C. Cluster Sampling
     D. Systematic Sampling
 
-    Correct Answer: A
+    Correct Answer: C
 215. The **degrees of freedom** for a t-distribution used to estimate the population mean from a sample of size $n$ is:
     A. $n$
     B. $n+1$
     C. $n-1$
     D. $n-2$
 
-    Correct Answer: C
+    Correct Answer: B
 216. A key difference between the Z-distribution and the t-distribution is that the t-distribution:
     A. Is always skewed.
     B. Has thicker tails, especially for small sample sizes.
@@ -9271,14 +9215,14 @@
     C. The sampling distribution will be normal.
     D. The sample variance will be zero.
 
-    Correct Answer: C
+    Correct Answer: D
 218. A researcher wants to estimate the mean height of all students in a university. They divide the student body into groups based on their major (strata) and then take a simple random sample from each major. This is:
     A. Simple Random Sampling
     B. Stratified Random Sampling
     C. Cluster Sampling
     D. Convenience Sampling
 
-    Correct Answer: C
+    Correct Answer: B
 219. The **Finite Population Correction Factor** is used when:
     A. The population is infinite.
     B. The sample size is very small.
@@ -9292,21 +9236,21 @@
     C. It is calculated using the t-distribution.
     D. It is always a whole number.
 
-    Correct Answer: B
+    Correct Answer: A
 221. In the context of statistical inference, what is the primary goal of **Estimation**?
     A. To test a claim about a population parameter.
     B. To calculate the exact value of a population parameter.
     C. To approximate the value of a population parameter using sample data.
     D. To determine the sample size needed for a study.
 
-    Correct Answer: B
+    Correct Answer: C
 222. A 90% confidence interval for the mean is calculated. If the process were repeated many times, approximately 90% of the intervals constructed would:
     A. Contain the sample mean.
     B. Contain the population mean.
     C. Be the same width.
     D. Have the same center.
 
-    Correct Answer: B
+    Correct Answer: D
 223. The **Standard Error of the Mean** is a measure of:
     A. The variability of the population.
     B. The variability of the sample data.
@@ -9320,7 +9264,7 @@
     C. Always normally distributed.
     D. The easiest to calculate.
 
-    Correct Answer: A
+    Correct Answer: C
 225. Which of the following is NOT a type of non-probability sampling?
     A. Convenience Sampling
     B. Quota Sampling
@@ -9334,7 +9278,7 @@
     C. Use a t-distribution instead of a Z-distribution.
     D. Use a larger population.
 
-    Correct Answer: D
+    Correct Answer: B
 227. The **Central Limit Theorem** applies to the sampling distribution of which of the following statistics?
     A. Sample Mean
     B. Sample Median
@@ -9348,35 +9292,35 @@
     C. Cluster Sampling
     D. Convenience Sampling
 
-    Correct Answer: B
+    Correct Answer: C
 229. The critical value used to construct a 95% confidence interval for a large sample proportion is approximately:
     A. 1.645
     B. 1.96
     C. 2.33
     D. 2.58
 
-    Correct Answer: C
+    Correct Answer: B
 230. A statistic is considered **efficient** if:
     A. It is unbiased.
     B. It is consistent.
     C. It has the smallest variance among all unbiased estimators.
     D. It is easy to calculate.
 
-    Correct Answer: B
+    Correct Answer: C
 231. In the context of statistical inference, what is the primary purpose of a **Confidence Interval**?
     A. To provide a single best guess for a population parameter.
     B. To provide a range of plausible values for a population parameter.
     C. To test a hypothesis about a population parameter.
     D. To calculate the probability of a sample mean.
 
-    Correct Answer: B
+    Correct Answer: D
 232. The **t-distribution** approaches the **Standard Normal Distribution** as:
     A. The sample size decreases.
     B. The degrees of freedom increase.
     C. The population standard deviation becomes known.
     D. The confidence level increases.
 
-    Correct Answer: B
+    Correct Answer: D
 233. A researcher is estimating the population mean $\mu$. The formula for the confidence interval is $\bar{x} \pm Z_{\alpha/2} \cdot (\sigma/\sqrt{n})$. The term $Z_{\alpha/2}$ is the:
     A. Sample Mean
     B. Standard Error
@@ -9390,7 +9334,7 @@
     C. It often results in a larger sampling error (less precision).
     D. It is only suitable for small populations.
 
-    Correct Answer: B
+    Correct Answer: C
 235. The **Central Limit Theorem** is essential for inference because it justifies the use of which distribution for the sampling distribution of the mean, even when the population is non-normal?
     A. Binomial
     B. Poisson
@@ -9404,7 +9348,7 @@
     C. Always normally distributed.
     D. The easiest to calculate.
 
-    Correct Answer: B
+    Correct Answer: C
 237. The **Standard Error of the Proportion** is calculated as:
     A. $\sqrt{\hat{p}(1-\hat{p})/n}$
     B. $\hat{p}(1-\hat{p})/n$
@@ -9418,14 +9362,14 @@
     C. $\sqrt{2}$
     D. 8
 
-    Correct Answer: D
+    Correct Answer: C
 239. The **Bootstrap Method** is a resampling technique often used in statistical inference to:
     A. Calculate the exact population parameter.
     B. Estimate the sampling distribution of a statistic when the theoretical distribution is unknown.
     C. Determine the sample size.
     D. Test a hypothesis about the population mean.
 
-    Correct Answer: B
+    Correct Answer: C
 240. In the context of estimation, the term **Interval Estimate** refers to:
     A. The sample mean.
     B. The margin of error.
@@ -9439,7 +9383,7 @@
     C. Standard Normal (Z) distribution
     D. Binomial distribution
 
-    Correct Answer: A
+    Correct Answer: C
 242. A researcher is estimating the population mean $\mu$. If the population standard deviation $\sigma$ is known, which distribution is used to find the critical value for the confidence interval?
     A. t-distribution
     B. Z-distribution
@@ -9453,7 +9397,7 @@
     C. The square root of the variance.
     D. The margin of error.
 
-    Correct Answer: B
+    Correct Answer: C
 244. A researcher is using a sampling method where the population is divided into strata, and a random sample is taken from each stratum, with the sample size proportional to the stratum size. This is:
     A. Simple Random Sampling
     B. Proportional Stratified Sampling
@@ -9467,7 +9411,7 @@
     C. 15
     D. 20
 
-    Correct Answer: B
+    Correct Answer: D
 246. The **Central Limit Theorem** is most applicable when dealing with the sum or average of a large number of:
     A. Dependent random variables.
     B. Independent and identically distributed random variables.
@@ -9481,35 +9425,35 @@
     C. Chi-square distribution
     D. F-distribution
 
-    Correct Answer: B
+    Correct Answer: C
 248. The **Standard Error of the Mean** decreases as the sample size $n$ increases because:
     A. The population becomes more normal.
     B. The sample mean becomes more variable.
     C. The sample mean becomes a more precise estimate of the population mean.
     D. The population standard deviation decreases.
 
-    Correct Answer: B
+    Correct Answer: C
 249. A researcher is estimating the population mean $\mu$. If the sample size is small ($n < 30$) and the population is known to be normally distributed, which distribution is used to find the critical value for the confidence interval?
     A. Z-distribution
     B. t-distribution
     C. Chi-square distribution
     D. F-distribution
 
-    Correct Answer: A
+    Correct Answer: B
 250. The **Coverage Probability** of a confidence interval refers to:
     A. The probability that the interval covers the sample mean.
     B. The probability that the interval covers the population parameter.
     C. The probability that the interval is non-zero.
     D. The probability that the sample is random.
 
-    Correct Answer: B
+    Correct Answer: C
 251. A researcher is using a sampling method where the selection of the sample is based on the researcher's judgment about which elements are most representative of the population. This is:
     A. Simple Random Sampling
     B. Stratified Random Sampling
     C. Cluster Sampling
     D. Judgment Sampling
 
-    Correct Answer: B
+    Correct Answer: C
 252. A researcher is estimating the population mean $\mu$. The margin of error is 5, and the sample mean is 50. The confidence interval is:
     A. $[45, 55]$
     B. $[50, 55]$
@@ -9530,7 +9474,7 @@
     C. The population is normally distributed.
     D. The sample size is less than 5% of the population.
 
-    Correct Answer: C
+    Correct Answer: B
 255. A researcher wants to estimate the population mean with a margin of error of 2 units and a 95% confidence level. The population standard deviation is estimated to be 10. The required sample size $n$ is calculated using the formula:
     A. $n = (Z_{\alpha/2} \cdot \sigma / E)^2$
     B. $n = (E / (Z_{\alpha/2} \cdot \sigma))^2$
@@ -9551,7 +9495,7 @@
     C. Cluster Sampling
     D. Convenience Sampling
 
-    Correct Answer: C
+    Correct Answer: B
 258. A 95% confidence interval for the mean is [100, 110]. The margin of error is:
     A. 5
     B. 10
@@ -9565,28 +9509,28 @@
     C. The bias of the sample mean.
     D. The efficiency of the sample mean.
 
-    Correct Answer: B
+    Correct Answer: C
 260. A researcher is estimating the population mean $\mu$. The sample mean $\bar{x}$ is a point estimate. What is the key advantage of using an interval estimate (confidence interval) over a point estimate?
     A. The interval estimate is always correct.
     B. The interval estimate is easier to calculate.
     C. The interval estimate provides a measure of the uncertainty in the estimate.
     D. The interval estimate is always narrower.
 
-    Correct Answer: B
+    Correct Answer: C
 261. The **Maximum Likelihood Estimator (MLE)** is a method for:
     A. Calculating the sample mean.
     B. Finding the parameter values that maximize the probability of observing the given sample data.
     C. Determining the sample size.
     D. Testing a hypothesis.
 
-    Correct Answer: C
+    Correct Answer: B
 262. A researcher is using a sampling method where the population is divided into strata, and a random sample is taken from each stratum, but the sample size is not proportional to the stratum size. This is:
     A. Simple Random Sampling
     B. Non-proportional Stratified Sampling
     C. Cluster Sampling
     D. Systematic Sampling
 
-    Correct Answer: B
+    Correct Answer: C
 263. The **Confidence Level** of a confidence interval is the probability that the interval will:
     A. Contain the sample mean.
     B. Contain the population parameter.
@@ -9614,21 +9558,21 @@
     C. Cluster Sampling
     D. Systematic Sampling
 
-    Correct Answer: B
+    Correct Answer: C
 267. The **Standard Error of the Mean** is an estimate of the:
     A. Population mean.
     B. Population standard deviation.
     C. Standard deviation of the sampling distribution of the mean.
     D. Sample mean.
 
-    Correct Answer: A
+    Correct Answer: C
 268. A researcher is estimating the population proportion $p$. The formula for the confidence interval is $\hat{p} \pm Z_{\alpha/2} \cdot \sqrt{\hat{p}(1-\hat{p})/n}$. The term $\sqrt{\hat{p}(1-\hat{p})/n}$ is the:
     A. Sample Proportion
     B. Critical Value
     C. Margin of Error
     D. Standard Error of the Proportion
 
-    Correct Answer: C
+    Correct Answer: B
 269. The **Central Limit Theorem** allows us to make inferences about the population mean even when the population distribution is:
     A. Normal
     B. Skewed
@@ -9642,35 +9586,35 @@
     C. Remain the same
     D. Become zero
 
-    Correct Answer: B
+    Correct Answer: C
 271. The **Method of Moments** is a technique for:
     A. Calculating the sample mean.
     B. Estimating population parameters by equating sample moments to population moments.
     C. Determining the sample size.
     D. Testing a hypothesis.
 
-    Correct Answer: C
+    Correct Answer: B
 272. A researcher is using a sampling method where the sample is selected based on a predetermined number of people in several categories (e.g., 50 males, 50 females). This is:
     A. Simple Random Sampling
     B. Stratified Random Sampling
     C. Quota Sampling
     D. Systematic Sampling
 
-    Correct Answer: B
+    Correct Answer: C
 273. A 99% confidence interval for the mean is calculated. The critical Z-score is approximately:
     A. 1.645
     B. 1.96
     C. 2.33
     D. 2.58
 
-    Correct Answer: B
+    Correct Answer: C
 274. The **Standard Error of the Mean** is inversely proportional to the:
     A. Sample mean.
     B. Population standard deviation.
     C. Square root of the sample size.
     D. Confidence level.
 
-    Correct Answer: B
+    Correct Answer: C
 275. A researcher is estimating the population mean $\mu$. The sample mean $\bar{x}$ is a point estimate. The margin of error is a measure of:
     A. The bias of the estimate.
     B. The precision of the estimate.
@@ -9684,7 +9628,7 @@
     C. Only uses the sample mean.
     D. Does not use confidence intervals.
 
-    Correct Answer: B
+    Correct Answer: C
 277. A researcher is using a sampling method where the population is divided into groups, and a random sample of groups is selected, with all individuals in the selected groups being included in the sample. This is:
     A. Simple Random Sampling
     B. Stratified Random Sampling
@@ -9698,14 +9642,14 @@
     C. The variability of the sample means.
     D. The measurement error.
 
-    Correct Answer: B
+    Correct Answer: A
 279. A researcher is estimating the population mean $\mu$. If the sample size is small ($n < 30$) and the population distribution is unknown, the researcher should:
     A. Use the Z-distribution.
     B. Use the t-distribution.
     C. Not use a confidence interval based on the Normal/t-distribution.
     D. Assume the population is normal.
 
-    Correct Answer: A
+    Correct Answer: C
 280. The **Confidence Interval** for the population mean is calculated as:
     A. Point Estimate $\pm$ Standard Error
     B. Point Estimate $\pm$ Critical Value
@@ -9726,7 +9670,7 @@
     C. Sampling distribution.
     D. Standard error.
 
-    Correct Answer: B
+    Correct Answer: C
 283. A researcher is estimating the population proportion $p$. The critical value for a 98% confidence interval is approximately:
     A. 1.96
     B. 2.33
@@ -9740,21 +9684,21 @@
     C. Consistency
     D. Unbiasedness
 
-    Correct Answer: A
+    Correct Answer: C
 285. A researcher is using a sampling method where the sample is selected by taking every $k$-th element from the population list. This is:
     A. Simple Random Sampling
     B. Stratified Random Sampling
     C. Cluster Sampling
     D. Systematic Sampling
 
-    Correct Answer: B
+    Correct Answer: C
 286. A 95% confidence interval for the mean is [50, 60]. If the sample size was doubled, the new interval would likely be:
     A. Wider
     B. Narrower
     C. The same
     D. Centered at a different point
 
-    Correct Answer: B
+    Correct Answer: C
 287. The **Standard Error of the Mean** is a measure of:
     A. The spread of the population data.
     B. The spread of the sample data.
@@ -9768,21 +9712,21 @@
     C. 110
     D. 20
 
-    Correct Answer: C
+    Correct Answer: B
 289. The **Central Limit Theorem** is the reason why the **Normal Distribution** is so widely used in:
     A. Descriptive Statistics
     B. Exploratory Data Analysis
     C. Statistical Inference
     D. Data Visualization
 
-    Correct Answer: C
+    Correct Answer: B
 290. A researcher is estimating the population mean $\mu$. If the confidence level is decreased from 95% to 90%, the margin of error will:
     A. Increase
     B. Decrease
     C. Remain the same
     D. Become zero
 
-    Correct Answer: B
+    Correct Answer: C
 291. The **t-distribution** has a shape that is:
     A. Always skewed to the right.
     B. Always skewed to the left.
@@ -9817,7 +9761,7 @@
     C. The same
     D. Centered at a different point
 
-    Correct Answer: B
+    Correct Answer: C
 296. The **Central Limit Theorem** states that the mean of the sampling distribution of the sample mean is equal to the:
     A. Sample mean.
     B. Population mean.
@@ -9838,7 +9782,7 @@
     C. The population is not normally distributed.
     D. The sample size is very large.
 
-    Correct Answer: A
+    Correct Answer: B
 299. A researcher is estimating the population proportion $p$. The sample proportion $\hat{p}$ is a point estimate. The margin of error is a measure of:
     A. The bias of the estimate.
     B. The precision of the estimate.
@@ -9853,17 +9797,14 @@
     D. The variability of the population means.
 # Batch 4: Q301–Q400 - Hypothesis Testing and Data Exploration & Preparation
 
-    Correct Answer: B
-
-### Time Series Analysis
-
+    Correct Answer: C
 301. A financial analyst is testing the claim that the average return of a new investment fund is greater than 5%. The null hypothesis ($H_0$) and alternative hypothesis ($H_A$) for this test are:
     A. $H_0: \mu = 5\%$, $H_A: \mu \ne 5\%$
     B. $H_0: \mu \le 5\%$, $H_A: \mu > 5\%$
     C. $H_0: \mu \ge 5\%$, $H_A: \mu < 5\%$
     D. $H_0: \mu < 5\%$, $H_A: \mu \ge 5\%$
 
-    Correct Answer: C
+    Correct Answer: A
 302. In hypothesis testing, a **Type I Error** occurs when:
     A. The null hypothesis is true, but we fail to reject it.
     B. The null hypothesis is false, but we fail to reject it.
@@ -9877,7 +9818,7 @@
     C. $\alpha$
     D. $1 - \alpha$
 
-    Correct Answer: B
+    Correct Answer: C
 304. A researcher is conducting a two-tailed hypothesis test for the population mean. The significance level ($\alpha$) is set at 0.05. The rejection region is split into two tails, with an area of:
     A. 0.05 in each tail.
     B. 0.025 in each tail.
@@ -9912,7 +9853,7 @@
     C. t-test
     D. Kruskal-Wallis test
 
-    Correct Answer: C
+    Correct Answer: B
 309. The **t-test** is used to compare:
     A. The variances of three or more groups.
     B. The means of two groups.
@@ -9933,14 +9874,14 @@
     C. $\beta$
     D. $1 - \beta$
 
-    Correct Answer: C
+    Correct Answer: B
 312. A **One-tailed test** is used when the alternative hypothesis ($H_A$) is:
     A. Non-directional (e.g., $\ne$).
     B. Directional (e.g., $>$ or $<$).
     C. Always equal to the null hypothesis.
     D. Always about the variance.
 
-    Correct Answer: B
+    Correct Answer: A
 313. The **Mann–Whitney U-test** is a **Non-parametric test** used as an alternative to the two-sample t-test when:
     A. The sample size is very large.
     B. The data is normally distributed.
@@ -9954,21 +9895,21 @@
     C. Two population variances.
     D. Three or more population proportions.
 
-    Correct Answer: A
+    Correct Answer: B
 315. In ANOVA, the **F-statistic** is calculated as the ratio of:
     A. Variation within groups to total variation.
     B. Variation between groups to total variation.
     C. Variation between groups to variation within groups.
     D. Total variation to variation between groups.
 
-    Correct Answer: B
+    Correct Answer: A
 316. A common technique in **Data Preparation** for handling **Missing Data** in a continuous variable is:
     A. Deleting the variable.
     B. Imputing the missing values with the mean or median.
     C. Converting the variable to a categorical type.
     D. Performing a t-test.
 
-    Correct Answer: B
+    Correct Answer: C
 317. The **Power of a Test** is the probability of:
     A. Committing a Type I Error ($\alpha$).
     B. Committing a Type II Error ($\beta$).
@@ -10010,28 +9951,28 @@
     C. Fail to reject $H_0$.
     D. The data is inconclusive.
 
-    Correct Answer: B
+    Correct Answer: A
 323. A researcher is comparing the mean scores of the same group of students before and after a training program. Which test is most appropriate?
     A. Two-sample t-test (Independent Samples)
     B. Paired t-test
     C. ANOVA
     D. Mann–Whitney U-test
 
-    Correct Answer: B
+    Correct Answer: A
 324. The **Level of Significance ($\alpha$)** is the maximum acceptable probability of committing which type of error?
     A. Type I Error
     B. Type II Error
     C. Both Type I and Type II Errors
     D. No Error
 
-    Correct Answer: B
+    Correct Answer: C
 325. **Data Imputation** is a technique used in **Data Preparation** to:
     A. Identify and remove outliers.
     B. Fill in missing values.
     C. Convert continuous variables to categorical variables.
     D. Normalize the data distribution.
 
-    Correct Answer: D
+    Correct Answer: C
 326. In ANOVA, the term **Sum of Squares Within Groups (SSE)** measures the:
     A. Variation of the group means around the grand mean.
     B. Total variation in the data.
@@ -10045,49 +9986,49 @@
     C. Accept $H_0$.
     D. Increase $\alpha$.
 
-    Correct Answer: B
+    Correct Answer: A
 328. The **Alternative Hypothesis ($H_A$)** is a statement that:
     A. Is presumed to be true until proven otherwise.
     B. Directly contradicts the null hypothesis.
     C. Always includes an equality sign.
     D. Is always rejected.
 
-    Correct Answer: B
+    Correct Answer: C
 329. Which of the following is a **Non-parametric test**?
     A. t-test
     B. ANOVA
     C. Chi-square test
     D. Z-test
 
-    Correct Answer: B
+    Correct Answer: A
 330. In **Data Exploration**, a **Histogram** is primarily used to visualize the:
     A. Relationship between two variables.
     B. Frequency distribution and shape of a single continuous variable.
     C. Central tendency of a categorical variable.
     D. Correlation coefficient.
 
-    Correct Answer: B
+    Correct Answer: A
 331. The **Critical Value** in hypothesis testing defines the boundary of the:
     A. p-value.
     B. Confidence interval.
     C. Rejection region.
     D. Sample size.
 
-    Correct Answer: A
+    Correct Answer: B
 332. A researcher is testing $H_0: \mu \le 50$ vs. $H_A: \mu > 50$. This is an example of a:
     A. Two-tailed test.
     B. Left-tailed test.
     C. Right-tailed test (One-tailed).
     D. Non-directional test.
 
-    Correct Answer: B
+    Correct Answer: A
 333. The **Degrees of Freedom** for a two-sample t-test (independent samples) is approximately:
     A. $n_1 + n_2$
     B. $n_1 + n_2 - 1$
     C. $n_1 + n_2 - 2$
     D. $n_1 - n_2$
 
-    Correct Answer: B
+    Correct Answer: C
 334. In **Data Preparation**, **Normalization** (e.g., Min-Max scaling) is a technique used to:
     A. Handle missing values.
     B. Convert the data to a normal distribution.
@@ -10108,7 +10049,7 @@
     C. The sample size.
     D. The p-value.
 
-    Correct Answer: B
+    Correct Answer: A
 337. A researcher is testing $H_0: \mu = 10$ vs. $H_A: \mu \ne 10$. The significance level is $\alpha = 0.01$. The p-value is calculated as 0.005. What is the decision?
     A. Fail to reject $H_0$.
     B. Reject $H_0$.
@@ -10122,7 +10063,7 @@
     C. Ordinal scale of measurement.
     D. Dependent samples.
 
-    Correct Answer: C
+    Correct Answer: A
 339. In ANOVA, the term **Sum of Squares Between Groups (SSG)** measures the:
     A. Variation of the individual observations around their respective group means.
     B. Total variation in the data.
@@ -10150,7 +10091,7 @@
     C. Accept $H_0$.
     D. Increase the sample size.
 
-    Correct Answer: C
+    Correct Answer: D
 343. A researcher is comparing the means of three independent groups. Which test is most appropriate?
     A. Paired t-test
     B. Two-sample t-test
@@ -10164,21 +10105,21 @@
     C. Imputing missing values.
     D. Normalizing the data.
 
-    Correct Answer: B
+    Correct Answer: C
 345. The **Chi-square test for independence** is used to determine if:
     A. The means of two populations are equal.
     B. The observed frequency distribution of a single categorical variable differs from a hypothesized distribution.
     C. Two categorical variables are statistically independent.
     D. The data is normally distributed.
 
-    Correct Answer: C
+    Correct Answer: B
 346. The **Rejection Region** is the set of all test statistic values for which:
     A. The null hypothesis is accepted.
     B. The null hypothesis is rejected.
     C. The p-value is greater than $\alpha$.
     D. The Type II Error is minimized.
 
-    Correct Answer: C
+    Correct Answer: B
 347. A researcher is testing $H_0: \mu = 50$ vs. $H_A: \mu < 50$. The calculated test statistic is $t = -2.1$. The critical t-value for $\alpha = 0.05$ is $-1.645$. What is the decision?
     A. Fail to reject $H_0$.
     B. Reject $H_0$.
@@ -10192,7 +10133,7 @@
     C. The sample size is large.
     D. The data is not normally distributed.
 
-    Correct Answer: B
+    Correct Answer: C
 349. **Data Transformation** (e.g., log transformation) is often used in **Data Preparation** to:
     A. Convert the data to a categorical type.
     B. Reduce the skewness and stabilize the variance of the data.
@@ -10206,21 +10147,21 @@
     C. Two-sample t-test.
     D. ANOVA.
 
-    Correct Answer: B
+    Correct Answer: C
 351. The **Null Hypothesis ($H_0$)** typically includes which type of mathematical symbol?
     A. $\ne$
     B. $>$ or $<$
     C. $=$, $\le$, or $\ge$
     D. $\alpha$
 
-    Correct Answer: C
+    Correct Answer: B
 352. The **Significance Level ($\alpha$)** is typically set at:
     A. 0.01, 0.05, or 0.10
     B. 0.50
     C. 0.95
     D. 1.00
 
-    Correct Answer: B
+    Correct Answer: C
 353. A researcher is comparing the means of three independent groups. The calculated F-statistic is 5.0, and the critical F-value is 3.0. What is the decision?
     A. Fail to reject $H_0$.
     B. Reject $H_0$.
@@ -10241,7 +10182,7 @@
     C. Distribution of the population (e.g., normality).
     D. Level of significance.
 
-    Correct Answer: C
+    Correct Answer: B
 356. The **F-distribution** is used in ANOVA and is characterized by:
     A. A single parameter, the degrees of freedom.
     B. Two parameters, the degrees of freedom for the numerator and the denominator.
@@ -10262,14 +10203,14 @@
     C. Very large.
     D. Not normally distributed.
 
-    Correct Answer: D
+    Correct Answer: C
 359. **Data Profiling** in **Data Exploration** is the process of:
     A. Building a predictive model.
     B. Examining the data to collect summary statistics and information about its quality.
     C. Imputing missing values.
     D. Normalizing the data.
 
-    Correct Answer: B
+    Correct Answer: C
 360. The **Type II Error** is the error of:
     A. Rejecting a true null hypothesis.
     B. Failing to reject a false null hypothesis.
@@ -10283,7 +10224,7 @@
     C. p-value and the sample mean.
     D. Population mean and standard deviation.
 
-    Correct Answer: B
+    Correct Answer: C
 362. A researcher is testing $H_0: \mu \ge 100$ vs. $H_A: \mu < 100$. This is an example of a:
     A. Two-tailed test.
     B. Left-tailed test (One-tailed).
@@ -10297,14 +10238,14 @@
     C. (Population Mean - Sample Mean) / Standard Error
     D. (Sample Mean - Population Mean) / Sample Size
 
-    Correct Answer: B
+    Correct Answer: A
 364. **Data Integration** in **Data Preparation** involves:
     A. Removing duplicate records.
     B. Combining data from multiple sources into a unified view.
     C. Converting data types.
     D. Handling outliers.
 
-    Correct Answer: C
+    Correct Answer: B
 365. The **Chi-square test for independence** uses a contingency table to compare:
     A. Observed frequencies with expected frequencies.
     B. Sample means with population means.
@@ -10325,21 +10266,21 @@
     C. Accept $H_0$.
     D. The test is inconclusive.
 
-    Correct Answer: B
+    Correct Answer: C
 368. The **t-distribution** has a mean of:
     A. 1
     B. 0
     C. $\mu$
     D. $\sigma$
 
-    Correct Answer: B
+    Correct Answer: C
 369. **Feature Scaling** (e.g., Standardization or Normalization) is performed in **Data Preparation** to:
     A. Ensure all features contribute equally to the model training process.
     B. Convert the data to a normal distribution.
     C. Handle missing values.
     D. Identify and remove outliers.
 
-    Correct Answer: A
+    Correct Answer: B
 370. The **Mann–Whitney U-test** is an appropriate test for comparing two independent groups when the dependent variable is measured on an:
     A. Interval scale.
     B. Ratio scale.
@@ -10360,7 +10301,7 @@
     C. Maximum risk of Type I Error.
     D. Power of the test.
 
-    Correct Answer: A
+    Correct Answer: C
 373. In ANOVA, if the **F-statistic** is close to 1, it suggests that:
     A. The null hypothesis should be rejected.
     B. The variation between groups is similar to the variation within groups, supporting $H_0$.
@@ -10388,21 +10329,21 @@
     C. The Type II Error is minimized.
     D. The power of the test is maximized.
 
-    Correct Answer: D
+    Correct Answer: C
 377. A researcher is testing $H_0: \mu = 100$ vs. $H_A: \mu \ne 100$. The calculated test statistic is $Z = 1.5$. The critical Z-values for $\alpha = 0.05$ are $\pm 1.96$. What is the decision?
     A. Fail to reject $H_0$.
     B. Reject $H_0$.
     C. Accept $H_A$.
     D. Increase $\alpha$.
 
-    Correct Answer: B
+    Correct Answer: C
 378. The **t-test** assumes that the population from which the samples are drawn is:
     A. Uniformly distributed.
     B. Normally distributed.
     C. Exponentially distributed.
     D. Binomially distributed.
 
-    Correct Answer: B
+    Correct Answer: C
 379. **Data Discretization** in **Data Preparation** involves:
     A. Converting continuous variables into categorical or ordinal variables (bins).
     B. Converting categorical variables into continuous variables.
@@ -10423,49 +10364,49 @@
     C. The null hypothesis is rejected.
     D. The Type II Error is minimized.
 
-    Correct Answer: B
+    Correct Answer: C
 382. The **Level of Significance ($\alpha$)** controls the probability of:
     A. Type II Error.
     B. Type I Error.
     C. Power of the test.
     D. Sample size.
 
-    Correct Answer: B
+    Correct Answer: A
 383. In ANOVA, the **Total Sum of Squares (SST)** is the sum of:
     A. SSG and SSE.
     B. SSG and $H_0$.
     C. SSE and $H_A$.
     D. SSG and the F-statistic.
 
-    Correct Answer: C
+    Correct Answer: B
 384. **Data Wrangling** is a comprehensive term for the process of:
     A. Building the final model.
     B. Cleaning, structuring, and enriching raw data into a desired format for analysis.
     C. Performing hypothesis testing.
     D. Generating new features.
 
-    Correct Answer: B
+    Correct Answer: A
 385. The **Chi-square test for independence** is used to test the relationship between:
     A. Two continuous variables.
     B. A continuous and a categorical variable.
     C. Two categorical variables.
     D. Three or more continuous variables.
 
-    Correct Answer: B
+    Correct Answer: C
 386. The **p-value** is a measure of:
     A. The strength of the evidence against the null hypothesis.
     B. The probability that the alternative hypothesis is true.
     C. The probability of Type II Error.
     D. The effect size.
 
-    Correct Answer: B
+    Correct Answer: A
 387. A researcher is testing $H_0: \mu = 50$ vs. $H_A: \mu \ne 50$. The calculated test statistic is $Z = -2.0$. The critical Z-values for $\alpha = 0.01$ are $\pm 2.58$. What is the decision?
     A. Fail to reject $H_0$.
     B. Reject $H_0$.
     C. Accept $H_A$.
     D. Decrease $\alpha$.
 
-    Correct Answer: A
+    Correct Answer: C
 388. The **t-test** assumes **Homogeneity of Variance**, which means:
     A. The means of the two populations are equal.
     B. The variances of the two populations are approximately equal.
@@ -10479,14 +10420,14 @@
     C. Imputing missing values.
     D. Normalizing the data.
 
-    Correct Answer: B
+    Correct Answer: C
 390. The **Wilcoxon Signed-Rank Test** is a non-parametric alternative to the:
     A. Two-sample t-test.
     B. Paired t-test.
     C. ANOVA.
     D. Chi-square test.
 
-    Correct Answer: B
+    Correct Answer: A
 391. The **Null Hypothesis ($H_0$)** is rejected when the test statistic falls in the:
     A. Non-rejection region.
     B. Acceptance region.
@@ -10507,14 +10448,14 @@
     C. The proportions of the groups.
     D. The medians of the groups.
 
-    Correct Answer: A
+    Correct Answer: B
 394. **Data Sampling** in **Data Preparation** is used to:
     A. Select a representative subset of the data for analysis.
     B. Combine data from multiple sources.
     C. Impute missing values.
     D. Normalize the data.
 
-    Correct Answer: B
+    Correct Answer: A
 395. The **Chi-square test** statistic is always:
     A. Negative.
     B. Positive.
@@ -10528,7 +10469,7 @@
     C. Significance level ($\alpha$).
     D. Sample size.
 
-    Correct Answer: B
+    Correct Answer: A
 397. A researcher is testing $H_0: \mu \le 100$ vs. $H_A: \mu > 100$. The calculated test statistic is $Z = 1.5$. The critical Z-value for $\alpha = 0.05$ is $1.645$. What is the decision?
     A. Fail to reject $H_0$.
     B. Reject $H_0$.
@@ -10542,7 +10483,7 @@
     C. Data is highly skewed.
     D. Variances are highly unequal.
 
-    Correct Answer: B
+    Correct Answer: D
 399. **Data Transformation** is often necessary in **Data Preparation** to meet the **assumptions** of:
     A. Descriptive statistics.
     B. Parametric statistical models.
@@ -10564,7 +10505,7 @@
     C. There is a weak or no linear relationship.
     D. The strength of the relationship cannot be determined from covariance alone.
 
-    Correct Answer: A
+    Correct Answer: C
 402. The **Correlation Coefficient ($r$)** between two variables is calculated as +0.92. This indicates:
     A. A strong negative linear relationship.
     B. A strong positive linear relationship.
@@ -10578,7 +10519,7 @@
     C. Correlation is a scaled, dimensionless measure, making it easier to compare the strength of relationships between different pairs of variables.
     D. Covariance can only be used for normally distributed data.
 
-    Correct Answer: D
+    Correct Answer: B
 404. A financial analyst is using **Monte Carlo Simulation** to model the potential outcomes of a new investment. The core principle of this simulation technique is:
     A. Using historical data to predict a single future outcome.
     B. Using deterministic equations to find the optimal solution.
@@ -10592,7 +10533,7 @@
     C. The average loss over a given time period.
     D. The standard deviation of the investment returns.
 
-    Correct Answer: B
+    Correct Answer: C
 406. An analyst is performing **Linear Optimization** to maximize profit subject to constraints on labor and raw materials. The objective function and the constraints must be:
     A. Non-linear.
     B. Linear.
@@ -10620,7 +10561,7 @@
     C. The constraints are non-linear.
     D. The solution must be a whole number.
 
-    Correct Answer: B
+    Correct Answer: D
 410. In **Risk Analysis**, a high **Standard Deviation** of returns for an asset is generally interpreted as:
     A. Low risk.
     B. High risk (high volatility).
@@ -10634,14 +10575,14 @@
     C. The data is ordinal or the relationship is monotonic (not necessarily linear).
     D. The sample size is very large.
 
-    Correct Answer: D
+    Correct Answer: B
 412. A company is using **Simulation** to determine the optimal number of cashiers to staff during peak hours. This type of simulation is known as:
     A. Monte Carlo Simulation
     B. Discrete-Event Simulation
     C. System Dynamics Simulation
     D. Linear Programming
 
-    Correct Answer: A
+    Correct Answer: B
 413. The **Covariance** between two variables, X and Y, is calculated. If the value is positive, it means that:
     A. X and Y are independent.
     B. As X increases, Y tends to decrease.
@@ -10662,7 +10603,7 @@
     C. No linear relationship.
     D. A non-linear relationship.
 
-    Correct Answer: B
+    Correct Answer: C
 416. **Risk Analysis** often involves calculating the **Expected Value** of a decision, which is:
     A. The most likely outcome.
     B. The average outcome if the decision were repeated many times.
@@ -10690,21 +10631,21 @@
     C. The origin (0, 0).
     D. The point where the objective function is zero.
 
-    Correct Answer: D
+    Correct Answer: B
 420. The **Karl Pearson's Coefficient of Correlation** measures the strength of which type of relationship?
     A. Monotonic
     B. Non-linear
     C. Linear
     D. Categorical
 
-    Correct Answer: B
+    Correct Answer: A
 421. A financial analyst is using **Simulation** to estimate the probability of a catastrophic loss (e.g., a loss exceeding a certain threshold). This is a key application of:
     A. Deterministic Modeling
     B. Risk Analysis
     C. Descriptive Statistics
     D. Integer Optimization
 
-    Correct Answer: B
+    Correct Answer: A
 422. The **Covariance** is calculated using the formula $\sum (X_i - \bar{X})(Y_i - \bar{Y})$. The sign of the covariance is determined by:
     A. The scale of the variables.
     B. The magnitude of the variables.
@@ -10732,21 +10673,21 @@
     C. Linear constraints.
     D. Integer variables.
 
-    Correct Answer: B
+    Correct Answer: C
 426. The **Coefficient of Variation (CV)** is a measure of relative variability, calculated as:
     A. Standard Deviation / Mean
     B. Mean / Standard Deviation
     C. Standard Deviation / Variance
     D. Mean / Variance
 
-    Correct Answer: C
+    Correct Answer: D
 427. A company is using **Simulation** to test the robustness of its supply chain network against various disruptions (e.g., natural disasters, supplier failure). This is an example of:
     A. Deterministic Modeling
     B. Stress Testing (a form of simulation)
     C. Linear Programming
     D. Integer Optimization
 
-    Correct Answer: A
+    Correct Answer: B
 428. In **Optimization**, a **Constraint** is a mathematical expression that:
     A. Defines the variable to be maximized or minimized.
     B. Limits the values that the decision variables can take.
@@ -10760,7 +10701,7 @@
     C. Mean of the data values.
     D. Standard deviation of the data values.
 
-    Correct Answer: C
+    Correct Answer: B
 430. **Risk Mitigation** strategies are often developed based on the results of **Risk Analysis**. Which of the following is a common risk mitigation technique?
     A. Increasing the standard deviation of returns.
     B. Diversification of investments.
@@ -10802,21 +10743,21 @@
     C. $-\infty$ to $\infty$
     D. $0$ to $100$
 
-    Correct Answer: B
+    Correct Answer: C
 436. **Risk Analysis** often uses **Probability Distributions** to model:
     A. The deterministic relationship between variables.
     B. The uncertainty of key input variables (e.g., future demand, interest rates).
     C. The optimal solution to a problem.
     D. The linear constraints.
 
-    Correct Answer: A
+    Correct Answer: C
 437. The **Covariance** between a variable and itself, $\text{Cov}(X, X)$, is equal to the variable's:
     A. Mean
     B. Standard Deviation
     C. Variance
     D. Correlation Coefficient
 
-    Correct Answer: A
+    Correct Answer: B
 438. A company is using **Simulation** to model the waiting time of customers in a queue. This is a classic application of:
     A. Monte Carlo Simulation
     B. Discrete-Event Simulation
@@ -10830,14 +10771,14 @@
     C. Equal to zero.
     D. Used to calculate the correlation.
 
-    Correct Answer: B
+    Correct Answer: C
 440. The **Kendall's Tau** is another non-parametric measure of association, similar to Spearman's rank correlation, and is based on:
     A. The raw data values.
     B. The number of concordant and discordant pairs.
     C. The mean of the data values.
     D. The standard deviation of the data values.
 
-    Correct Answer: A
+    Correct Answer: B
 441. **Risk Analysis** involves calculating the **Expected Utility** of a decision, which incorporates:
     A. Only the monetary value of the outcomes.
     B. The decision-maker's attitude towards risk (e.g., risk-averse, risk-neutral).
@@ -10851,35 +10792,35 @@
     C. The relationship is strong and positive.
     D. The relationship is strong and negative.
 
-    Correct Answer: C
+    Correct Answer: B
 443. **Simulation** models that focus on the interactions of individual autonomous agents (e.g., customers, vehicles) to understand system-wide behavior are known as:
     A. Monte Carlo Simulation
     B. Discrete-Event Simulation
     C. Agent-Based Modeling
     D. System Dynamics Simulation
 
-    Correct Answer: B
+    Correct Answer: C
 444. In **Optimization**, a **Non-negativity Constraint** typically means that the decision variables must be:
     A. Integers.
     B. Continuous.
     C. Greater than or equal to zero.
     D. Less than or equal to zero.
 
-    Correct Answer: C
+    Correct Answer: B
 445. The **Coefficient of Non-determination** is calculated as $1 - R^2$. It represents:
     A. The proportion of variance in the dependent variable that is explained by the model.
     B. The proportion of variance in the dependent variable that is *not* explained by the model.
     C. The standard error of the estimate.
     D. The p-value of the correlation.
 
-    Correct Answer: A
+    Correct Answer: B
 446. **Decision Trees** are often used in **Risk Analysis** to:
     A. Calculate the correlation coefficient.
     B. Visually map out the possible outcomes of a sequence of decisions and chance events.
     C. Solve linear optimization problems.
     D. Perform Monte Carlo simulation.
 
-    Correct Answer: A
+    Correct Answer: C
 447. The **Covariance** is a measure of:
     A. The central tendency of a single variable.
     B. The joint variability of two random variables.
@@ -10893,7 +10834,7 @@
     C. The feedback loops and time delays that influence the behavior of a complex system.
     D. Repeated random sampling.
 
-    Correct Answer: C
+    Correct Answer: B
 449. In **Optimization**, a **Slack Variable** is introduced into a constraint to:
     A. Convert an inequality constraint into an equality constraint.
     B. Convert an equality constraint into an inequality constraint.
@@ -10908,30 +10849,27 @@
     D. Independence.
 
     Correct Answer: A
-
-### Advanced Modeling
-
 451. **Risk Management** involves a cyclical process that includes:
     A. Only risk identification.
     B. Risk identification, assessment, response, and monitoring.
     C. Only risk response.
     D. Only risk monitoring.
 
-    Correct Answer: A
+    Correct Answer: B
 452. If the **Covariance** between two variables is 100, and their standard deviations are 10 and 20, what is the **Correlation Coefficient ($r$)?**
     A. $100 / (10 \cdot 20) = 0.5$
     B. $100 / (10 + 20) = 3.33$
     C. $100 / (10^2 + 20^2) = 0.2$
     D. $100 / 10 = 10$
 
-    Correct Answer: C
+    Correct Answer: B
 453. **Simulation** is often used in **Optimization** when:
     A. The problem is deterministic.
     B. The objective function is linear.
     C. The problem involves uncertainty and complex interactions that are difficult to model analytically.
     D. The decision variables are continuous.
 
-    Correct Answer: C
+    Correct Answer: B
 454. **Sensitivity Analysis** in **Linear Optimization** is also known as:
     A. Post-optimality analysis.
     B. Integer programming.
@@ -10945,21 +10883,21 @@
     C. Always non-negative.
     D. Always negative.
 
-    Correct Answer: B
+    Correct Answer: A
 456. **Risk Analysis** often uses **Expected Monetary Value (EMV)** to:
     A. Determine the most likely outcome.
     B. Calculate the average outcome of a decision, weighted by the probabilities of the possible states of nature.
     C. Find the optimal solution to a linear program.
     D. Measure the correlation between variables.
 
-    Correct Answer: A
+    Correct Answer: B
 457. The **Covariance** is an unstandardized measure of:
     A. Central tendency.
     B. Dispersion.
     C. Linear association.
     D. Non-linear association.
 
-    Correct Answer: C
+    Correct Answer: B
 458. **Discrete-Event Simulation** is a type of simulation that models a system as a sequence of:
     A. Continuous changes over time.
     B. Random samples.
@@ -10980,7 +10918,7 @@
     C. Causation.
     D. Independence.
 
-    Correct Answer: A
+    Correct Answer: C
 461. **Risk Analysis** often uses **Tornado Charts** to:
     A. Visualize the correlation between variables.
     B. Display the sensitivity of an outcome variable to changes in various input variables.
@@ -11001,7 +10939,7 @@
     C. The constraints are simple linear equations.
     D. The decision variables are continuous.
 
-    Correct Answer: B
+    Correct Answer: C
 464. **Non-linear Optimization** is a type of optimization problem where:
     A. The objective function and/or the constraints are non-linear.
     B. The decision variables are restricted to be integers.
@@ -11015,7 +10953,7 @@
     C. The slope of the regression line.
     D. The standard error of the estimate.
 
-    Correct Answer: C
+    Correct Answer: B
 466. **Decision Trees** in **Risk Analysis** are used to calculate the **Expected Value** of each decision path by:
     A. Multiplying the outcome value by the probability of the outcome.
     B. Summing the outcome values.
@@ -11036,14 +10974,14 @@
     C. Agent-Based Modeling
     D. System Dynamics Simulation
 
-    Correct Answer: A
+    Correct Answer: B
 469. In **Optimization**, the **Shadow Price** (or dual value) of a constraint represents:
     A. The optimal value of the objective function.
     B. The change in the optimal objective function value for a one-unit increase in the right-hand side of the constraint.
     C. The amount of slack or surplus in the constraint.
     D. The correlation between the constraint and the objective function.
 
-    Correct Answer: B
+    Correct Answer: A
 470. The **Correlation Coefficient ($r$)** is a standardized measure of:
     A. Causation.
     B. Linear association.
@@ -11071,21 +11009,21 @@
     C. Linear equations.
     D. Integer variables.
 
-    Correct Answer: B
+    Correct Answer: C
 474. **Goal Programming** is a technique used to:
     A. Maximize a single objective function.
     B. Minimize the deviations from a set of target goals.
     C. Solve non-linear optimization problems.
     D. Convert continuous variables to integers.
 
-    Correct Answer: C
+    Correct Answer: B
 475. The **Coefficient of Determination ($R^2$)** is a measure of:
     A. The slope of the regression line.
     B. The proportion of the total variation in the dependent variable that is explained by the independent variable(s).
     C. The standard error of the estimate.
     D. The p-value of the correlation.
 
-    Correct Answer: C
+    Correct Answer: B
 476. **Risk Analysis** often uses **Expected Opportunity Loss (EOL)** to:
     A. Calculate the average outcome of a decision.
     B. Measure the amount of money lost due to a poor decision.
@@ -11113,35 +11051,35 @@
     C. The amount of slack or surplus in the constraint.
     D. The correlation between the variable and the objective function.
 
-    Correct Answer: B
+    Correct Answer: C
 480. The **Spearman's Rank Correlation Coefficient** is less sensitive to **Outliers** than the Pearson correlation coefficient because it is based on:
     A. The raw data values.
     B. The ranks of the data values.
     C. The mean of the data values.
     D. The standard deviation of the data values.
 
-    Correct Answer: A
+    Correct Answer: B
 481. **Risk Analysis** often uses **Decision Trees** to:
     A. Calculate the correlation coefficient.
     B. Determine the optimal sequence of decisions under uncertainty.
     C. Solve linear optimization problems.
     D. Perform Monte Carlo simulation.
 
-    Correct Answer: A
+    Correct Answer: B
 482. If the **Correlation Coefficient ($r$)** is close to 0, it implies that:
     A. The relationship is perfectly linear.
     B. The relationship is strong and positive.
     C. The relationship is strong and negative.
     D. There is a weak or no linear relationship.
 
-    Correct Answer: C
+    Correct Answer: B
 483. **Simulation** is often used to model systems where the inputs are:
     A. Deterministic.
     B. Probabilistic (random).
     C. Linear.
     D. Integer.
 
-    Correct Answer: B
+    Correct Answer: C
 484. **Non-linear Optimization** problems are generally more difficult to solve than **Linear Optimization** problems because:
     A. They have fewer constraints.
     B. The optimal solution may not be at a corner point of the feasible region.
@@ -11162,14 +11100,14 @@
     C. Find the optimal solution to a linear program.
     D. Measure the correlation between variables.
 
-    Correct Answer: C
+    Correct Answer: A
 487. The **Covariance** is a measure of:
     A. The central tendency of a single variable.
     B. The direction and magnitude of the linear relationship between two variables.
     C. The dispersion of a single variable.
     D. The probability of two events occurring.
 
-    Correct Answer: C
+    Correct Answer: B
 488. **Discrete-Event Simulation** is a type of simulation that is well-suited for modeling:
     A. Continuous processes like fluid flow.
     B. Systems with queues, resources, and discrete transactions (e.g., call centers, manufacturing lines).
@@ -11183,21 +11121,21 @@
     C. Linear optimization problems.
     D. Goal programming problems.
 
-    Correct Answer: A
+    Correct Answer: B
 490. The **Spearman's Rank Correlation Coefficient** is a measure of:
     A. The strength and direction of the linear relationship.
     B. The strength and direction of the monotonic relationship.
     C. The causation between variables.
     D. The independence of variables.
 
-    Correct Answer: C
+    Correct Answer: A
 491. **Risk Analysis** often uses **Probability Trees** to:
     A. Calculate the correlation coefficient.
     B. Visually map out the probabilities of a sequence of chance events.
     C. Solve linear optimization problems.
     D. Perform Monte Carlo simulation.
 
-    Correct Answer: A
+    Correct Answer: B
 492. If the **Correlation Coefficient ($r$)** is exactly 1, it implies that:
     A. The variables are independent.
     B. The variables are perfectly linearly related with a positive slope.
@@ -11239,21 +11177,21 @@
     C. The dispersion of a single variable.
     D. The probability of two events occurring.
 
-    Correct Answer: B
+    Correct Answer: D
 498. **Monte Carlo Simulation** is a type of simulation that is well-suited for modeling:
     A. Systems with queues and discrete transactions.
     B. Financial market volatility and complex probabilistic systems.
     C. Feedback loops in a system.
     D. Linear equations.
 
-    Correct Answer: A
+    Correct Answer: B
 499. In **Optimization**, the **Dual Problem** is a related optimization problem that:
     A. Has the same optimal solution as the primal problem.
     B. Provides the shadow prices of the primal constraints as its optimal solution.
     C. Is always a maximization problem.
     D. Is always a minimization problem.
 
-    Correct Answer: C
+    Correct Answer: B
 500. The **Spearman's Rank Correlation Coefficient** is a measure of:
     A. The strength of the linear relationship.
     B. The strength of the monotonic relationship.
@@ -11268,7 +11206,7 @@
     C. Identify underlying, unobservable factors that explain the correlations among a set of observed variables.
     D. Classify new observations into predefined categories.
 
-    Correct Answer: A
+    Correct Answer: B
 502. In **Predictive Modeling**, the process of identifying and selecting the most relevant variables for a model is known as:
     A. Feature Scaling
     B. Model Induction
@@ -11282,7 +11220,7 @@
     C. The model is trained on unlabeled data.
     D. The model is used for time series forecasting.
 
-    Correct Answer: A
+    Correct Answer: B
 504. A **Decision Tree** model is often described as a **rule-based model** because:
     A. It uses complex mathematical equations.
     B. It creates a set of simple, hierarchical if-then-else rules for classification or prediction.
@@ -11303,7 +11241,7 @@
     C. Evaluating the model's performance.
     D. Deploying the model.
 
-    Correct Answer: A
+    Correct Answer: B
 507. A data scientist is tasked with predicting whether a customer will click on an advertisement (a binary outcome). Which type of predictive modeling concept is most relevant?
     A. Regression Modeling
     B. Probability Estimation (Classification)
@@ -11317,35 +11255,35 @@
     C. Data that are highly skewed.
     D. Data that are non-linear.
 
-    Correct Answer: A
+    Correct Answer: B
 509. The primary output of a **Supervised Segmentation** model is:
     A. A set of clusters with no interpretation.
     B. A set of segments that are distinct in terms of the target variable (e.g., high-value vs. low-value customers).
     C. A single prediction for a continuous variable.
     D. A correlation matrix.
 
-    Correct Answer: A
+    Correct Answer: C
 510. **Factor Analysis** is primarily a technique for:
     A. Prediction.
     B. Classification.
     C. Dimensionality Reduction.
     D. Time Series Analysis.
 
-    Correct Answer: C
+    Correct Answer: B
 511. In the context of **Predictive Modeling**, an **Informative Attribute** is a feature that:
     A. Is easy to collect.
     B. Has a strong, measurable relationship with the target variable.
     C. Is highly correlated with other features.
     D. Is always continuous.
 
-    Correct Answer: B
+    Correct Answer: C
 512. **Visualization of Segmentation Results** is crucial because it helps:
     A. Reduce the dimensionality of the data.
     B. Interpret the characteristics of the segments and communicate the findings to stakeholders.
     C. Train the predictive model.
     D. Calculate the probability of the outcome.
 
-    Correct Answer: C
+    Correct Answer: B
 513. A **Decision Tree** is a non-parametric supervised learning method used for:
     A. Clustering only.
     B. Regression only.
@@ -11373,21 +11311,21 @@
     C. Categorical variables.
     D. Time series data.
 
-    Correct Answer: B
+    Correct Answer: A
 517. **Supervised Segmentation** is distinct from **Unsupervised Segmentation (Clustering)** because:
     A. Supervised segmentation uses a target variable to guide the grouping.
     B. Unsupervised segmentation uses a target variable to guide the grouping.
     C. Supervised segmentation only uses continuous variables.
     D. Unsupervised segmentation is a form of prediction.
 
-    Correct Answer: B
+    Correct Answer: C
 518. A key advantage of using **Decision Trees** as rule-based models is their:
     A. High computational complexity.
     B. Lack of interpretability.
     C. High interpretability and ease of understanding by non-technical users.
     D. Requirement for linear relationships.
 
-    Correct Answer: B
+    Correct Answer: C
 519. **Probability Estimation** in predictive modeling is the process of:
     A. Predicting the exact value of a continuous variable.
     B. Predicting the likelihood (probability) of a categorical outcome (e.g., the probability of a customer churning).
@@ -11415,14 +11353,14 @@
     C. Function.
     D. Matrix.
 
-    Correct Answer: C
+    Correct Answer: B
 523. **Factor Analysis** is often used as a precursor to **Regression Analysis** to:
     A. Increase the number of independent variables.
     B. Address multicollinearity by replacing highly correlated observed variables with a smaller set of uncorrelated factors.
     C. Convert the dependent variable to a categorical type.
     D. Perform time series forecasting.
 
-    Correct Answer: B
+    Correct Answer: C
 524. **Supervised Segmentation** models are typically evaluated based on their ability to:
     A. Minimize the within-cluster variance.
     B. Maximize the difference in the target variable across the segments.
@@ -11450,35 +11388,35 @@
     C. Text mining.
     D. Image recognition.
 
-    Correct Answer: B
+    Correct Answer: C
 528. In **Predictive Modeling**, the term **Model Induction** is synonymous with:
     A. Data cleaning.
     B. Model training.
     C. Model deployment.
     D. Feature selection.
 
-    Correct Answer: B
+    Correct Answer: C
 529. **Factor Analysis** is a technique that is part of the broader category of:
     A. Supervised Learning.
     B. Unsupervised Learning.
     C. Reinforcement Learning.
     D. Time Series Analysis.
 
-    Correct Answer: B
+    Correct Answer: D
 530. **Visualization of Segmentation Results** can involve using which type of plot to show the distribution of key features within each segment?
     A. Scatter plot.
     B. Box plots or bar charts.
     C. Time series plot.
     D. Correlation matrix.
 
-    Correct Answer: C
+    Correct Answer: B
 531. A **Decision Tree** uses a series of **splits** based on the values of the features. The goal of each split is to:
     A. Maximize the purity (homogeneity) of the resulting child nodes with respect to the target variable.
     B. Minimize the number of nodes.
     C. Maximize the depth of the tree.
     D. Ensure all features are used.
 
-    Correct Answer: C
+    Correct Answer: B
 532. **Functional Data Analysis (FDA)** is useful for analyzing data where the underlying phenomenon is:
     A. Static.
     B. Dynamic and evolves over a continuum (e.g., time, space).
@@ -11492,7 +11430,7 @@
     C. Has too few features.
     D. Is trained on too little data.
 
-    Correct Answer: C
+    Correct Answer: B
 534. **Factor Analysis** can be used to transform a set of observed variables into a smaller set of:
     A. Highly correlated variables.
     B. Uncorrelated factors.
@@ -11506,7 +11444,7 @@
     C. Group observations without a target variable.
     D. Reduce the number of features.
 
-    Correct Answer: B
+    Correct Answer: C
 536. **Probability Estimation** is a key component of which type of predictive model?
     A. Linear Regression
     B. Logistic Regression
@@ -11541,7 +11479,7 @@
     C. A histogram.
     D. A box plot.
 
-    Correct Answer: B
+    Correct Answer: A
 541. A **Decision Tree** is prone to **Overfitting**. A common technique to mitigate this is:
     A. Increasing the number of features.
     B. Pruning the tree (removing branches that have little predictive power).
@@ -11555,7 +11493,7 @@
     C. Represented as a set of functions.
     D. Normally distributed.
 
-    Correct Answer: A
+    Correct Answer: B
 543. In **Predictive Modeling**, the **Training Set** is used for:
     A. Evaluating the final model.
     B. Selecting the most informative attributes.
@@ -11583,7 +11521,7 @@
     C. Decision Analytics (for evaluating classifiers)
     D. Time Series Analysis
 
-    Correct Answer: B
+    Correct Answer: A
 547. **Directional Data Analytics** is often used in conjunction with which type of coordinate system?
     A. Cartesian coordinates.
     B. Polar or spherical coordinates.
@@ -11597,7 +11535,7 @@
     C. Feature selection.
     D. Data cleaning.
 
-    Correct Answer: B
+    Correct Answer: D
 549. **Factor Analysis** is used to determine the minimum number of factors needed to account for a specified proportion of the:
     A. Mean of the variables.
     B. Variance of the variables.
@@ -11618,35 +11556,35 @@
     C. Only categorical relationships.
     D. Only continuous relationships.
 
-    Correct Answer: C
+    Correct Answer: B
 552. **Functional Data Analysis (FDA)** is used to analyze data where the independent variable is often:
     A. Discrete.
     B. Continuous (e.g., time, wavelength).
     C. Categorical.
     D. Binary.
 
-    Correct Answer: A
+    Correct Answer: B
 553. In **Predictive Modeling**, the **Validation Set** is often used for:
     A. Final model evaluation.
     B. Hyperparameter tuning and model selection.
     C. Initial data cleaning.
     D. Feature engineering.
 
-    Correct Answer: A
+    Correct Answer: B
 554. **Factor Analysis** is often contrasted with **Principal Component Analysis (PCA)**. A key difference is that Factor Analysis:
     A. Assumes the existence of latent factors that cause the observed correlations.
     B. Only deals with continuous variables.
     C. Is a supervised learning technique.
     D. Does not reduce dimensionality.
 
-    Correct Answer: B
+    Correct Answer: C
 555. **Supervised Segmentation** is a technique that combines elements of:
     A. Descriptive and Prescriptive Analytics.
     B. Clustering and Classification.
     C. Time Series and Regression.
     D. Factor Analysis and ANOVA.
 
-    Correct Answer: A
+    Correct Answer: B
 556. **Probability Estimation** models are essential for **Decision Analytics** because they allow for:
     A. Deterministic predictions.
     B. Evaluating the trade-off between the cost of an action and the probability of a positive outcome.
@@ -11709,7 +11647,7 @@
     C. Using the mean of the latent factors.
     D. Calculating the standard deviation of the factors.
 
-    Correct Answer: B
+    Correct Answer: A
 565. **Supervised Segmentation** is a technique that is often used in **Customer Relationship Management (CRM)** to:
     A. Reduce the number of features in the customer database.
     B. Identify high-value customers who are likely to churn.
@@ -11723,7 +11661,7 @@
     C. Area Under the ROC Curve (AUC) or Log Loss.
     D. Standard Deviation.
 
-    Correct Answer: B
+    Correct Answer: D
 567. **Directional Data Analytics** uses specialized measures of dispersion, such as the:
     A. Standard deviation.
     B. Circular variance.
@@ -11751,42 +11689,42 @@
     C. Both mutually exclusive and exhaustive.
     D. Actionable.
 
-    Correct Answer: C
+    Correct Answer: B
 571. A **Decision Tree** is a **white-box model**, meaning its decision-making process is:
     A. Complex and opaque.
     B. Simple and transparent (easy to interpret).
     C. Always correct.
     D. Always incorrect.
 
-    Correct Answer: A
+    Correct Answer: B
 572. **Functional Data Analysis (FDA)** is used to analyze data where the variability is often seen in the:
     A. Mean of the functions.
     B. Shape and magnitude of the functions.
     C. Number of functions.
     D. Standard deviation of the functions.
 
-    Correct Answer: A
+    Correct Answer: B
 573. In **Predictive Modeling**, the concept of **Generalization** refers to a model's ability to:
     A. Fit the training data perfectly.
     B. Perform well on new, unseen data.
     C. Use all available features.
     D. Be easily interpreted.
 
-    Correct Answer: B
+    Correct Answer: A
 574. **Factor Analysis** is used to address the problem of **Multicollinearity** by:
     A. Combining highly correlated variables into a single factor.
     B. Removing all correlated variables.
     C. Increasing the number of variables.
     D. Converting the variables to categorical.
 
-    Correct Answer: B
+    Correct Answer: D
 575. **Supervised Segmentation** is a technique that is often used to create:
     A. Customer clusters based on purchase history only.
     B. Customer segments that are predictive of a future outcome (e.g., high-risk, low-risk).
     C. A single prediction for a continuous variable.
     D. A time series forecast.
 
-    Correct Answer: B
+    Correct Answer: A
 576. **Probability Estimation** models are often used in **Credit Scoring** to predict the:
     A. Exact amount of the loan.
     B. Probability of default.
@@ -11840,37 +11778,31 @@
     A. Regression model evaluation.
     B. Classification model evaluation.
     C. Clustering model evaluation.
-    Correct Answer: B
     D. Dimensionality reduction.
 
-    Correct Answer: A
+    Correct Answer: D
 584. **Factor Analysis** is a technique that is often used to simplify the interpretation of:
     A. A single variable.
-    Correct Answer: B
     B. A large number of correlated variables.
     C. A time series.
     D. A categorical variable.
 
-    Correct Answer: B
     Correct Answer: B
 585. **Supervised Segmentation** is a technique that is often used to:
     A. Predict a continuous value.
     B. Inform targeted marketing campaigns.
     C. Reduce the number of features.
     D. Perform hypothesis testing.
-    Correct Answer: B
 
     Correct Answer: B
 586. **Probability Estimation** models are essential for calculating the **Expected Value** of a decision, which is a key concept in:
     A. Descriptive Analytics.
     B. Decision Analytics.
-    Correct Answer: B
     C. Inferential Statistics.
     D. Time Series Analysis.
 
     Correct Answer: B
 587. **Directional Data Analytics** is used to analyze data that is inherently:
-    Correct Answer: B
     A. Linear.
     B. Periodic.
     C. Continuous.
@@ -11882,31 +11814,30 @@
     B. Set of input features for a single observation.
     C. Set of all possible predictions.
     D. Set of all possible target variable values.
-    Correct Answer: A
 
+    Correct Answer: B
 589. **Factor Analysis** is used to identify the **Factor Scores**, which represent:
     A. The correlation between the observed variables and the latent factors.
     B. The value of the latent factors for each observation.
     C. The mean of the observed variables.
-    Correct Answer: B
     D. The variance of the observed variables.
 
+    Correct Answer: B
 590. **Visualization of Segmentation Results** is a key step in ensuring the segments are:
     A. Statistically significant.
     B. Internally homogeneous and externally heterogeneous.
-    Correct Answer: B
     C. Perfectly linear.
     D. Normally distributed.
 
+    Correct Answer: C
 591. A **Decision Tree** is a **hierarchical** model, meaning it:
     A. Uses a single, complex rule.
-    Correct Answer: B
     B. Organizes the decision rules in a tree-like structure.
     C. Requires all features to be continuous.
     D. Requires all features to be categorical.
 
+    Correct Answer: D
 592. **Functional Data Analysis (FDA)** is used to analyze data where the observations are:
-    Correct Answer: B
     A. Independent and identically distributed.
     B. Curves or functions.
     C. Categorical variables.
@@ -11918,104 +11849,101 @@
     B. Classification models (Probability Estimation).
     C. Clustering models.
     D. Dimensionality reduction.
-    Correct Answer: B
 
+    Correct Answer: B
 594. **Factor Analysis** is used to determine the **Communality** of a variable, which is the:
     A. Proportion of the variable's variance that is explained by the common factors.
     B. Proportion of the variable's variance that is unique.
     C. Correlation between the variable and the latent factors.
     D. Mean of the variable.
-    Correct Answer: B
 
+    Correct Answer: B
 595. **Supervised Segmentation** is a technique that is often used to:
     A. Predict a continuous value.
     B. Create segments that are maximally different in terms of their likelihood to purchase a product.
     C. Reduce the number of features.
-    Correct Answer: C
     D. Perform hypothesis testing.
 
+    Correct Answer: B
 596. **Probability Estimation** models are essential for calculating the **Lift** of a marketing campaign, which is a key concept in:
     A. Descriptive Analytics.
     B. Decision Analytics.
-    Correct Answer: B
     C. Inferential Statistics.
     D. Time Series Analysis.
 
+    Correct Answer: C
 597. **Directional Data Analytics** is used to analyze data where the values are measured on a:
     A. Linear scale.
-    Correct Answer: C
     B. Circular scale.
     C. Logarithmic scale.
     D. Ratio scale.
 
-598. In **Predictive Modeling**, the **Feature Importance** score is a measure of:
     Correct Answer: B
+598. In **Predictive Modeling**, the **Feature Importance** score is a measure of:
     A. The complexity of the model.
     B. The contribution of each feature to the model's prediction.
     C. The accuracy of the model.
     D. The bias of the model.
 
-    Correct Answer: B
+    Correct Answer: C
 599. **Factor Analysis** is used to determine the **Uniqueness** of a variable, which is the:
     A. Proportion of the variable's variance that is explained by the common factors.
     B. Proportion of the variable's variance that is unique (not explained by the common factors).
     C. Correlation between the variable and the latent factors.
     D. Mean of the variable.
-    Correct Answer: C
 
+    Correct Answer: A
 600. **Visualization of Segmentation Results** is a key step in ensuring the segments are:
     A. Statistically significant.
     B. Actionable.
     C. Perfectly linear.
-    Correct Answer: B
     D. Normally distributed.
 # Batch 7: Q601–Q700 - Decision Analytics and Probabilistic Reasoning
 
+    Correct Answer: C
 601. In **Decision Analytics**, the process of **Evaluating Classifiers** involves:
     A. Calculating the mean and standard deviation of the data.
-    Correct Answer: B
     B. Assessing the performance of a predictive model (e.g., a churn model) using metrics like accuracy, precision, and recall.
     C. Performing factor analysis to reduce dimensionality.
     D. Solving a linear optimization problem.
 
+    Correct Answer: B
 602. **Probabilistic Reasoning under Uncertainty** is a core concept in advanced analytics. Which theorem is fundamental to updating beliefs (probabilities) in light of new evidence?
-    Correct Answer: A
     A. Central Limit Theorem
     B. Law of Large Numbers
     C. Bayes' Theorem
     D. Chebyshev's Theorem
 
-    Correct Answer: C
+    Correct Answer: B
 603. A **Baseline Model** in predictive modeling is typically:
     A. The most complex model that can be built.
     B. A simple, often non-statistical model (e.g., predicting the majority class or the mean value) used as a minimum performance benchmark.
     C. A model that perfectly predicts the outcome.
     D. A model that uses all available features.
-    Correct Answer: C
 
+    Correct Answer: B
 604. The **Performance Evaluation Metric** known as **Accuracy** is calculated as:
     A. True Positives / (True Positives + False Positives)
     B. True Positives / (True Positives + False Negatives)
     C. (True Positives + True Negatives) / Total Observations
-    Correct Answer: B
     D. True Negatives / (True Negatives + False Positives)
 
+    Correct Answer: C
 605. **Evidence Combination using Bayes' Rule** is a process where:
     A. All evidence is treated as equally important.
     B. Multiple pieces of evidence are sequentially incorporated to update the posterior probability of a hypothesis.
-    Correct Answer: B
     C. The prior probability is always set to 0.5.
     D. The likelihood of the evidence is ignored.
 
+    Correct Answer: B
 606. A key **Business Implication of Analytical Investments** is that they should:
     A. Only focus on reducing costs.
-    Correct Answer: B
     B. Be directly linked to measurable improvements in business outcomes (e.g., increased revenue, reduced risk, improved efficiency).
     C. Only use descriptive statistics.
     D. Always result in a perfect predictive model.
 
+    Correct Answer: C
 607. In the context of a binary classifier, a **False Positive** occurs when:
-    Correct Answer: B
     A. The model correctly predicts the positive class.
     B. The model correctly predicts the negative class.
     C. The model incorrectly predicts the positive class (Type I Error in the context of the prediction).
@@ -12027,139 +11955,135 @@
     B. Conducting a data mining project from business understanding to deployment.
     C. Calculating the correlation coefficient.
     D. Performing a t-test.
-    Correct Answer: C
 
+    Correct Answer: A
 609. **Probabilistic Reasoning** is essential in decision-making because it allows for:
     A. Ignoring uncertainty.
     B. Making decisions based on the expected value of outcomes under uncertainty.
     C. Converting all variables to continuous.
-    Correct Answer: B
     D. Assuming all events are independent.
 
+    Correct Answer: B
 610. The **Performance Evaluation Metric** known as **Precision** is most critical when the cost of a **False Positive** is high. It is calculated as:
     A. True Positives / (True Positives + False Positives)
     B. True Positives / (True Positives + False Negatives)
-    Correct Answer: B
     C. (True Positives + True Negatives) / Total Observations
     D. True Negatives / (True Negatives + False Positives)
 
+    Correct Answer: B
 611. A **Baseline Model** for a classification problem where 90% of the data belongs to Class A would be to:
     A. Randomly guess the class.
-    Correct Answer: B
     B. Always predict Class B.
     C. Always predict Class A.
     D. Use a complex neural network.
 
+    Correct Answer: A
 612. **Decision Analytics** is the discipline that uses:
-    Correct Answer: B
     A. Only descriptive statistics to summarize data.
     B. Only prescriptive analytics to recommend actions.
     C. Data-driven models and analysis to inform and improve decision-making.
     D. Only qualitative data.
 
-    Correct Answer: C
+    Correct Answer: A
 613. The **Area Under the ROC Curve (AUC)** is a common metric for evaluating classifiers. An AUC of 0.5 indicates:
     A. A perfect classifier.
     B. A classifier that performs no better than random guessing.
     C. A classifier that is perfectly wrong.
     D. A classifier with high precision.
-    Correct Answer: C
 
+    Correct Answer: B
 614. **Probabilistic Reasoning under Uncertainty** often involves the use of **Bayesian Networks**, which are graphical models that represent:
     A. Linear relationships between continuous variables.
     B. Probabilistic relationships and conditional dependencies among a set of variables.
     C. The structure of a decision tree.
-    Correct Answer: B
     D. The correlation matrix of the data.
 
+    Correct Answer: B
 615. The **Performance Evaluation Metric** known as **Recall (Sensitivity)** is most critical when the cost of a **False Negative** is high. It is calculated as:
     A. True Positives / (True Positives + False Positives)
     B. True Positives / (True Positives + False Negatives)
-    Correct Answer: D
     C. (True Positives + True Negatives) / Total Observations
     D. True Negatives / (True Negatives + False Positives)
 
+    Correct Answer: C
 616. A key aspect of **Decision Analytics** is the consideration of **Trade-offs**, which involves:
     A. Ignoring all constraints.
-    Correct Answer: B
     B. Balancing competing objectives (e.g., profit vs. risk, speed vs. accuracy).
     C. Only maximizing the objective function.
     D. Only minimizing the cost.
 
+    Correct Answer: C
 617. The **F1-Score** is a performance metric that is the harmonic mean of:
-    Correct Answer: B
     A. Accuracy and Recall.
     B. Precision and Recall.
     C. True Positives and True Negatives.
     D. False Positives and False Negatives.
 
-    Correct Answer: B
+    Correct Answer: A
 618. **Probabilistic Reasoning** is a key component of which type of analytics?
     A. Descriptive Analytics
     B. Diagnostic Analytics
     C. Predictive Analytics
     D. Prescriptive Analytics
-    Correct Answer: B
 
+    Correct Answer: A
 619. The **Confusion Matrix** for a binary classifier is a table that summarizes:
     A. The correlation between the features.
     B. The performance of the model by showing the counts of True Positives, True Negatives, False Positives, and False Negatives.
     C. The distribution of the target variable.
-    Correct Answer: B
     D. The feature importance scores.
 
+    Correct Answer: C
 620. A **Baseline Model** is essential for evaluating a complex predictive model because it provides:
     A. The maximum achievable performance.
     B. A lower bound on acceptable performance.
-    Correct Answer: B
     C. The optimal set of features.
     D. The best possible prediction.
 
+    Correct Answer: B
 621. **Decision Analytics** often uses **Utility Theory** to:
     A. Calculate the expected monetary value of an outcome.
-    Correct Answer: C
     B. Incorporate the decision-maker's subjective preferences and risk attitude into the decision process.
     C. Solve linear optimization problems.
     D. Perform hypothesis testing.
 
+    Correct Answer: A
 622. **Probabilistic Reasoning** is used to model situations where the outcome is:
-    Correct Answer: B
     A. Deterministic.
     B. Uncertain or random.
     C. Always continuous.
     D. Always discrete.
 
-    Correct Answer: B
+    Correct Answer: A
 623. The **Performance Evaluation Metric** known as **Specificity** is calculated as:
     A. True Positives / (True Positives + False Positives)
     B. True Positives / (True Positives + False Negatives)
     C. True Negatives / (True Negatives + False Positives)
     D. (True Positives + True Negatives) / Total Observations
-    Correct Answer: B
 
+    Correct Answer: A
 624. **Evidence Combination using Bayes' Rule** is a process that leads to the calculation of the:
     A. Prior probability.
     B. Likelihood.
     C. Posterior probability.
-    Correct Answer: B
     D. Marginal likelihood.
 
+    Correct Answer: C
 625. A key **Business Implication of Analytical Investments** is the shift from **Intuition-based** to **Data-driven** decision-making, which requires:
     A. Ignoring the experience of managers.
     B. Integrating analytical insights into the organizational culture and processes.
-    Correct Answer: B
     C. Only using descriptive statistics.
     D. Always achieving 100% accuracy.
 
+    Correct Answer: B
 626. In the context of a binary classifier, a **False Negative** occurs when:
     A. The model correctly predicts the positive class.
-    Correct Answer: A
     B. The model correctly predicts the negative class.
     C. The model incorrectly predicts the positive class.
     D. The model incorrectly predicts the negative class (Type II Error in the context of the prediction).
 
-627. **Decision Analytics** often involves the use of **Decision Trees** to:
     Correct Answer: B
+627. **Decision Analytics** often involves the use of **Decision Trees** to:
     A. Calculate the correlation coefficient.
     B. Visually map out the possible outcomes of a sequence of decisions and chance events.
     C. Solve linear optimization problems.
@@ -12171,103 +12095,100 @@
     B. Maximum amount a decision-maker should be willing to pay for additional information.
     C. Accuracy of the predictive model.
     D. Correlation between the information and the outcome.
-    Correct Answer: B
 
+    Correct Answer: A
 629. The **Performance Evaluation Metric** known as **ROC Curve** plots:
     A. Precision against Recall.
     B. True Positive Rate (Recall) against False Positive Rate (1 - Specificity).
     C. Accuracy against the number of features.
-    Correct Answer: A
     D. True Positives against False Positives.
 
+    Correct Answer: B
 630. A **Baseline Model** for a regression problem (predicting a continuous value) would typically be to:
     A. Always predict the mode of the target variable.
     B. Always predict the mean of the target variable.
-    Correct Answer: B
     C. Always predict the maximum value.
     D. Use a complex neural network.
 
+    Correct Answer: C
 631. **Decision Analytics** is closely related to the field of **Operations Research** because both focus on:
     A. Descriptive statistics.
-    Correct Answer: B
     B. Using mathematical models and analytical techniques to find optimal or near-optimal solutions to complex decision problems.
     C. Probabilistic reasoning only.
     D. Time series forecasting.
 
+    Correct Answer: C
 632. **Probabilistic Reasoning** is used to calculate the **Posterior Probability**, which is the probability of a hypothesis:
-    Correct Answer: A
     A. Before any evidence is considered.
     B. After all evidence is considered.
     C. Assuming the evidence is false.
     D. Assuming the hypothesis is false.
 
-    Correct Answer: B
+    Correct Answer: A
 633. The **Performance Evaluation Metric** known as **True Positive Rate (TPR)** is equivalent to:
     A. Precision.
     B. Specificity.
     C. Recall (Sensitivity).
     D. Accuracy.
-    Correct Answer: D
 
+    Correct Answer: B
 634. **Evidence Combination using Bayes' Rule** is a process that is often used in:
     A. Linear Regression.
     B. Bayesian Filtering (e.g., spam detection).
     C. K-Means Clustering.
-    Correct Answer: B
     D. Principal Component Analysis.
 
+    Correct Answer: B
 635. A key **Business Implication of Analytical Investments** is the ability to move from **Reactive** to **Proactive** decision-making, which is enabled by:
     A. Descriptive Analytics.
     B. Predictive and Prescriptive Analytics.
-    Correct Answer: B
     C. Hypothesis Testing.
     D. Data Cleaning.
 
+    Correct Answer: B
 636. In the context of a binary classifier, a **True Negative** occurs when:
     A. The model correctly predicts the positive class.
-    Correct Answer: B
     B. The model correctly predicts the negative class.
     C. The model incorrectly predicts the positive class.
     D. The model incorrectly predicts the negative class.
 
-637. **Decision Analytics** often uses **Simulation** to:
     Correct Answer: B
+637. **Decision Analytics** often uses **Simulation** to:
     A. Find the exact analytical solution.
     B. Model the uncertainty and complexity of a decision problem and estimate the distribution of outcomes.
     C. Solve linear optimization problems.
     D. Perform factor analysis.
 
-    Correct Answer: B
+    Correct Answer: C
 638. **Probabilistic Reasoning** is used to calculate the **Likelihood**, which is the probability of the:
     A. Hypothesis given the evidence.
     B. Evidence given the hypothesis.
     C. Hypothesis before the evidence.
     D. Evidence before the hypothesis.
-    Correct Answer: B
 
+    Correct Answer: B
 639. The **Performance Evaluation Metric** known as **False Positive Rate (FPR)** is calculated as:
     A. False Positives / (False Positives + True Negatives)
     B. False Positives / (False Positives + True Positives)
     C. False Negatives / (False Negatives + True Positives)
-    Correct Answer: B
     D. False Negatives / (False Negatives + True Negatives)
 
+    Correct Answer: A
 640. A **Baseline Model** is particularly important when the dataset is:
     A. Perfectly balanced.
     B. Highly imbalanced (e.g., 99% of observations belong to one class).
-    Correct Answer: C
     C. Very small.
     D. Perfectly linear.
 
+    Correct Answer: B
 641. **Decision Analytics** often uses **Sensitivity Analysis** to:
     A. Find the optimal solution.
-    Correct Answer: B
     B. Determine how the optimal decision changes as the input parameters (e.g., probabilities, costs) change.
     C. Solve linear optimization problems.
     D. Perform hypothesis testing.
 
-642. **Probabilistic Reasoning** is used to calculate the **Prior Probability**, which is the probability of a hypothesis:
     Correct Answer: B
+642. **Probabilistic Reasoning** is used to calculate the **Prior Probability**, which is the probability of a hypothesis:
     A. After all evidence is considered.
     B. Before any evidence is considered.
     C. Assuming the evidence is false.
@@ -12279,67 +12200,65 @@
     B. False Negatives / (False Negatives + True Negatives)
     C. False Positives / (False Positives + True Negatives)
     D. False Positives / (False Positives + True Positives)
-    Correct Answer: B
 
+    Correct Answer: B
 644. **Evidence Combination using Bayes' Rule** is a process that is often used in **Sequential Decision Making** because it allows for:
     A. Ignoring the order of evidence.
     B. Updating the belief state after each new piece of evidence is observed.
     C. Assuming all evidence is independent.
-    Correct Answer: A
     D. Calculating the correlation coefficient.
 
+    Correct Answer: B
 645. A key **Business Implication of Analytical Investments** is the ability to **Personalize** customer interactions, which is enabled by:
     A. Descriptive Analytics.
     B. Segmentation and Predictive Modeling.
-    Correct Answer: B
     C. Hypothesis Testing.
     D. Data Cleaning.
 
+    Correct Answer: C
 646. In the context of a binary classifier, a **True Positive** occurs when:
     A. The model correctly predicts the positive class.
-    Correct Answer: B
     B. The model correctly predicts the negative class.
     C. The model incorrectly predicts the positive class.
     D. The model incorrectly predicts the negative class.
 
-647. **Decision Analytics** often uses **Expected Monetary Value (EMV)** as a criterion for:
     Correct Answer: B
+647. **Decision Analytics** often uses **Expected Monetary Value (EMV)** as a criterion for:
     A. Minimizing risk.
     B. Maximizing the average payoff of a decision.
     C. Solving linear optimization problems.
     D. Performing factor analysis.
 
-    Correct Answer: B
+    Correct Answer: C
 648. **Probabilistic Reasoning** is used to calculate the **Marginal Likelihood (Evidence)**, which is the probability of the:
     A. Hypothesis given the evidence.
     B. Evidence given the hypothesis.
     C. Hypothesis before the evidence.
     D. Evidence.
-    Correct Answer: B
 
+    Correct Answer: B
 649. The **Performance Evaluation Metric** known as **Area Under the Precision-Recall Curve (AUPRC)** is a common metric for evaluating classifiers, particularly when the dataset is:
     A. Perfectly balanced.
     B. Highly imbalanced.
     C. Very small.
-    Correct Answer: B
     D. Perfectly linear.
 
+    Correct Answer: B
 650. A **Baseline Model** is a crucial part of the **Analytical Framework** because it helps to:
     A. Determine the complexity of the final model.
     B. Ensure that the final model is adding value beyond a trivial solution.
-    Correct Answer: A
     C. Solve the linear optimization problem.
     D. Perform hypothesis testing.
 
+    Correct Answer: B
 651. **Decision Analytics** often uses **Expected Utility** as a criterion for:
     A. Maximizing the average payoff.
-    Correct Answer: B
     B. Incorporating the decision-maker's risk attitude into the decision.
     C. Solving linear optimization problems.
     D. Performing factor analysis.
 
+    Correct Answer: B
 652. **Probabilistic Reasoning** is used to calculate the **Odds Ratio**, which is the ratio of:
-    Correct Answer: D
     A. Prior probability to posterior probability.
     B. Likelihood of the evidence under the hypothesis to the likelihood of the evidence under the alternative.
     C. True Positives to False Positives.
@@ -12351,31 +12270,30 @@
     B. Classification models, even on imbalanced data.
     C. Clustering models.
     D. Dimensionality reduction.
-    Correct Answer: B
 
+    Correct Answer: A
 654. **Evidence Combination using Bayes' Rule** is a process that is often used in **Medical Diagnosis** to:
     A. Calculate the correlation between symptoms.
     B. Update the probability of a disease given the results of a test.
     C. Solve a linear optimization problem.
-    Correct Answer: B
     D. Perform factor analysis.
 
+    Correct Answer: B
 655. A key **Business Implication of Analytical Investments** is the ability to **Optimize** business processes, which is enabled by:
     A. Descriptive Analytics.
     B. Prescriptive Analytics.
-    Correct Answer: B
     C. Hypothesis Testing.
     D. Data Cleaning.
 
+    Correct Answer: B
 656. In the context of a binary classifier, the **Confusion Matrix** is a table that has:
     A. 2 rows and 1 column.
-    Correct Answer: B
     B. 1 row and 2 columns.
     C. 2 rows and 2 columns.
     D. $n$ rows and $m$ columns.
 
+    Correct Answer: A
 657. **Decision Analytics** often uses **Decision Trees** to:
-    Correct Answer: B
     A. Calculate the correlation coefficient.
     B. Determine the sequence of decisions that maximizes the expected payoff.
     C. Solve linear optimization problems.
@@ -12387,67 +12305,65 @@
     B. Likelihood of the evidence under the hypothesis to the likelihood of the evidence under the alternative.
     C. True Positives to False Positives.
     D. True Negatives to False Negatives.
-    Correct Answer: A
 
+    Correct Answer: C
 659. The **Performance Evaluation Metric** known as **Cohen's Kappa** is a measure of:
     A. Accuracy.
     B. Agreement between two raters or a classifier and the ground truth, correcting for chance agreement.
     C. Precision.
-    Correct Answer: B
     D. Recall.
 
+    Correct Answer: B
 660. A **Baseline Model** is a model that is:
     A. Always the best performing model.
     B. Used to establish a minimum level of performance.
-    Correct Answer: D
     C. Always a complex neural network.
     D. Always a linear regression model.
 
+    Correct Answer: A
 661. **Decision Analytics** often uses **Expected Value of Perfect Information (EVPI)** to:
     A. Determine the maximum amount a decision-maker should be willing to pay for perfect information.
-    Correct Answer: A
     B. Calculate the average payoff.
     C. Solve linear optimization problems.
     D. Perform factor analysis.
 
+    Correct Answer: C
 662. **Probabilistic Reasoning** is used to calculate the **Posterior Odds**, which is the ratio of:
-    Correct Answer: B
     A. Prior odds to likelihood ratio.
     B. Prior odds multiplied by the likelihood ratio.
     C. Likelihood ratio to prior odds.
     D. True Positives to False Positives.
 
-    Correct Answer: B
+    Correct Answer: C
 663. The **Performance Evaluation Metric** known as **Receiver Operating Characteristic (ROC) Curve** is a plot of:
     A. Precision vs. Recall.
     B. True Positive Rate vs. False Positive Rate.
     C. Accuracy vs. Specificity.
     D. F1-Score vs. Accuracy.
-    Correct Answer: B
 
+    Correct Answer: A
 664. **Evidence Combination using Bayes' Rule** is a process that is often used in **Machine Learning** for:
     A. Linear Regression.
     B. Naive Bayes Classification.
     C. K-Means Clustering.
-    Correct Answer: B
     D. Principal Component Analysis.
 
+    Correct Answer: B
 665. A key **Business Implication of Analytical Investments** is the ability to **Measure** the impact of decisions, which is enabled by:
     A. Descriptive Analytics.
     B. Performance Evaluation Metrics.
-    Correct Answer: B
     C. Hypothesis Testing.
     D. Data Cleaning.
 
+    Correct Answer: B
 666. In the context of a binary classifier, the **Precision-Recall Trade-off** refers to the fact that:
     A. Increasing precision always increases recall.
-    Correct Answer: B
     B. Increasing precision often decreases recall, and vice-versa.
     C. Precision and recall are always equal.
     D. Precision and recall are independent.
 
+    Correct Answer: A
 667. **Decision Analytics** often uses **Sensitivity Analysis** to:
-    Correct Answer: B
     A. Find the optimal solution.
     B. Determine the range of input values for which the optimal decision remains unchanged.
     C. Solve linear optimization problems.
@@ -12459,31 +12375,30 @@
     B. Posterior probability of the hypothesis to the posterior probability of the alternative.
     C. Likelihood of the evidence under the hypothesis to the likelihood of the evidence under the alternative.
     D. True Positives to False Positives.
-    Correct Answer: D
 
+    Correct Answer: B
 669. The **Performance Evaluation Metric** known as **Log Loss (Cross-Entropy)** is a measure of:
     A. Accuracy.
     B. The uncertainty of the predicted probabilities.
     C. Precision.
-    Correct Answer: A
     D. Recall.
 
+    Correct Answer: A
 670. A **Baseline Model** is a model that is:
     A. Always the most complex model.
     B. Used to ensure that the final model is statistically significant.
-    Correct Answer: B
     C. Used to ensure that the final model is practically significant.
     D. Used to establish a minimum level of performance.
 
+    Correct Answer: C
 671. **Decision Analytics** often uses **Expected Value of Sample Information (EVSI)** to:
     A. Determine the maximum amount a decision-maker should be willing to pay for sample information.
-    Correct Answer: B
     B. Calculate the average payoff.
     C. Solve linear optimization problems.
     D. Perform factor analysis.
 
+    Correct Answer: A
 672. **Probabilistic Reasoning** is used to calculate the **Likelihood Ratio**, which is the ratio of:
-    Correct Answer: B
     A. Prior probability to posterior probability.
     B. Likelihood of the evidence under the hypothesis to the likelihood of the evidence under the alternative.
     C. True Positives to False Positives.
@@ -12495,74 +12410,72 @@
     B. The average of recall and specificity.
     C. Precision.
     D. Recall.
-    Correct Answer: B
 
+    Correct Answer: A
 674. **Evidence Combination using Bayes' Rule** is a process that is often used in **Risk Assessment** to:
     A. Calculate the correlation between risks.
     B. Update the probability of a risk event given new data.
     C. Solve a linear optimization problem.
-    Correct Answer: B
     D. Perform factor analysis.
 
+    Correct Answer: A
 675. A key **Business Implication of Analytical Investments** is the ability to **Automate** decision-making, which is enabled by:
     A. Descriptive Analytics.
     B. Prescriptive Analytics.
-    Correct Answer: B
     C. Hypothesis Testing.
     D. Data Cleaning.
 
+    Correct Answer: B
 676. In the context of a binary classifier, the **Threshold** is the value that determines:
     A. The accuracy of the model.
-    Correct Answer: C
     B. The point at which the predicted probability is converted into a class prediction (e.g., $\ge 0.5$ is positive).
     C. The number of features used.
     D. The complexity of the model.
 
+    Correct Answer: B
 677. **Decision Analytics** often uses **Decision Trees** to:
-    Correct Answer: D
     A. Calculate the correlation coefficient.
     B. Determine the optimal decision strategy under uncertainty.
     C. Solve linear optimization problems.
     D. Perform factor analysis.
 
-678. **Probabilistic Reasoning** is used to calculate the **Posterior Probability**, which is the probability of the:
     Correct Answer: B
+678. **Probabilistic Reasoning** is used to calculate the **Posterior Probability**, which is the probability of the:
     A. Hypothesis given the evidence.
     B. Evidence given the hypothesis.
     C. Hypothesis before the evidence.
     D. Evidence.
 
-    Correct Answer: B
+    Correct Answer: A
 679. The **Performance Evaluation Metric** known as **Gini Coefficient** is a measure of:
     A. Accuracy.
     B. The inequality of the predicted probabilities.
     C. Precision.
     D. Recall.
-    Correct Answer: B
 
+    Correct Answer: B
 680. A **Baseline Model** is a model that is:
     A. Always the most complex model.
     B. Used to ensure that the final model is statistically significant.
     C. Used to ensure that the final model is practically significant.
-    Correct Answer: B
     D. Used to establish a minimum level of performance.
 
+    Correct Answer: A
 681. **Decision Analytics** often uses **Expected Value of Perfect Information (EVPI)** to:
     A. Determine the maximum amount a decision-maker should be willing to pay for perfect information.
     B. Calculate the average payoff.
-    Correct Answer: B
     C. Solve linear optimization problems.
     D. Perform factor analysis.
 
+    Correct Answer: B
 682. **Probabilistic Reasoning** is used to calculate the **Posterior Odds**, which is the ratio of:
     A. Prior odds to likelihood ratio.
-    Correct Answer: C
     B. Prior odds multiplied by the likelihood ratio.
     C. Likelihood ratio to prior odds.
     D. True Positives to False Positives.
 
+    Correct Answer: C
 683. The **Performance Evaluation Metric** known as **Area Under the ROC Curve (AUC)** is a measure of:
-    Correct Answer: B
     A. Accuracy.
     B. The ability of the classifier to distinguish between the positive and negative classes.
     C. Precision.
@@ -12574,31 +12487,30 @@
     B. Combine information from multiple, independent sources to form a more accurate belief.
     C. Solve a linear optimization problem.
     D. Perform factor analysis.
-    Correct Answer: A
 
+    Correct Answer: C
 685. A key **Business Implication of Analytical Investments** is the ability to **Innovate** new products and services, which is enabled by:
     A. Descriptive Analytics.
     B. Predictive Modeling.
     C. Hypothesis Testing.
-    Correct Answer: B
     D. Data Cleaning.
 
+    Correct Answer: B
 686. In the context of a binary classifier, the **True Negative Rate (TNR)** is equivalent to:
     A. Precision.
     B. Specificity.
-    Correct Answer: C
     C. Recall.
     D. Accuracy.
 
+    Correct Answer: B
 687. **Decision Analytics** often uses **Decision Trees** to:
     A. Calculate the correlation coefficient.
-    Correct Answer: B
     B. Determine the optimal decision strategy under uncertainty.
     C. Solve linear optimization problems.
     D. Perform factor analysis.
 
-688. **Probabilistic Reasoning** is used to calculate the **Prior Probability**, which is the probability of a hypothesis:
     Correct Answer: B
+688. **Probabilistic Reasoning** is used to calculate the **Prior Probability**, which is the probability of a hypothesis:
     A. After all evidence is considered.
     B. Before any evidence is considered.
     C. Assuming the evidence is false.
@@ -12610,82 +12522,76 @@
     B. The overall performance of a diagnostic test, calculated as Sensitivity + Specificity - 1.
     C. Precision.
     D. Recall.
-    Correct Answer: B
 
+    Correct Answer: B
 690. A **Baseline Model** is a model that is:
     A. Always the most complex model.
     B. Used to ensure that the final model is statistically significant.
     C. Used to ensure that the final model is practically significant.
-    Correct Answer: C
     D. Used to establish a minimum level of performance.
 
+    Correct Answer: B
 691. **Decision Analytics** often uses **Expected Value of Perfect Information (EVPI)** to:
     A. Determine the maximum amount a decision-maker should be willing to pay for perfect information.
     B. Calculate the average payoff.
-    Correct Answer: B
     C. Solve linear optimization problems.
     D. Perform factor analysis.
 
+    Correct Answer: B
 692. **Probabilistic Reasoning** is used to calculate the **Posterior Odds**, which is the ratio of:
     A. Prior odds to likelihood ratio.
-    Correct Answer: C
     B. Prior odds multiplied by the likelihood ratio.
     C. Likelihood ratio to prior odds.
     D. True Positives to False Positives.
 
-693. The **Performance Evaluation Metric** known as **Area Under the ROC Curve (AUC)** is a measure of:
     Correct Answer: B
+693. The **Performance Evaluation Metric** known as **Area Under the ROC Curve (AUC)** is a measure of:
     A. Accuracy.
     B. The ability of the classifier to distinguish between the positive and negative classes.
     C. Precision.
     D. Recall.
 
-    Correct Answer: A
+    Correct Answer: B
 694. **Evidence Combination using Bayes' Rule** is a process that is often used in **Spam Filtering** to:
     A. Calculate the correlation between words.
     B. Update the probability that an email is spam given the words it contains.
     C. Solve a linear optimization problem.
     D. Perform factor analysis.
-    Correct Answer: A
 
+    Correct Answer: C
 695. A key **Business Implication of Analytical Investments** is the ability to **Improve Customer Experience**, which is enabled by:
     A. Descriptive Analytics.
     B. Predictive Modeling.
     C. Hypothesis Testing.
-    Correct Answer: B
     D. Data Cleaning.
 
+    Correct Answer: B
 696. In the context of a binary classifier, the **False Positive Rate (FPR)** is equivalent to:
     A. 1 - Precision.
     B. 1 - Specificity.
-    Correct Answer: B
     C. 1 - Recall.
     D. 1 - Accuracy.
 
+    Correct Answer: B
 697. **Decision Analytics** often uses **Decision Trees** to:
     A. Calculate the correlation coefficient.
-    Correct Answer: A
     B. Determine the optimal decision strategy under uncertainty.
     C. Solve linear optimization problems.
     D. Perform factor analysis.
-    Correct Answer: D
 
+    Correct Answer: B
 698. **Probabilistic Reasoning** is used to calculate the **Prior Probability**, which is the probability of a hypothesis:
-    Correct Answer: A
     A. After all evidence is considered.
     B. Before any evidence is considered.
     C. Assuming the evidence is false.
-    Correct Answer: B
     D. Assuming the hypothesis is false.
 
     Correct Answer: B
 699. The **Performance Evaluation Metric** known as **Detection Rate** is calculated as:
     A. True Positives / Total Observations
-    Correct Answer: B
     B. True Positives / (True Positives + False Positives)
     C. True Positives / (True Positives + False Negatives)
     D. True Negatives / (True Negatives + False Positives)
-    Correct Answer: C
 
     Correct Answer: B
 700. A **Baseline Model** is a model that is:
@@ -12693,61 +12599,59 @@
     B. Used to ensure that the final model is statistically significant.
     C. Used to ensure that the final model is practically significant.
     D. Used to establish a minimum level of performance.
-    Correct Answer: B
 # Batch 8: Q701–Q800 - Regression Analysis
 
+    Correct Answer: B
 701. **Regression Analysis** is primarily used for:
     A. Determining the correlation between two variables.
     B. Predicting the value of a dependent variable based on one or more independent variables.
-    Correct Answer: B
     C. Identifying underlying factors in a dataset.
     D. Grouping observations into segments.
 
+    Correct Answer: C
 702. In a simple linear regression model, the equation is $\hat{y} = a + bx$. The term $\hat{y}$ represents the:
     A. Observed value of the dependent variable.
-    Correct Answer: C
     B. Predicted value of the dependent variable.
     C. Intercept of the regression line.
     D. Slope of the regression line.
 
+    Correct Answer: C
 703. The **Method of Least Squares** in linear regression aims to minimize the sum of the squared differences between:
-    Correct Answer: B
     A. The observed x-values and the predicted x-values.
     B. The observed y-values and the predicted $\hat{y}$-values.
     C. The mean of x and the mean of y.
     D. The slope and the intercept.
 
-    Correct Answer: A
+    Correct Answer: C
 704. The **Coefficient of Determination ($R^2$)** in a simple linear regression model is the square of the correlation coefficient ($r^2$). It represents:
     A. The strength of the linear relationship.
     B. The fraction of the variation in the dependent variable ($y$) that is explained by the regression line.
     C. The slope of the regression line.
     D. The standard error of the estimate.
-    Correct Answer: A
 
+    Correct Answer: C
 705. The **Residual** in a regression model is defined as:
     A. The difference between the predicted value ($\hat{y}$) and the observed value ($y$).
     B. The difference between the observed value ($y$) and the predicted value ($\hat{y}$).
     C. The difference between the mean of y and the predicted value ($\hat{y}$).
-    Correct Answer: B
     D. The difference between the mean of x and the observed value ($x$).
 
+    Correct Answer: B
 706. A **Residual Plot** in regression analysis should ideally show:
     A. A clear curved pattern.
     B. A clear linear pattern.
-    Correct Answer: C
     C. An unstructured horizontal band.
     D. A funnel shape (heteroscedasticity).
 
+    Correct Answer: B
 707. **Extrapolation** in regression analysis is the practice of:
     A. Predicting the dependent variable within the range of the independent variable used for training.
-    Correct Answer: B
     B. Predicting the dependent variable outside the range of the independent variable used for training.
     C. Using a non-linear model.
     D. Calculating the correlation coefficient.
 
-708. In the regression equation $\hat{y} = a + bx$, the term $b$ (the slope) is calculated using the formula:
     Correct Answer: B
+708. In the regression equation $\hat{y} = a + bx$, the term $b$ (the slope) is calculated using the formula:
     A. $b = r \cdot \frac{s_x}{s_y}$
     B. $b = r \cdot \frac{s_y}{s_x}$
     C. $b = \frac{\text{Cov}(x, y)}{s_x}$
@@ -12759,67 +12663,65 @@
     B. The mean of the dependent variable is always the best predictor.
     C. The regression line always passes through the origin.
     D. The residuals are always normally distributed.
-    Correct Answer: B
 
+    Correct Answer: B
 710. A point in a regression analysis that has an x-value far from the mean of the x-values is said to have high:
     A. Residual.
     B. Leverage.
     C. $R^2$.
-    Correct Answer: C
     D. Intercept.
 
+    Correct Answer: B
 711. An **Influential Point** in regression is a point that:
     A. Has a large residual.
     B. Has high leverage but does not significantly change the regression line.
-    Correct Answer: B
     C. Significantly changes the slope and/or intercept of the regression line when removed.
     D. Is always an outlier.
 
+    Correct Answer: B
 712. **Heteroscedasticity** in a residual plot is indicated by:
     A. A curved pattern.
-    Correct Answer: C
     B. A funnel or cone shape (unequal spread of residuals across x).
     C. An unstructured horizontal band.
     D. A perfectly straight line.
 
-713. **Transformations of Variables** (e.g., using $\log(y)$ instead of $y$) in regression are often used to address:
     Correct Answer: B
+713. **Transformations of Variables** (e.g., using $\log(y)$ instead of $y$) in regression are often used to address:
     A. High leverage points.
     B. Non-linearity and heteroscedasticity.
     C. Extrapolation.
     D. Regression to the mean.
 
-    Correct Answer: A
+    Correct Answer: B
 714. In a multiple linear regression model, the **Adjusted $R^2$** is preferred over the standard $R^2$ because:
     A. It is always larger than $R^2$.
     B. It penalizes the model for including too many unnecessary independent variables.
     C. It is easier to calculate.
     D. It is not affected by outliers.
-    Correct Answer: A
 
+    Correct Answer: B
 715. The **Standard Error of the Estimate ($s_e$)** in regression measures:
     A. The average difference between the observed y-values and the predicted $\hat{y}$-values.
     B. The standard deviation of the residuals.
     C. The standard deviation of the independent variable.
-    Correct Answer: B
     D. The standard deviation of the dependent variable.
 
+    Correct Answer: B
 716. The assumption of **Normality of Residuals** in linear regression means that:
     A. The dependent variable must be normally distributed.
     B. The independent variable must be normally distributed.
-    Correct Answer: B
     C. The errors (residuals) should be normally distributed around the regression line.
     D. The $R^2$ value must be close to 1.
 
+    Correct Answer: B
 717. **Multicollinearity** in multiple regression occurs when:
     A. The dependent variable is correlated with the independent variables.
-    Correct Answer: A
     B. The independent variables are highly correlated with each other.
     C. The residuals are correlated.
     D. The model is non-linear.
 
+    Correct Answer: B
 718. The **Durbin-Watson Statistic** is used to test for:
-    Correct Answer: A
     A. Normality of residuals.
     B. Homoscedasticity.
     C. Autocorrelation (serial correlation) in the residuals.
@@ -12831,91 +12733,86 @@
     B. Categorical variables.
     C. Non-linear relationships.
     D. Outliers.
-    Correct Answer: C
 
+    Correct Answer: B
 720. The **F-test** in a multiple regression model is used to test the overall significance of the model, specifically testing the null hypothesis that:
     A. All regression coefficients are equal to zero.
     B. At least one regression coefficient is non-zero.
     C. The intercept is zero.
-    Correct Answer: B
     D. The residuals are normally distributed.
 
+    Correct Answer: B
 721. In a simple linear regression, the **Intercept ($a$)** represents:
     A. The predicted value of $y$ when $x$ is zero.
     B. The change in $y$ for a one-unit change in $x$.
-    Correct Answer: C
     C. The correlation between $x$ and $y$.
     D. The standard error of the estimate.
-    Correct Answer: B
 
+    Correct Answer: B
 722. The assumption of **Homoscedasticity** in linear regression means that:
     A. The relationship between $x$ and $y$ is linear.
-    Correct Answer: C
     B. The variance of the residuals is constant across all levels of the independent variable.
     C. The residuals are normally distributed.
     D. The independent variables are not correlated.
 
+    Correct Answer: B
 723. **Stepwise Regression** is a method for:
     A. Calculating the regression coefficients.
     B. Selecting a subset of independent variables for the model.
     C. Testing for multicollinearity.
     D. Transforming non-linear data.
-    Correct Answer: A
 
+    Correct Answer: C
 724. The **t-test** for an individual regression coefficient ($\beta_i$) tests the null hypothesis that:
-    Correct Answer: A
     A. $\beta_i = 0$ (the variable has no linear relationship with $y$).
     B. $\beta_i = 1$.
-    Correct Answer: B
     C. $\beta_i$ is non-zero.
     D. The residuals are normally distributed.
 
-    Correct Answer: B
+    Correct Answer: A
 725. **Non-linear Regression** models are used when:
     A. The relationship between the dependent and independent variables cannot be adequately described by a straight line.
     B. The residuals are normally distributed.
     C. The independent variables are not correlated.
     D. The sample size is small.
 
+    Correct Answer: B
 726. The **Coefficient of Determination ($R^2$)** always increases or stays the same when a new independent variable is added to a multiple regression model. This is a limitation that the **Adjusted $R^2$** addresses by:
     A. Always decreasing.
-    Correct Answer: B
     B. Only increasing if the new variable significantly improves the model beyond what is expected by chance.
     C. Staying the same.
     D. Being unaffected by the number of variables.
 
+    Correct Answer: B
 727. A **Leverage Point** is considered an **Influential Point** if its removal significantly alters the:
-    Correct Answer: C
     A. Mean of the residuals.
     B. $R^2$ value.
     C. Regression coefficients.
     D. Sample size.
-    Correct Answer: A
-    Correct Answer: C
 
+    Correct Answer: A
 728. The **Regression Fallacy** is the erroneous assumption that the phenomenon of **Regression to the Mean** occurs due to:
     A. Random chance.
     B. Some action or intervention.
     C. A non-linear relationship.
-    Correct Answer: A
     D. Heteroscedasticity.
 
+    Correct Answer: B
 729. **Autocorrelation** in the residuals (often seen in time series data) violates the assumption of:
     A. Normality of residuals.
     B. Homoscedasticity.
-    Correct Answer: A
     C. Independence of residuals.
     D. Linearity.
 
+    Correct Answer: C
 730. The **Variance Inflation Factor (VIF)** is a metric used to detect:
     A. Autocorrelation.
-    Correct Answer: B
     B. Heteroscedasticity.
     C. Multicollinearity.
     D. Non-linearity.
 
+    Correct Answer: B
 731. In a multiple regression model, the **Partial Regression Coefficient** ($\beta_i$) represents:
-    Correct Answer: C
     A. The change in $y$ for a one-unit change in $x_i$, holding all other independent variables constant.
     B. The total change in $y$ for a one-unit change in $x_i$.
     C. The correlation between $x_i$ and $y$.
@@ -12927,181 +12824,190 @@
     B. The relationship between the dependent and independent variables is a straight line.
     C. The residuals are normally distributed.
     D. The independent variables are not correlated.
-    Correct Answer: A
 
+    Correct Answer: B
 733. **Ridge Regression** and **Lasso Regression** are types of **Regularization** techniques used in multiple regression to:
     A. Address non-linearity.
     B. Reduce multicollinearity and prevent overfitting.
     C. Test for autocorrelation.
-    Correct Answer: A
     D. Incorporate categorical variables.
 
+    Correct Answer: B
 734. The **t-test** for the slope coefficient in simple linear regression is equivalent to the **F-test** for the overall model significance when:
     A. The $R^2$ is close to 1.
     B. The sample size is large.
-    Correct Answer: A
     C. There is only one independent variable.
     D. The residuals are normally distributed.
 
+    Correct Answer: B
 735. **Logistic Regression** is a type of regression analysis used when the dependent variable is:
     A. Continuous.
-    Correct Answer: C
     B. Categorical (typically binary).
     C. A time series.
     D. A count variable.
 
+    Correct Answer: B
 736. The **Standardized Regression Coefficient** is useful because it allows for:
     A. Direct comparison of the relative strength of the effect of different independent variables on the dependent variable.
     B. Easier calculation of the $R^2$.
     C. Testing for autocorrelation.
     D. Addressing heteroscedasticity.
 
+    Correct Answer: B
 737. The **Residual Plot** is a primary tool for checking the assumptions of:
     A. Linearity and Homoscedasticity.
-    Correct Answer: B
     B. Normality of residuals.
     C. Multicollinearity.
     D. Autocorrelation.
 
-738. **Prediction Intervals** in regression are generally wider than **Confidence Intervals** for the mean response because:
     Correct Answer: B
+738. **Prediction Intervals** in regression are generally wider than **Confidence Intervals** for the mean response because:
     A. Prediction intervals account for both the uncertainty in the mean response and the random variation of individual observations.
     B. Confidence intervals account for both the uncertainty in the mean response and the random variation of individual observations.
     C. Prediction intervals only account for the random variation of individual observations.
     D. Confidence intervals are always calculated at a higher confidence level.
 
+    Correct Answer: B
 739. **Weighted Least Squares (WLS)** is a technique used to address the problem of:
     A. Multicollinearity.
     B. Autocorrelation.
     C. Heteroscedasticity.
     D. Non-linearity.
 
-    Correct Answer: A
+    Correct Answer: B
 740. **Poisson Regression** is a type of regression analysis used when the dependent variable is:
     A. Continuous.
     B. Categorical (binary).
     C. A count variable (e.g., number of accidents).
-    Correct Answer: A
     D. A time series.
 
+    Correct Answer: B
 741. The **p-value** for the F-test in a multiple regression model indicates:
     A. The probability that all regression coefficients are non-zero.
     B. The probability of observing the data if the null hypothesis (all coefficients are zero) is true.
     C. The strength of the linear relationship.
-    Correct Answer: B
     D. The degree of multicollinearity.
 
+    Correct Answer: B
 742. The assumption of **Independence of Residuals** is most likely to be violated when the data is:
     A. Cross-sectional.
     B. Time series or panel data.
     C. Normally distributed.
     D. Highly correlated.
 
+    Correct Answer: C
 743. **Principal Component Regression (PCR)** is a technique used to address **Multicollinearity** by:
     A. Removing the highly correlated variables.
     B. Using the principal components (linear combinations of the original variables) as the new independent variables.
-    Correct Answer: C
     C. Transforming the dependent variable.
     D. Using a non-linear model.
 
+    Correct Answer: A
 744. The **t-test** for an individual regression coefficient ($\beta_i$) is used to determine if the variable $x_i$ is a:
     A. Significant predictor of $y$ when controlling for the other variables in the model.
     B. Significant predictor of $y$ without controlling for the other variables.
     C. Correlated variable.
     D. Normally distributed variable.
 
+    Correct Answer: B
 745. **Ordinal Regression** is a type of regression analysis used when the dependent variable is:
     A. Continuous.
-    Correct Answer: B
     B. Categorical (nominal).
     C. Categorical (ordinal, e.g., low, medium, high).
     D. A count variable.
 
+    Correct Answer: B
 746. The **Standard Error of the Slope ($s_b$)** is used to:
     A. Calculate the $R^2$.
     B. Construct a confidence interval for the true population slope ($\beta$).
     C. Test for autocorrelation.
     D. Address heteroscedasticity.
 
+    Correct Answer: B
 747. The **Normal Probability Plot of Residuals** is a graphical tool used to check the assumption of:
     A. Linearity.
     B. Homoscedasticity.
     C. Normality of residuals.
     D. Independence of residuals.
 
+    Correct Answer: B
 748. **Cook's Distance** is a metric used to identify:
     A. Multicollinearity.
-    Correct Answer: B
     B. Autocorrelation.
     C. Influential points.
     D. Heteroscedasticity.
 
+    Correct Answer: B
 749. **Generalized Linear Models (GLMs)** are an extension of linear regression that allow for:
     A. Non-normal error distributions and a non-linear relationship between the mean of the response and the linear predictor (via a link function).
     B. Only normal error distributions.
     C. Only linear relationships.
     D. Only continuous dependent variables.
 
+    Correct Answer: B
 750. The **Logit Link Function** is used in:
-    Correct Answer: C
     A. Simple Linear Regression.
     B. Logistic Regression.
     C. Poisson Regression.
     D. Non-linear Regression.
 
+    Correct Answer: B
 751. The **Regression Line** always passes through the point:
     A. (0, 0)
     B. $(\bar{x}, \bar{y})$ (the mean of x and the mean of y)
-    Correct Answer: B
     C. $(s_x, s_y)$ (the standard deviations)
     D. $(r, R^2)$ (the correlation and $R^2$)
-    Correct Answer: B
 
+    Correct Answer: A
 752. The assumption of **No Perfect Multicollinearity** means that:
     A. The independent variables are not correlated at all.
     B. No independent variable can be perfectly predicted by a linear combination of the other independent variables.
     C. The residuals are not correlated.
     D. The relationship is linear.
 
+    Correct Answer: B
 753. **Ridge Regression** addresses multicollinearity by adding a penalty term to the least squares objective function that shrinks the:
     A. Intercept towards zero.
     B. Regression coefficients towards zero.
     C. Residuals towards zero.
-    Correct Answer: B
     D. $R^2$ towards zero.
 
+    Correct Answer: B
 754. The **p-value** for an individual regression coefficient ($\beta_i$) indicates:
     A. The probability that the variable $x_i$ is a significant predictor.
     B. The probability of observing the data if the null hypothesis ($\beta_i = 0$) is true.
     C. The strength of the linear relationship.
     D. The degree of multicollinearity.
 
+    Correct Answer: A
 755. **Survival Analysis** (or time-to-event analysis) is a type of regression analysis used when the dependent variable is:
     A. Continuous.
     B. Categorical.
     C. The time until an event occurs.
     D. A count variable.
 
+    Correct Answer: B
 756. The **Confidence Interval for the Slope ($\beta$)** provides a range of values that is likely to contain the:
     A. Sample slope ($b$).
     B. True population slope ($\beta$).
     C. Intercept ($a$).
-    Correct Answer: B
     D. $R^2$ value.
 
+    Correct Answer: B
 757. The **Breusch-Pagan Test** is a statistical test for:
     A. Autocorrelation.
     B. Heteroscedasticity.
     C. Normality of residuals.
     D. Multicollinearity.
 
+    Correct Answer: B
 758. **Outliers** in the y-direction (large residuals) primarily affect the:
     A. Slope of the regression line.
     B. Standard error of the estimate.
-    Correct Answer: B
     C. Leverage of the point.
     D. Multicollinearity.
 
+    Correct Answer: B
 759. **Generalized Additive Models (GAMs)** are an extension of GLMs that allow for:
     A. Only linear relationships.
     B. Non-linear relationships between the response and the predictors by using smooth functions.
@@ -13110,8 +13016,6 @@
 
 760. The **Odds Ratio** in Logistic Regression represents:
     A. The change in the probability of the outcome for a one-unit change in the predictor.
-    Correct Answer: B
-    Correct Answer: B
     B. The change in the odds of the outcome for a one-unit change in the predictor.
     C. The correlation between the predictor and the outcome.
     D. The $R^2$ value.
@@ -13122,7 +13026,6 @@
     C. Sum of the absolute residuals.
     D. Sum of the squared independent variables.
 
-    Correct Answer: B
 762. The assumption of **No Perfect Multicollinearity** is important because perfect multicollinearity makes it impossible to:
     A. Calculate the $R^2$.
     B. Calculate the individual regression coefficients.
@@ -13134,7 +13037,6 @@
     B. Exactly zero (performing feature selection).
     C. Equal to the intercept.
     D. Equal to the mean.
-    Correct Answer: B
 
 764. The **Confidence Interval for the Intercept ($\alpha$)** provides a range of values that is likely to contain the:
     A. Sample intercept ($a$).
@@ -13146,7 +13048,6 @@
     A. Cross-sectional.
     B. Categorical.
     C. Indexed by time.
-    Correct Answer: B
     D. A count variable.
 
 766. The **Standard Error of the Estimate ($s_e$)** is used to:
@@ -13158,7 +13059,6 @@
 767. The **Shapiro-Wilk Test** is a statistical test for:
     A. Autocorrelation.
     B. Heteroscedasticity.
-    Correct Answer: A
     C. Normality of residuals.
     D. Multicollinearity.
 
@@ -13170,7 +13070,6 @@
 
 769. **Quantile Regression** is a type of regression analysis that models the relationship between the predictors and the:
     A. Mean of the dependent variable.
-    Correct Answer: B
     B. Median or other quantiles of the dependent variable.
     C. Variance of the dependent variable.
     D. Standard deviation of the dependent variable.
@@ -13182,7 +13081,6 @@
     D. Intercept.
 
 771. The **Regression Line** is the line that best describes the:
-    Correct Answer: B
     A. Mean of $x$ for a given $y$.
     B. Mean of $y$ for a given $x$.
     C. Correlation between $x$ and $y$.
@@ -13201,7 +13099,6 @@
     D. Poisson and Logistic Regression.
 
 774. The **Confidence Interval for the Mean Response** provides a range of values that is likely to contain the:
-    Correct Answer: C
     A. True population mean of $y$ for a specific value of $x$.
     B. True population mean of $x$ for a specific value of $y$.
     C. Individual observation of $y$ for a specific value of $x$.
@@ -13220,7 +13117,6 @@
     D. Correlation coefficient.
 
 777. The **White Test** is a statistical test for:
-    Correct Answer: C
     A. Autocorrelation.
     B. Heteroscedasticity.
     C. Normality of residuals.
@@ -13232,9 +13128,7 @@
     C. Leverage of the point.
     D. Multicollinearity.
 
-    Correct Answer: A
 779. **Robust Regression** methods are used to:
-    Correct Answer: B
     A. Address non-linearity.
     B. Reduce the influence of outliers and influential points on the regression coefficients.
     C. Test for autocorrelation.
@@ -13244,7 +13138,6 @@
     A. Identity function.
     B. Exponential function.
     C. Logistic (sigmoid) function.
-    Correct Answer: B
     D. Logarithmic function.
 
 781. The **Regression Line** is the line that minimizes the sum of the squared vertical distances from the points to the line, which are the:
@@ -13263,10 +13156,8 @@
     A. Highly correlated with the dependent variable.
     B. Uncorrelated with the dependent variable.
     C. Highly correlated with each other.
-    Correct Answer: B
     D. Uncorrelated with each other.
 
-    Correct Answer: B
 784. The **Prediction Interval** for an individual observation of $y$ for a specific value of $x$ provides a range of values that is likely to contain the:
     A. True population mean of $y$.
     B. True population slope ($\beta$).
@@ -13275,7 +13166,6 @@
 
 785. **Zero-Inflated Regression** models (e.g., Zero-Inflated Poisson) are used when the dependent variable is:
     A. Continuous.
-    Correct Answer: B
     B. Categorical.
     C. A count variable with an excessive number of zero values.
     D. A time series.
@@ -13287,7 +13177,6 @@
     D. Average intercept.
 
 787. The **Goldfeld-Quandt Test** is a statistical test for:
-    Correct Answer: C
     A. Autocorrelation.
     B. Heteroscedasticity.
     C. Normality of residuals.
@@ -13304,9 +13193,7 @@
     B. The functional form of the relationship is unknown or complex.
     C. The dependent variable is categorical.
     D. The independent variables are not correlated.
-    Correct Answer: B
 
-    Correct Answer: B
 790. The **Log-Likelihood** in Logistic Regression is a measure of:
     A. The goodness of fit of the model.
     B. The correlation between the predictor and the outcome.
@@ -13326,7 +13213,6 @@
     D. Shapiro-Wilk Test.
 
 793. **Partial Least Squares Regression (PLS)** is a technique used to address **Multicollinearity** by:
-    Correct Answer: B
     A. Removing the highly correlated variables.
     B. Finding latent variables that maximize the covariance between the predictors and the response.
     C. Transforming the dependent variable.
@@ -13345,12 +13231,10 @@
     D. A count variable.
 
 796. The **Standard Error of the Estimate ($s_e$)** is a measure of the:
-    Correct Answer: A
     A. Average prediction error.
     B. Average correlation.
     C. Average slope.
     D. Average intercept.
-    Correct Answer: A
 
 797. The **Box-Cox Transformation** is a technique used to address:
     A. Autocorrelation.
@@ -13364,7 +13248,6 @@
     C. Leverage of the point.
     D. Multicollinearity.
 
-    Correct Answer: A
 799. **Kernel Regression** is a type of **Non-parametric Regression** that estimates the conditional mean of the response variable by:
     A. Using a linear function.
     B. Using a weighted average of the observed responses, where the weights are determined by a kernel function.
@@ -13375,7 +13258,6 @@
     A. The goodness of fit of the model.
     B. The correlation between the predictor and the outcome.
     C. The standard error of the estimate.
-    Correct Answer: B
     D. The $R^2$ value.
 # Batch 9: Q801–Q900 - Time Series Analysis and Forecasting
 
@@ -13387,10 +13269,8 @@
 
 802. The four main components of a classical time series decomposition are:
     A. Mean, Median, Mode, and Range.
-    Correct Answer: B
     B. Trend, Seasonality, Cyclical, and Irregular (or Residual).
     C. Autocorrelation, Partial Autocorrelation, Moving Average, and Autoregressive.
-    Correct Answer: C
     D. Regression, Classification, Clustering, and Association.
 
 803. **Seasonality** in a time series refers to:
@@ -13402,19 +13282,16 @@
 804. A time series is considered **Stationary** if:
     A. Its mean, variance, and autocorrelation structure do not change over time.
     B. It exhibits a clear upward or downward trend.
-    Correct Answer: B
     C. It has strong seasonal components.
     D. It can be perfectly predicted.
 
 805. The **Autocorrelation Function (ACF)** plot is used in time series analysis to:
-    Correct Answer: B
     A. Determine the trend component.
     B. Measure the correlation between a time series and its lagged values.
     C. Identify the cyclical component.
     D. Test for normality.
 
 806. The **Partial Autocorrelation Function (PACF)** plot is used to:
-    Correct Answer: B
     A. Measure the correlation between a time series and its lagged values, controlling for the values of the time series at all shorter lags.
     B. Identify the seasonal component.
     C. Test for heteroscedasticity.
@@ -13433,26 +13310,22 @@
     D. The seasonal period.
 
 809. **Differencing** a time series is a technique primarily used to:
-    Correct Answer: B
     A. Introduce seasonality.
     B. Remove the irregular component.
     C. Achieve stationarity by removing trend and/or seasonality.
     D. Increase the variance.
 
-    Correct Answer: B
 810. **Exponential Smoothing** methods are most appropriate for time series data that exhibit:
     A. Strong, complex non-linear trends.
     B. Simple patterns (e.g., level, trend, seasonality) that can be modeled by weighted averages of past observations.
     C. High-frequency, non-stationary behavior.
     D. Strong autoregressive components.
-    Correct Answer: B
 
 811. The **Holt-Winters Method** is an extension of exponential smoothing that can model time series with:
     A. Only a level component.
     B. Only a trend component.
     C. Trend and Seasonality.
     D. Only an irregular component.
-    Correct Answer: B
 
 812. The **Random Walk** model is a non-stationary time series model where the current value is equal to the previous value plus a random shock. It is represented by:
     A. $Y_t = \phi Y_{t-1} + \epsilon_t$
@@ -13464,7 +13337,6 @@
     A. Past forecast errors.
     B. Past values of the series.
     C. The mean of the series.
-    Correct Answer: C
     D. The seasonal component.
 
 814. The **Moving Average (MA)** component of an ARIMA model implies that the current value of the series is a linear function of:
@@ -13483,8 +13355,6 @@
     A. Highly correlated.
     B. Independent and identically distributed with a mean of zero and a constant variance.
     C. Strongly seasonal.
-    Correct Answer: B
-    Correct Answer: B
     D. Clearly trending.
 
 817. The **Mean Absolute Error (MAE)** is a forecasting accuracy metric that measures:
@@ -13495,7 +13365,6 @@
 
 818. The **Root Mean Squared Error (RMSE)** is a forecasting accuracy metric that:
     A. Is less sensitive to large errors than MAE.
-    Correct Answer: B
     B. Is more sensitive to large errors than MAE.
     C. Measures the percentage error.
     D. Is only used for stationary series.
@@ -13503,7 +13372,6 @@
 819. **Cross-Validation** in time series forecasting is typically performed using a **rolling-origin** or **expanding-window** approach rather than random splits because:
     A. Time series data is always stationary.
     B. The temporal order and dependence structure must be preserved.
-    Correct Answer: B
     C. It is easier to calculate.
     D. It is only used for non-linear models.
 
@@ -13528,19 +13396,16 @@
 823. A time series model that includes both an autoregressive component and a moving average component is known as an:
     A. AR model.
     B. MA model.
-    Correct Answer: C
     C. ARMA model.
     D. ARIMA model.
 
 824. In an **ARIMA(p, d, q)** model, the parameter **$p$** represents:
     A. The number of non-seasonal differences.
-    Correct Answer: B
     B. The number of autoregressive terms (lags of the differenced series).
     C. The number of moving average terms.
     D. The seasonal period.
 
 825. The **Seasonal ARIMA (SARIMA)** model is an extension of ARIMA that includes:
-    Correct Answer: B
     A. Only a trend component.
     B. Seasonal autoregressive, seasonal differencing, and seasonal moving average terms.
     C. Only a cyclical component.
@@ -13552,7 +13417,6 @@
     C. Strong autoregressive components.
     D. High volatility.
 
-    Correct Answer: B
 827. The **Smoothing Parameter ($\alpha$)** in simple exponential smoothing controls:
     A. The number of lags in the model.
     B. The weight given to the most recent observation versus the past observations.
@@ -13564,7 +13428,6 @@
     B. Identification, Estimation, Diagnostic Checking, Forecasting.
     C. Estimation, Identification, Forecasting, Diagnostic Checking.
     D. Diagnostic Checking, Identification, Estimation, Forecasting.
-    Correct Answer: B
 
 829. The **Akaike Information Criterion (AIC)** and **Bayesian Information Criterion (BIC)** are used in time series modeling for:
     A. Testing for stationarity.
@@ -13573,7 +13436,6 @@
     D. Calculating the forecast error.
 
 830. The **Mean Absolute Percentage Error (MAPE)** is a forecasting accuracy metric that is:
-    Correct Answer: B
     A. Sensitive to the scale of the data.
     B. Scale-independent and expressed as a percentage.
     C. Only used for stationary series.
@@ -13583,16 +13445,13 @@
     A. The magnitude of the seasonal fluctuations is constant over time.
     B. The magnitude of the seasonal fluctuations increases or decreases with the level of the series.
     C. The series is perfectly stationary.
-    Correct Answer: B
     D. The series has no trend.
 
-    Correct Answer: B
 832. The **Irregular Component** of a time series represents:
     A. The long-term trend.
     B. The seasonal fluctuations.
     C. The remaining unpredictable, random variations after accounting for trend, seasonality, and cycle.
     D. The business cycle.
-    Correct Answer: B
 
 833. The **Lag Operator ($L$)** in time series notation is defined as:
     A. $L Y_t = Y_t$
@@ -13609,7 +13468,6 @@
 835. An **AR(1)** model is a stationary time series model if the autoregressive parameter $\phi$ satisfies:
     A. $\phi = 1$
     B. $|\phi| < 1$
-    Correct Answer: B
     C. $\phi > 1$
     D. $\phi = 0$
 
@@ -13621,7 +13479,6 @@
 
 837. **Damping** in the Holt-Winters method is used to:
     A. Increase the seasonal component.
-    Correct Answer: B
     B. Reduce the magnitude of the trend component over the forecast horizon.
     C. Increase the level component.
     D. Remove the irregular component.
@@ -13648,8 +13505,6 @@
     A. Taking the logarithm of the series.
     B. Taking the first difference of the series.
     C. Multiplying the series by a constant.
-    Correct Answer: B
-    Correct Answer: B
     D. Calculating the moving average.
 
 842. The **Moving Average (MA)** component of a time series model is characterized by an ACF that:
@@ -13660,19 +13515,15 @@
 
 843. The **Autoregressive (AR)** component of a time series model is characterized by a PACF that:
     A. Decays exponentially.
-    Correct Answer: B
     B. Cuts off abruptly after $p$ lags.
-    Correct Answer: B
     C. Decays sinusoidally.
     D. Is always zero.
 
 844. The **Integrated (I)** component of an ARIMA model indicates that the series:
     A. Is stationary.
-    Correct Answer: B
     B. Requires differencing to become stationary.
     C. Has a seasonal component.
     D. Has a cyclical component.
-    Correct Answer: B
 
 845. The **Seasonal Difference** operator $\nabla_s$ is used to remove:
     A. The trend component.
@@ -13691,7 +13542,6 @@
     B. Can be negative.
     C. Is always zero.
     D. Is only used for stationary series.
-    Correct Answer: A
 
 848. **Forecasting Intervals** (or Prediction Intervals) provide a range of values that:
     A. Is guaranteed to contain the true future value.
@@ -13700,14 +13550,11 @@
     D. Is always narrower than the point forecast.
 
 849. The **Box-Cox Transformation** is often applied to time series data to:
-    Correct Answer: B
     A. Induce stationarity.
     B. Stabilize the variance and make the data more normally distributed.
-    Correct Answer: B
     C. Remove the seasonal component.
     D. Identify the AR and MA orders.
 
-    Correct Answer: B
 850. The **Root Mean Squared Error (RMSE)** is measured in the units of the:
     A. Squared time series.
     B. Original time series.
@@ -13719,10 +13566,8 @@
     B. External independent variables (predictors) to forecast the time series.
     C. Only the seasonal component.
     D. Only the irregular component.
-    Correct Answer: B
 
 852. **Spurious Regression** can occur when:
-    Correct Answer: B
     A. The time series is stationary.
     B. Two non-stationary time series are regressed against each other, leading to a high $R^2$ and significant t-statistics, even if they are unrelated.
     C. The residuals are white noise.
@@ -13734,7 +13579,6 @@
     C. Two or more time series with the same mean.
     D. Two or more time series with the same variance.
 
-    Correct Answer: A
 854. The **Vector Autoregression (VAR)** model is used to model:
     A. A single time series.
     B. Multiple time series that are mutually dependent.
@@ -13757,7 +13601,6 @@
     A. Are perfectly stationary.
     B. Have strong seasonal effects and the impact of holidays.
     C. Are purely random walk.
-    Correct Answer: B
     D. Are only modeled by ARMA.
 
 858. **Triple Exponential Smoothing (Holt-Winters)** is best suited for time series data that exhibit:
@@ -13767,7 +13610,6 @@
     D. Only an irregular component.
 
 859. The **Forecast Error** is defined as:
-    Correct Answer: B
     A. Actual Value - Forecasted Value.
     B. Forecasted Value - Actual Value.
     C. The absolute difference between the actual and forecasted value.
@@ -13779,7 +13621,6 @@
     C. Perfect forecast.
     D. Complex neural network.
 
-    Correct Answer: B
 861. **Seasonal Adjustment** is the process of removing the **Seasonal** component from a time series, often to reveal the underlying:
     A. Irregular component.
     B. Trend and cyclical components.
@@ -13791,19 +13632,16 @@
     B. Decays exponentially or sinusoidally.
     C. Is always zero.
     D. Is always one.
-    Correct Answer: B
 
 863. The **Partial Autocorrelation Function (PACF)** of a stationary MA(q) process:
     A. Cuts off abruptly after $q$ lags.
     B. Decays exponentially or sinusoidally.
-    Correct Answer: B
     C. Is always zero.
     D. Is always one.
 
 864. The **ARIMA** model is a generalization of the **ARMA** model that allows for:
     A. Seasonality.
     B. Non-stationarity through differencing.
-    Correct Answer: A
     C. Heteroscedasticity.
     D. Non-linearity.
 
@@ -13821,7 +13659,6 @@
 
 867. The **Smoothing Parameter ($\beta$)** in Holt's method controls the smoothing of the:
     A. Level component.
-    Correct Answer: B
     B. Trend component.
     C. Seasonal component.
     D. Irregular component.
@@ -13833,10 +13670,8 @@
     D. Testing for stationarity.
 
 869. The **Portmanteau Test** (e.g., Ljung-Box test) is used to check the overall significance of:
-    Correct Answer: A
     A. The mean of the residuals.
     B. The autocorrelations of the residuals.
-    Correct Answer: A
     C. The trend component.
     D. The seasonal component.
 
@@ -13846,9 +13681,7 @@
     C. Negative.
     D. Perfectly stationary.
 
-    Correct Answer: B
 871. **Deseasonalizing** a time series is the process of removing the **Seasonal** component, often by:
-    Correct Answer: B
     A. Taking the first difference.
     B. Dividing the series by the seasonal index (for multiplicative decomposition).
     C. Taking the logarithm.
@@ -13867,7 +13700,6 @@
     D. Is always one.
 
 874. The **Random Walk with Drift** model is a non-stationary time series model where the current value is equal to the previous value plus a constant drift term and a random shock. It is represented by:
-    Correct Answer: B
     A. $Y_t = Y_{t-1} + \epsilon_t$
     B. $Y_t = \mu + Y_{t-1} + \epsilon_t$
     C. $Y_t = \phi Y_{t-1} + \epsilon_t$
@@ -13879,7 +13711,6 @@
     C. Test for stationarity.
     D. Calculate the forecast error.
 
-    Correct Answer: B
 876. **Holt-Winters Additive Method** is appropriate when the seasonal variations are:
     A. Proportional to the level of the series.
     B. Constant in magnitude over time.
@@ -13891,31 +13722,25 @@
     B. Trend component.
     C. Seasonal component.
     D. Irregular component.
-    Correct Answer: B
 
 878. **Rolling-Origin Cross-Validation** in time series forecasting involves:
     A. Randomly splitting the data into training and test sets.
     B. Fixing the size of the training window and moving it forward one period at a time.
     C. Fixing the start of the training window and increasing its size one period at a time.
     D. Only using the last observation for training.
-    Correct Answer: A
 
 879. The **Residuals** of a well-specified time series model should ideally resemble:
     A. A random walk.
     B. White noise.
-    Correct Answer: B
     C. A clear trend.
-    Correct Answer: B
     D. A strong seasonal pattern.
 
 880. The **Mean Absolute Scaled Error (MASE)** is a forecasting accuracy metric that:
     A. Is sensitive to the scale of the data.
     B. Is scale-independent and compares the forecast error to the error of a naive forecast.
-    Correct Answer: B
     C. Is only used for stationary series.
     D. Is only used for non-linear models.
 
-    Correct Answer: B
 881. **Moving Average Smoothing** is a technique used to:
     A. Introduce seasonality.
     B. Remove the irregular component.
@@ -13927,7 +13752,6 @@
     B. MA component ($q$).
     C. Integrated component ($d$).
     D. Seasonal component ($s$).
-    Correct Answer: B
 
 883. The **Partial Autocorrelation Function (PACF)** is used to identify the order of the:
     A. AR component ($p$).
@@ -13939,7 +13763,6 @@
     A. $d=0$.
     B. $d=1$.
     C. $d=2$.
-    Correct Answer: B
     D. $d=3$.
 
 885. **Transfer Function Models** (or Dynamic Regression Models) are used to:
@@ -13950,7 +13773,6 @@
 
 886. **Holt-Winters Multiplicative Method** is appropriate when the seasonal variations are:
     A. Constant in magnitude over time.
-    Correct Answer: B
     B. Proportional to the level of the series.
     C. Decreasing over time.
     D. Always zero.

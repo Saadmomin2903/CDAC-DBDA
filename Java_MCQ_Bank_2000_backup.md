@@ -1,8 +1,5 @@
 # Java Programming MCQ Bank (2000 Questions)
 
-
-### Java Fundamentals
-
 1. Which of the following is a valid declaration for a Java main method?
     A. `public static void main(String args[])`
     B. `public void main(String[] args)`
@@ -1709,9 +1706,6 @@
     C. Compilation Error
     D. `ClassCastException`
     Correct Answer: D
-
-### Object-Oriented Programming
-
 251. What is the purpose of the **try-with-resources** statement (Java 7+)?
     A. To automatically close resources that implement the `AutoCloseable` interface.
     B. To allow a `try` block to have multiple `catch` blocks.
@@ -3409,9 +3403,6 @@
     C. It does not release the lock on the object.
     D. It is a static method of the `Thread` class.
     Correct Answer: B
-
-### Collections Framework
-
 501. Which of the following is the correct syntax for a lambda expression that takes no arguments and returns a `String` "Hello"?
     A. `() -> "Hello"`
     B. `(void) -> "Hello"`
@@ -5290,9 +5281,6 @@
     C. Interfaces can contain instance variables.
     D. Interfaces can be instantiated.
     Correct Answer: B
-
-### Exception Handling
-
 751. What is the primary benefit of the **try-with-resources** statement (Java 7+)?
     A. It allows multiple exceptions to be caught in a single `catch` block.
     B. It automatically closes resources that implement the `AutoCloseable` interface, even if an exception occurs.
@@ -6642,9 +6630,6 @@
     C. `Function<T, R>`
     D. `Predicate<T>`
     Correct Answer: C
-
-### Multithreading & Concurrency
-
 951. Which of the following is true about a **scrollable** `ResultSet`?
     A. It allows the cursor to move only forward.
     B. It allows the cursor to move both forward and backward.
@@ -8537,9 +8522,6 @@
     C. 1BC
     D. 1C
     Correct Answer: C
-
-### I/O & Streams
-
 1201. What is the output of the following code snippet?
     ```java
     int x = 5;
@@ -10132,9 +10114,6 @@
     C. 1BC
     D. 1C
     Correct Answer: C
-
-### Java 8+ Features
-
 1401. What is the output of the following code snippet?
     ```java
     int x = 5;
@@ -11727,9 +11706,6 @@
     C. 1BC
     D. 1C
     Correct Answer: C
-
-### Advanced Topics
-
 1601. What is the output of the following code snippet?
     ```java
     int x = 5;

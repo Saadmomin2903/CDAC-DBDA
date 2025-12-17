@@ -2,9 +2,6 @@
 
 ## Introduction to Big Data (17 Questions)
 
-
-### Big Data Fundamentals
-
 1. Which of the following is NOT considered one of the three primary dimensions (3 V's) of Big Data?
 A) Volume
 B) Velocity
@@ -1787,9 +1784,6 @@ B) The logical representation of the data that will be processed by a single Map
 C) The final output file.
 D) The NameNode's metadata.
 Answer: B
-
-
-### Hadoop Ecosystem
 
 251. Which of the following is a key responsibility of the `Partitioner`?
 A) To ensure that all records with the same key go to the same Reducer.
@@ -4288,9 +4282,6 @@ Answer: B
 # Batch 4: Q601–Q800
 
 ## Introduction to Big Data (17 Questions)
-
-
-### Apache Spark
 
 601. Which of the following best defines the "Veracity" of Big Data?
 A) The speed at which data is generated.
@@ -7146,9 +7137,6 @@ Answer: B
 
 ## Introduction to Big Data (17 Questions)
 
-
-### NoSQL Databases
-
 1001. Which of the following is a key challenge in managing the "Variety" of Big Data?
 A) The difficulty of storing all the data.
 B) The need to integrate and process data from disparate sources and formats (structured, semi-structured, unstructured).
@@ -9287,9 +9275,6 @@ B) Talend
 C) Apache Airflow
 D) Apache Hive
 Answer: B
-
-
-### Data Processing
 
 1301. Designing ETL data pipelines often involves creating a "star schema" or "snowflake schema" for:
 A) The source system
@@ -11432,9 +11417,6 @@ Answer: B
 # Batch 9: Q1601–Q1800
 
 ## Introduction to Big Data (17 Questions)
-
-
-### Analytics & Tools
 
 1601. Which of the following is a key challenge in managing the "Variety" of Big Data?
 A) The difficulty of storing all the data.

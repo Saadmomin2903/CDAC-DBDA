@@ -38,9 +38,6 @@
 
 ## Topic: Linux Installation, Fundamentals, and System Basics
 
-
-### Linux Basics
-
 1. Which of the following is a primary difference between Ubuntu and CentOS installation processes?
 A: Ubuntu uses the APT package manager, while CentOS uses YUM/DNF.
 B: Ubuntu is based on Debian, while CentOS is based on Red Hat Enterprise Linux (RHEL).
@@ -2161,9 +2158,6 @@ Answer: A
 # Linux Programming MCQs (Batch 4: 301-400)
 
 ## Topic: Linux Shell Scripting and Shell Computing Concepts (Control Flow, Functions, Arrays)
-
-
-### System Administration
 
 301. What is the correct way to start a `for` loop that iterates from 1 to 5 in Bash?
 A: `for i in {1..5}`
@@ -4286,9 +4280,6 @@ Answer: A
 
 ## Topic: Common Linux Text Editors (Vi/Vim) and Enterprise Computing (Advanced)
 
-
-### Networking
-
 601. What is the default mode when you open a file in Vi/Vim?
 A: Insert mode
 B: Command mode (Normal mode)
@@ -6409,9 +6400,6 @@ Answer: B
 # Cloud Computing MCQs (Batch 1: 901-1000)
 
 ## Topic: Cloud Computing Fundamentals, Definitions, and Characteristics
-
-
-### Cloud Computing Fundamentals
 
 901. Which of the following is the essential characteristic of cloud computing that allows users to provision resources without human interaction from the service provider?
 A: Broad Network Access
@@ -8534,9 +8522,6 @@ Answer: B
 
 ## Topic: Cloud Computing Advanced Concepts and Security
 
-
-### AWS Services
-
 1201. What is **Edge Computing**?
 A: Processing data in a central cloud data center.
 B: Processing data closer to the source of the data, often at the network edge, to reduce latency.
@@ -10657,9 +10642,6 @@ Answer: B
 # Cloud Platforms and Services MCQs (Batch 2: 1501-1600)
 
 ## Topic: Azure Concepts: Azure Virtual Machines and Azure Data Factory
-
-
-### Cloud DevOps
 
 1501. What is the core service in Azure that provides on-demand, scalable computing resources?
 A: Azure Storage

@@ -1,9 +1,6 @@
 --- MCQ Batch 1 (100 Questions) ---
 Topic: Database Fundamentals & Basic SQL (DDL, DML, DQL, DCL, TCL)
 
-
-### Database Fundamentals
-
 1. Question: Which of the following is a major disadvantage of the traditional File System approach compared to a DBMS?
 A) High data security
 B) Data redundancy and inconsistency
@@ -1763,9 +1760,6 @@ B) It requires an intermediate junction table.
 C) It is only possible in NoSQL databases.
 D) It is a direct outcome of the 1NF.
 Correct Answer: B
-
-
-### SQL Basics
 
 251. Question: What is the primary purpose of a foreign key constraint?
 A) To ensure that all values in a column are unique.
@@ -3532,9 +3526,6 @@ Remaining MCQs to Generate: 1500
 --- MCQ Batch 6 (100 Questions) ---
 Topic: Sub-queries, Views, Indexes, Constraints, and ALTER TABLE
 
-
-### Advanced SQL
-
 501. Question: What is a sub-query defined as in SQL?
 A) A query that is executed only once at the beginning of a transaction.
 B) A query that is used to define a view.
@@ -5294,9 +5285,6 @@ B) Union
 C) Intersection
 D) Minus
 Correct Answer: B
-
-
-### Normalization
 
 751. Question: Which of the following is a key characteristic of the data in an Operational Data Store (ODS)?
 A) It is highly summarized and historical.
@@ -7062,9 +7050,6 @@ Total MCQs Generated: 1000
 Remaining MCQs to Generate: 1000
 --- MCQ Batch 11 (100 Questions) ---
 Topic: Data Lake, Data Warehouse, Lakehouse, and Delta Lake
-
-
-### Transactions & Concurrency
 
 1001. Question: What is a **Data Lake**?
 A) A system optimized for transactional processing.
@@ -9181,9 +9166,6 @@ Remaining MCQs to Generate: 700
 --- MCQ Batch 14 (100 Questions) ---
 Topic: Database Fundamentals, Storage Structures, ACID properties, and Transaction Isolation Levels
 
-
-### Indexing & Optimization
-
 1301. Question: Which of the following is a key advantage of using a **DBMS** over a traditional **File System**?
 A) Lower complexity and cost.
 B) Better data security, integrity, and reduced redundancy.
@@ -11293,9 +11275,6 @@ Total MCQs Generated: 1600
 Remaining MCQs to Generate: 400
 --- MCQ Batch 16 (200 Questions) ---
 Topic: Data Collection, Methodologies, Tools, Data Preparation, and Data Cleaning
-
-
-### Database Design & Advanced Topics
 
 1601. Question: What is **Data Collection**?
 A) The process of storing data in a database.
