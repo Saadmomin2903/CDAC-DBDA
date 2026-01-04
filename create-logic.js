@@ -26,17 +26,52 @@ export const createLogic = {
                 throw new Error('Could not extract enough text from file.');
             }
 
-            console.log('Extracted Text (first 100 chars):', text.substring(0, 100));
+            console.log('Extracted Text Length:', text.length);
 
-            // Generate Questions
-            const questions = await aiLogic.generateQuestions(text);
+            // Chunking Strategy for Large Files
+            // Split text into chunks of ~3500 characters to stay within AI context limits
+            const CHUNK_SIZE = 3500;
+            const chunks = [];
+            for (let i = 0; i < text.length; i += CHUNK_SIZE) {
+                chunks.push(text.substring(i, i + CHUNK_SIZE));
+            }
+
+            let allQuestions = [];
+
+            // Process chunks
+            for (let i = 0; i < chunks.length; i++) {
+                const chunk = chunks[i];
+                console.log(`Processing Chunk ${i + 1}/${chunks.length}`);
+
+                // Show progress toast
+                if (window.utils && window.utils.showToast) {
+                    utils.showToast(`Analyzing Part ${i + 1} of ${chunks.length}...`, 'info', 2000);
+                }
+
+                try {
+                    const chunkQuestions = await aiLogic.generateQuestions(chunk);
+                    if (Array.isArray(chunkQuestions)) {
+                        allQuestions = allQuestions.concat(chunkQuestions);
+                    }
+                } catch (err) {
+                    console.warn(`Failed to process chunk ${i + 1}`, err);
+                    // Continue to next chunk even if one fails
+                }
+            }
+
+            if (allQuestions.length === 0) {
+                throw new Error("No questions could be generated from the document.");
+            }
+
+            // Shuffle questions to mix them up
+            allQuestions = allQuestions.sort(() => Math.random() - 0.5);
 
             // Add ID and metadata to questions
             return {
                 id: 'custom_' + Date.now(),
-                title: `Quiz: ${sourceName}`,
+                title: `Quiz: ${sourceName} (${allQuestions.length} Qs)`,
                 created_at: new Date().toISOString(),
-                questions: questions
+                questions: allQuestions
             };
 
         } catch (error) {
@@ -67,8 +102,8 @@ export const createLogic = {
         const pdf = await pdfjsLib.getDocument(arrayBuffer).promise;
         let fullText = '';
 
-        // Limit to first 5 pages to keep context manageable
-        const maxPages = Math.min(pdf.numPages, 5);
+        // Read ALL pages
+        const maxPages = pdf.numPages;
 
         for (let i = 1; i <= maxPages; i++) {
             const page = await pdf.getPage(i);
