@@ -122,24 +122,40 @@ ${userChoice ? `**User Selected:** ${userChoice}` : ''}
      */
     async generateQuestions(contextText) {
         // Pre-process text to save tokens
-        const cleanContext = contextText.replace(/\s+/g, ' ').substring(0, 4000);
+        // Don't crush newlines - they're important for parsing!
+        const cleanContext = contextText.substring(0, 4000);
 
-        const prompt = `
-You are an expert Exam Setter.
-Extract ALL Multiple Choice Questions from the text below.
-Do not limit the number of questions. Return every single one you find.
-If the text contains questions, extract them exactly.
-If the text is notes, generate questions based on it.
+        const prompt = `You are extracting Multiple Choice Questions from a document.
 
-**Text Content:**
+**Input Format:**
+Each question follows this pattern:
+- Question number followed by question text: "1. What is X?"
+- Options labeled a), b), c), d) on separate lines
+- One option is marked as correct (often highlighted)
+
+**Your Task:**
+Parse each question and return ONLY a JSON array (no markdown, no explanation).
+
+**Example Input:**
+1. What is Excel primarily used for?
+a) Word processing
+b) Data analysis and manipulation
+c) Creating presentations
+d) Internet browsing
+
+**Example Output:**
+[{"text":"What is Excel primarily used for?","options":[{"label":"A","text":"Word processing"},{"label":"B","text":"Data analysis and manipulation"},{"label":"C","text":"Creating presentations"},{"label":"D","text":"Internet browsing"}],"answer":"B"}]
+
+**Rules:**
+1. Extract the FULL question text (without the number)
+2. Extract option text WITHOUT the label prefix (no "a)", "b)", etc.)
+3. Use uppercase labels: A, B, C, D
+4. Return valid minified JSON array
+
+**Text to Parse:**
 ${cleanContext}
 
-**Output Format:**
-Return ONLY a valid JSON array.
-Use Minified JSON (no whitespace) to save space.
-Format:
-[{"text":"Q?","options":[{"label":"A","text":"OptA"},{"label":"B","text":"OptB"}],"answer":"A"}]
-        `.trim();
+Return JSON ONLY:`
 
         const isLocal = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
 

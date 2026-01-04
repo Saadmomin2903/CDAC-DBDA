@@ -129,8 +129,26 @@ export const createLogic = {
         for (let i = 1; i <= maxPages; i++) {
             const page = await pdf.getPage(i);
             const textContent = await page.getTextContent();
-            const pageText = textContent.items.map(item => item.str).join(' ');
-            fullText += pageText + '\n';
+
+            // Preserve line breaks by checking Y-coordinates
+            let pageText = '';
+            let lastY = null;
+
+            textContent.items.forEach(item => {
+                const currentY = item.transform[5]; // Y-coordinate
+
+                // If Y changed significantly, it's a new line
+                if (lastY !== null && Math.abs(currentY - lastY) > 5) {
+                    pageText += '\n';
+                } else if (pageText.length > 0 && !pageText.endsWith(' ') && !pageText.endsWith('\n')) {
+                    pageText += ' ';
+                }
+
+                pageText += item.str;
+                lastY = currentY;
+            });
+
+            fullText += pageText + '\n\n'; // Double newline between pages
         }
         return fullText;
     },
