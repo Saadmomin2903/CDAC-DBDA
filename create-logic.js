@@ -28,36 +28,55 @@ export const createLogic = {
 
             console.log('Extracted Text Length:', text.length);
 
-            // Chunking Strategy for Large Files
-            // Split text into chunks of ~3500 characters to stay within AI context limits
-            const CHUNK_SIZE = 3500;
-            const OVERLAP = 200; // Overlap to prevent splitting questions
-            const chunks = [];
-
-            for (let i = 0; i < text.length; i += (CHUNK_SIZE - OVERLAP)) {
-                chunks.push(text.substring(i, i + CHUNK_SIZE));
-            }
-
+            // 1. Attempt Regex Splitting (Hybrid Strategy)
+            const questionBlocks = this.identifyQuestionBlocks(text);
             let allQuestions = [];
 
-            // Process chunks
-            for (let i = 0; i < chunks.length; i++) {
-                const chunk = chunks[i];
-                console.log(`Processing Chunk ${i + 1}/${chunks.length}`);
+            if (questionBlocks.length > 3) {
+                console.log(`Hybrid Strategy: Found ${questionBlocks.length} potential questions via Regex.`);
 
-                // Show progress toast
-                if (window.utils && window.utils.showToast) {
-                    utils.showToast(`Analyzing Part ${i + 1} of ${chunks.length}...`, 'info', 2000);
+                // Process in precise batches of 5
+                const BATCH_SIZE = 5;
+                for (let i = 0; i < questionBlocks.length; i += BATCH_SIZE) {
+                    const batch = questionBlocks.slice(i, i + BATCH_SIZE);
+                    const batchText = batch.join('\n\n');
+
+                    console.log(`Processing Batch ${Math.floor(i / BATCH_SIZE) + 1} / ${Math.ceil(questionBlocks.length / BATCH_SIZE)}`);
+                    if (window.utils && window.utils.showToast) {
+                        utils.showToast(`Processing Questions ${i + 1}-${Math.min(i + BATCH_SIZE, questionBlocks.length)} of ${questionBlocks.length}...`, 'info', 3000);
+                    }
+
+                    try {
+                        const batchQuestions = await aiLogic.generateQuestions(batchText);
+                        if (Array.isArray(batchQuestions)) {
+                            allQuestions = allQuestions.concat(batchQuestions);
+                        }
+                    } catch (err) {
+                        console.warn(`Failed to process batch ${i}`, err);
+                    }
+                }
+            }
+            else {
+                console.log("Fallback Strategy: Text does not look like a numbered list. Using Chunking.");
+
+                // Chunking Strategy for Unstructured Text
+                const CHUNK_SIZE = 3500;
+                const OVERLAP = 200;
+                const chunks = [];
+                for (let i = 0; i < text.length; i += (CHUNK_SIZE - OVERLAP)) {
+                    chunks.push(text.substring(i, i + CHUNK_SIZE));
                 }
 
-                try {
-                    const chunkQuestions = await aiLogic.generateQuestions(chunk);
-                    if (Array.isArray(chunkQuestions)) {
-                        allQuestions = allQuestions.concat(chunkQuestions);
+                for (let i = 0; i < chunks.length; i++) {
+                    if (window.utils && window.utils.showToast) {
+                        utils.showToast(`Analyzing Part ${i + 1} of ${chunks.length}...`, 'info', 2000);
                     }
-                } catch (err) {
-                    console.warn(`Failed to process chunk ${i + 1}`, err);
-                    // Continue to next chunk even if one fails
+                    try {
+                        const chunkQuestions = await aiLogic.generateQuestions(chunks[i]);
+                        if (Array.isArray(chunkQuestions)) {
+                            allQuestions = allQuestions.concat(chunkQuestions);
+                        }
+                    } catch (err) { console.warn(err); }
                 }
             }
 
@@ -126,5 +145,37 @@ export const createLogic = {
             reader.onerror = (e) => reject(e);
             reader.readAsText(file);
         });
-    }
+    },
+    /**
+     * Regex Helper to identify numbered questions
+     * Looks for pattern: Start of line -> Number -> Dot/Paren -> Space
+     */
+    identifyQuestionBlocks(text) {
+        // Normalize newlines
+        const cleanText = text.replace(/\r\n/g, '\n');
+
+        // Regex for question start: ^(Q?[\d]+)[\.\)]\s+
+        const questionRegex = /(?:^|\n)\s*(?:Q\.?|Question)?\s*(\d+)\s*[\.\)]\s+/gi;
+
+        const splitIndices = [];
+        let match;
+
+        while ((match = questionRegex.exec(cleanText)) !== null) {
+            splitIndices.push(match.index);
+        }
+
+        if (splitIndices.length < 2) return [];
+
+        const blocks = [];
+        for (let i = 0; i < splitIndices.length; i++) {
+            const start = splitIndices[i];
+            const end = (i + 1 < splitIndices.length) ? splitIndices[i + 1] : cleanText.length;
+            const block = cleanText.substring(start, end).trim();
+            if (block.length > 20) {
+                blocks.push(block);
+            }
+        }
+
+        return blocks;
+    },
 };
