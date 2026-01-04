@@ -190,23 +190,21 @@ Format:
             try {
                 return JSON.parse(content);
             } catch (e) {
-                console.warn("Initial JSON Parse Failed. Attempting repair...", e);
+                console.warn("Initial JSON Parse Failed. Attempting Regex Repair...", e);
 
-                // 4. Simple Repair Strategy for Truncated JSON
-                // Find the last closing object brace '}'
-                const lastBrace = content.lastIndexOf('}');
-                if (lastBrace !== -1) {
-                    // Cut everything after the last brace
-                    let repaired = content.substring(0, lastBrace + 1);
-                    // Ensure it ends with a bracket
-                    if (!repaired.trim().endsWith(']')) {
-                        repaired += ']';
-                    }
-                    console.log("Repaired JSON:", repaired);
+                // 4. Robust Regex Repair Strategy
+                // Look for complete JSON objects that have "text", "options", and "answer" keys
+                // This will naturally exclude any incomplete object at the end
+                const objectRegex = /\{[\s\S]*?"text"[\s\S]*?"options"[\s\S]*?"answer"[\s\S]*?\}/g;
+                const matches = content.match(objectRegex);
+
+                if (matches && matches.length > 0) {
+                    const repaired = `[${matches.join(',')}]`;
+                    console.log("Repaired JSON via Regex:", repaired);
                     return JSON.parse(repaired);
                 }
 
-                throw e;
+                throw new Error("Could not extract any valid questions from AI response.");
             }
 
         } catch (error) {

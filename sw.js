@@ -1,4 +1,4 @@
-const CACHE_NAME = 'mcq-platform-v2';
+const CACHE_NAME = 'mcq-platform-v3';
 const ASSETS_TO_CACHE = [
     './',
     './index.html',
