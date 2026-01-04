@@ -115,5 +115,77 @@ ${userChoice ? `**User Selected:** ${userChoice}` : ''}
             console.error('AI Request Failed:', error);
             throw error;
         }
+    },
+
+    /**
+     * Generate Quizzes from arbitrary text
+     */
+    async generateQuestions(contextText) {
+        const prompt = `
+You are an expert Exam Setter.
+Generate 5 Multiple Choice Questions based on the following text.
+
+**Text Content:**
+${contextText.substring(0, 3000)}
+
+**Output Format:**
+Return ONLY a valid JSON array. Do not wrap in markdown code blocks.
+Format:
+[
+  {
+    "text": "Question text here?",
+    "options": [
+      {"label": "A", "text": "Option A"},
+      {"label": "B", "text": "Option B"},
+      {"label": "C", "text": "Option C"},
+      {"label": "D", "text": "Option D"}
+    ],
+    "answer": "A"
+  }
+]
+        `.trim();
+
+        const isLocal = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
+
+        try {
+            let response;
+            // Reuse same fetch logic as getExplanation
+            if (!isLocal || !MISTRAL_CONFIG?.key) {
+                response = await fetch('/api/chat', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ messages: [{ role: "user", content: prompt }] })
+                });
+            } else {
+                const apiKey = MISTRAL_CONFIG.key;
+                response = await fetch('https://api.mistral.ai/v1/chat/completions', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Authorization': `Bearer ${apiKey}`
+                    },
+                    body: JSON.stringify({
+                        model: 'mistral-tiny',
+                        messages: [{ role: "user", content: prompt }],
+                        temperature: 0.7,
+                        max_tokens: 1500, // Higher token limit for JSON
+                        response_format: { type: "json_object" } // Force JSON if supported, else prompt handles it
+                    })
+                });
+            }
+
+            if (!response.ok) throw new Error(`API Error: ${response.status}`);
+            const data = await response.json();
+            let content = data.choices[0].message.content;
+
+            // Clean up if AI wraps in markdown
+            content = content.replace(/```json/g, '').replace(/```/g, '').trim();
+
+            return JSON.parse(content);
+
+        } catch (error) {
+            console.error('Quiz Generation Failed:', error);
+            throw error;
+        }
     }
 };

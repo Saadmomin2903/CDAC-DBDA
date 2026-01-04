@@ -403,6 +403,7 @@ window.switchMainTab = function (tabName) {
     // Some tabs correspond to direct IDs like 'navModules'
     const tabMap = {
         'modules': 'navModules',
+        'library': 'navLibrary',
         'practice': 'navPractice',
         'leaderboard': 'navLeaderboard',
         'stats': 'navStats'
@@ -416,6 +417,7 @@ window.switchMainTab = function (tabName) {
 
     // Logic per tab (render if needed)
     if (tabName === 'modules') renderModules();
+    if (tabName === 'library') window.dispatchEvent(new CustomEvent('render-library'));
     if (tabName === 'practice') renderPractice();
     if (tabName === 'leaderboard') renderLeaderboardTab();
     if (tabName === 'stats') renderStats();
@@ -731,6 +733,29 @@ async function startExamWithConfig(targetModuleIds) {
         utils.showToast("Failed to start exam", "error");
     }
 }
+
+
+// ========================================
+// Custom Quiz Handler
+// ========================================
+window.startCustomSession = function (quizData) {
+    state.currentModule = {
+        id: quizData.id,
+        name: quizData.title,
+        icon: '🧠'
+    };
+    state.questions = quizData.questions;
+    state.sections = [{
+        title: 'Generated Questions',
+        startIndex: 0,
+        endIndex: quizData.questions.length
+    }];
+    state.currentQuestionIndex = 0;
+
+    // Directly start
+    showView('question');
+    renderQuestion();
+};
 
 async function submitExam() {
     examLogic.stopTimer();
