@@ -123,7 +123,7 @@ ${userChoice ? `**User Selected:** ${userChoice}` : ''}
     async generateQuestions(contextText) {
         const prompt = `
 You are an expert Exam Setter.
-Generate 5 Multiple Choice Questions based on the following text.
+Generate 3 Multiple Choice Questions based on the following text.
 
 **Text Content:**
 ${contextText.substring(0, 3000)}
@@ -149,7 +149,6 @@ Format:
 
         try {
             let response;
-            // Reuse same fetch logic as getExplanation
             if (!isLocal || !MISTRAL_CONFIG?.key) {
                 response = await fetch('/api/chat', {
                     method: 'POST',
@@ -168,8 +167,8 @@ Format:
                         model: 'mistral-tiny',
                         messages: [{ role: "user", content: prompt }],
                         temperature: 0.7,
-                        max_tokens: 1500, // Higher token limit for JSON
-                        response_format: { type: "json_object" } // Force JSON if supported, else prompt handles it
+                        max_tokens: 2000,
+                        response_format: { type: "json_object" }
                     })
                 });
             }
@@ -178,25 +177,41 @@ Format:
             const data = await response.json();
             let content = data.choices[0].message.content;
 
-            // Improved cleaning logic
+            // 1. Clean Markdown
+            content = content.replace(/```json/g, '').replace(/```/g, '').trim();
+
+            // 2. Extract JSON Array if embedded
             const jsonMatch = content.match(/\[[\s\S]*\]/);
             if (jsonMatch) {
                 content = jsonMatch[0];
             }
 
-            // Remove potentially invalid trailing commas before closing braces/brackets
-            content = content.replace(/,\s*([\]}])/g, '$1');
-
+            // 3. Attempt Parse
             try {
                 return JSON.parse(content);
             } catch (e) {
-                console.error("JSON Parse Error. Raw content:", content);
-                throw new Error("AI returned invalid data format. Please try again.");
+                console.warn("Initial JSON Parse Failed. Attempting repair...", e);
+
+                // 4. Simple Repair Strategy for Truncated JSON
+                // Find the last closing object brace '}'
+                const lastBrace = content.lastIndexOf('}');
+                if (lastBrace !== -1) {
+                    // Cut everything after the last brace
+                    let repaired = content.substring(0, lastBrace + 1);
+                    // Ensure it ends with a bracket
+                    if (!repaired.trim().endsWith(']')) {
+                        repaired += ']';
+                    }
+                    console.log("Repaired JSON:", repaired);
+                    return JSON.parse(repaired);
+                }
+
+                throw e;
             }
 
         } catch (error) {
             console.error('Quiz Generation Failed:', error);
-            throw error;
+            throw new Error("AI could not generate valid questions. Try a shorter text.");
         }
     }
 };
