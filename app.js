@@ -750,6 +750,7 @@ window.startCustomSession = function (quizData) {
         startIndex: 0,
         endIndex: quizData.questions.length
     }];
+    state.currentSection = state.sections[0];
     state.currentQuestionIndex = 0;
 
     // Directly start
