@@ -25,6 +25,7 @@ const ASSETS_TO_CACHE = [
 
 // Install Event - Cache Static Assets
 self.addEventListener('install', (event) => {
+    self.skipWaiting();
     event.waitUntil(
         caches.open(CACHE_NAME)
             .then((cache) => {

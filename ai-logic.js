@@ -121,28 +121,23 @@ ${userChoice ? `**User Selected:** ${userChoice}` : ''}
      * Generate Quizzes from arbitrary text
      */
     async generateQuestions(contextText) {
+        // Pre-process text to save tokens
+        const cleanContext = contextText.replace(/\s+/g, ' ').substring(0, 4000);
+
         const prompt = `
 You are an expert Exam Setter.
-Generate 3 Multiple Choice Questions based on the following text.
+Extract 5 to 10 Multiple Choice Questions from the text below.
+If the text contains questions, extract them exactly.
+If the text is notes, generate questions based on it.
 
 **Text Content:**
-${contextText.substring(0, 3000)}
+${cleanContext}
 
 **Output Format:**
-Return ONLY a valid JSON array. Do not wrap in markdown code blocks.
+Return ONLY a valid JSON array.
+Use Minified JSON (no whitespace) to save space.
 Format:
-[
-  {
-    "text": "Question text here?",
-    "options": [
-      {"label": "A", "text": "Option A"},
-      {"label": "B", "text": "Option B"},
-      {"label": "C", "text": "Option C"},
-      {"label": "D", "text": "Option D"}
-    ],
-    "answer": "A"
-  }
-]
+[{"text":"Q?","options":[{"label":"A","text":"OptA"},{"label":"B","text":"OptB"}],"answer":"A"}]
         `.trim();
 
         const isLocal = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
@@ -167,7 +162,7 @@ Format:
                         model: 'mistral-tiny',
                         messages: [{ role: "user", content: prompt }],
                         temperature: 0.7,
-                        max_tokens: 2000,
+                        max_tokens: 3500,
                         response_format: { type: "json_object" }
                     })
                 });
