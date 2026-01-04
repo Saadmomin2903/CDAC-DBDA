@@ -126,7 +126,8 @@ ${userChoice ? `**User Selected:** ${userChoice}` : ''}
 
         const prompt = `
 You are an expert Exam Setter.
-Extract 5 to 10 Multiple Choice Questions from the text below.
+Extract ALL Multiple Choice Questions from the text below.
+Do not limit the number of questions. Return every single one you find.
 If the text contains questions, extract them exactly.
 If the text is notes, generate questions based on it.
 

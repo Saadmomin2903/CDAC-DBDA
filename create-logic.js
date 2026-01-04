@@ -31,8 +31,10 @@ export const createLogic = {
             // Chunking Strategy for Large Files
             // Split text into chunks of ~3500 characters to stay within AI context limits
             const CHUNK_SIZE = 3500;
+            const OVERLAP = 200; // Overlap to prevent splitting questions
             const chunks = [];
-            for (let i = 0; i < text.length; i += CHUNK_SIZE) {
+
+            for (let i = 0; i < text.length; i += (CHUNK_SIZE - OVERLAP)) {
                 chunks.push(text.substring(i, i + CHUNK_SIZE));
             }
 
