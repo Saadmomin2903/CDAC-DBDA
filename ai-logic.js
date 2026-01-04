@@ -178,10 +178,21 @@ Format:
             const data = await response.json();
             let content = data.choices[0].message.content;
 
-            // Clean up if AI wraps in markdown
-            content = content.replace(/```json/g, '').replace(/```/g, '').trim();
+            // Improved cleaning logic
+            const jsonMatch = content.match(/\[[\s\S]*\]/);
+            if (jsonMatch) {
+                content = jsonMatch[0];
+            }
 
-            return JSON.parse(content);
+            // Remove potentially invalid trailing commas before closing braces/brackets
+            content = content.replace(/,\s*([\]}])/g, '$1');
+
+            try {
+                return JSON.parse(content);
+            } catch (e) {
+                console.error("JSON Parse Error. Raw content:", content);
+                throw new Error("AI returned invalid data format. Please try again.");
+            }
 
         } catch (error) {
             console.error('Quiz Generation Failed:', error);

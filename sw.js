@@ -56,6 +56,11 @@ self.addEventListener('fetch', (event) => {
         return;
     }
 
+    // Ignore non-GET requests
+    if (event.request.method !== 'GET') {
+        return;
+    }
+
     event.respondWith(
         fetch(event.request)
             .then((response) => {
